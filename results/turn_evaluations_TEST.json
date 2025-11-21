@@ -1,0 +1,106 @@
+[
+  {
+    "entry_index": 1,
+    "turn_index": 1,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I would like to know a little bit more about how this has been kind of affecting your your personal life and your social life for example uh your life at home with your. Roommates or maybe other friendships, relationships with your family. Has it gotten in the way of that?",
+          "assistant_text": "Yeah, I've definitely pulled away from people—I don't go out as much, and I feel kind of isolated from my friends and roommates."
+        },
+        "summary_of_full_conversation": "The student asked how anxiety has affected the patient’s personal and social life. The patient reported pulling away from friends and roommates and feeling isolated. No other domains (symptoms, risk, diagnosis, plan) have been addressed yet."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 1,
+          "comment": "There was no introduction, role clarification, or explanation of session goals. The question was appropriate and relevant but lacked a warm opener or rapport-building statements."
+        },
+        "Assessment and Understanding": {
+          "score": 3,
+          "comment": "Good focus on social and relational impact, which is clinically pertinent. However, the student did not probe for specifics (frequency, severity, examples, consequences) or reflect/summarize the patient’s response to confirm understanding."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "comment": "Question was clear enough but disfluent with fillers and a mid-sentence restart. No empathetic reflection or validation was offered after the patient disclosed isolation. Active listening markers (e.g., summarizing, affirming) are not yet evident."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "comment": "No mention of confidentiality or its limits, which is essential early in an initial diagnostic interview."
+        },
+        "Session closing": {
+          "score": 0,
+          "comment": "No closing or next steps were provided; the session is still in progress. Plan to summarize and set expectations before ending."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 0,
+          "comment": "No diagnostic exploration documented yet. For suspected GAD, the student should assess DSM-5-TR criteria (duration, uncontrollability of worry, associated symptoms, impairment) and rule-outs (substances like caffeine, thyroid issues, depression, panic, OCD, PTSD, social anxiety)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 6,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "The student appropriately inquired about social functioning and elicited meaningful information about isolation. However, the encounter lacks foundational elements of an initial interview—introduction, confidentiality, empathic reflection, diagnostic probing, and structure. Strengths include selecting a relevant assessment domain; areas for improvement include rapport-building, reflective listening, systematic diagnostic assessment, and session structuring."
+      },
+      "rubric_update_explanation": []
+    }
+  },
+  {
+    "entry_index": 1,
+    "turn_index": 2,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Yeah, that's a very difficult feeling. And you mentioned that this has also been going on for a year. To this kind of year long history of you feeling this sense of worry. Has it occurred previously in your life or is this the first time that this has happened?",
+          "assistant_text": "This is the first time it's been this bad or lasted this long. Before, I had stress, but nothing like this."
+        },
+        "summary_of_full_conversation": "The student asked how anxiety has affected Alex’s relationships and social life; Alex reported withdrawing from friends and roommates. The student then acknowledged the difficulty and asked about the longitudinal course and whether similar episodes occurred in the past; Alex stated this is the longest and most severe episode."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 1,
+          "comment": "No introduction, role clarification, or agenda-setting for this initial visit. While the student offered a brief empathic statement, they did not establish a welcoming frame or explain session goals."
+        },
+        "Assessment and Understanding": {
+          "score": 3,
+          "comment": "Good start exploring social impairment and longitudinal course. However, the student has not yet probed for specific examples, severity, triggers, functional impacts (work/sleep), or summarized to confirm understanding."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "comment": "Improved empathy with “that’s a very difficult feeling,” and a clear, focused question about recurrence. Still limited reflective listening and no summarizing; some disfluencies remain."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "comment": "No mention of confidentiality, its limits, or consent—an important omission in an initial diagnostic interview."
+        },
+        "Session closing": {
+          "score": 0,
+          "comment": "Session remains in progress; no interim roadmap or closing plan has been offered yet."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 1,
+          "comment": "Assessed duration and prior episodes, which are relevant to DSM-5-TR criteria for GAD, but has not yet evaluated uncontrollability, associated symptoms, impairment, or rule-outs (substances/caffeine, thyroid, panic, OCD, PTSD, depression)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 8,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "The student is beginning to gather pertinent history with appropriate empathy and a focus on social impact and course. However, the interview lacks foundational elements for an initial visit—introduction, confidentiality, and clear structure. Diagnostic exploration is early and needs systematic assessment of DSM-5-TR criteria and key rule-outs, along with stronger reflective listening and summarizing."
+      },
+      "rubric_update_explanation": [
+        "Section: Introduction and Rapport Building (1 -> 1) No change; still no introduction, role clarification, or agenda-setting despite brief empathy.",
+        "Section: Assessment and Understanding (3 -> 3) No change; added longitudinal question but still lacks detailed probes and summaries.",
+        "Section: Communication Skills (2 -> 3) Improved due to explicit empathy and a clear, focused question about prior episodes; still limited reflection/summary.",
+        "Section: Confidentiality and Ethical Considerations (0 -> 0) No change; confidentiality and its limits not discussed.",
+        "Section: Session closing (0 -> 0) No change; no summary or next steps yet.",
+        "Section: Application of Psychiatric Diagnosis (0 -> 1) Increased slightly as the student assessed duration/recurrence, but has not yet applied full DSM-5-TR criteria or ruled out alternatives."
+      ],
+      "recommendations": [
+        "Open and structure the visit: briefly introduce yourself and role, outline session goals, and review confidentiality and its limits (harm to self/others, abuse, court orders).",
+        "Use reflective summaries and ‘chunk-and-check’: periodically reflect key points (e.g., social withdrawal, 1-year course, worsening in 6 months) and ask if you’re understanding correctly to build rapport and accuracy.",
+        "Systematically assess DSM-5-TR for GAD and rule-outs: ask about uncontrollability of worry; associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), functional impairment, substances (caffeine/alcohol), medical causes (thyroid), and screen for panic, OCD, PTSD, social anxiety, and depression; consider brief tools (GAD-7) and safety assessment."
+      ]
+    }
+  }
+]

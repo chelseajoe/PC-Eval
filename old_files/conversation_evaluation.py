@@ -45,7 +45,8 @@ def parse_transcript_into_turns(raw_transcript):
         role = m.get("role")
         text = m.get("message", "").strip()
         emotion = m.get("prosodyScores", None)
-        cleaned.append({"role": role, "text": text, "emotions": emotion})
+        timestamp = m.get("timestamp", None)
+        cleaned.append({"role": role, "text": text, "emotions": emotion, "timestamp": timestamp})
 
     # Step 3: Group into user+assistant turns
     turns = []
@@ -79,6 +80,7 @@ def parse_transcript_into_turns(raw_transcript):
             "user_text": " ".join(user_texts),
             "user_emotions": user_emotions if user_emotions else None,
             "assistant_text": " ".join(assistant_texts) if assistant_texts else None,
+            "timestamp": "".join(timestamp) if timestamp else None,  # first user timestamp
             # "assistant_emotions": assistant_emotions if assistant_emotions else None
         })
 

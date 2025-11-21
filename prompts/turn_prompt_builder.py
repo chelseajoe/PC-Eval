@@ -77,22 +77,6 @@
 
 
 
-from utils.file_utils import load_json
-from utils.extraction_utils import (
-    extract_entry_by_index,
-    extract_conversation_text,
-    extract_clinical_case_text
-)
-from utils.conversation_utils import parse_transcript_into_turns
-
-def load_prompt_template(template_path):
-    """Load a text prompt template from file."""
-    print(f"[INFO] Loading prompt template from: {template_path}")
-    with open(template_path, "r", encoding="utf-8") as f:
-        template = f.read()
-    print("[INFO] Template loaded successfully.")
-    return template
-
 
 # def create_turn_prompts(
 #     user_conversation_path,
@@ -218,140 +202,162 @@ def load_prompt_template(template_path):
 #     print("============================\n")
 
 #     return turn_prompts
+from utils.file_utils import load_json
+from utils.extraction_utils import (
+    extract_entry_by_index,
+    extract_conversation_text,
+    extract_clinical_case_text
+)
+from utils.conversation_utils import parse_transcript_into_turns
 
-def create_turn_prompts(
-    user_conversation_path,
-    clinical_case_path,
-    configuration_path,
-    index=1,
-    template_path="prompts/templates/evaluation_prompt_v1.txt"
-):
-    """Build LLM-ready evaluation prompts for each conversation turn using an external text template."""
+def load_prompt_template(template_path):
+    """Load a text prompt template from file."""
+    print(f"[INFO] Loading prompt template from: {template_path}")
+    with open(template_path, "r", encoding="utf-8") as f:
+        template = f.read()
+    print("[INFO] Template loaded successfully.")
+    return template
 
-    print("\n============================")
-    print("   STARTING PROMPT CREATION")
-    print("============================")
 
-    # --- Load JSONs ---
-    print(f"[INFO] Loading user information JSON: {user_conversation_path}")
-    user_conv_json = load_json(user_conversation_path)
 
-    print(f"[INFO] Loading clinical case JSON: {clinical_case_path}")
-    clinical_json = load_json(clinical_case_path)
+# NOTE: original when creating prompts previously now it it is dynamic
 
-    print(f"[INFO] Loading configuration/rubric JSON: {configuration_path}")
-    config_json = load_json(configuration_path)
 
-    # --- Determine indices to process ---
-    print(f"[INFO] Determining indices to process (index={index})")
+# def create_turn_prompts(
+#     user_conversation_path,
+#     clinical_case_path,
+#     configuration_path,
+#     index=1,
+#     template_path="prompts/templates/evaluation_prompt_v1.txt"
+# ):
+#     """Build LLM-ready evaluation prompts for each conversation turn using an external text template."""
 
-    if index is None:
-        total_entries = min(len(user_conv_json), len(clinical_json), len(config_json))
-        indices_to_process = list(range(1, total_entries + 1))
-        print(f"[INFO] No index provided — processing ALL {total_entries} entries.")
+#     print("\n============================")
+#     print("   STARTING PROMPT CREATION")
+#     print("============================")
 
-    elif isinstance(index, (list, tuple)) and len(index) == 2:
-        start, end = index
-        indices_to_process = list(range(start, end + 1))
-        print(f"[INFO] Range detected — processing indices {start} through {end}.")
+#     # --- Load JSONs ---
+#     print(f"[INFO] Loading user information JSON: {user_conversation_path}")
+#     user_conv_json = load_json(user_conversation_path)
 
-    else:
-        indices_to_process = [index]
-        print(f"[INFO] Single index detected — processing index {index}.")
+#     print(f"[INFO] Loading clinical case JSON: {clinical_case_path}")
+#     clinical_json = load_json(clinical_case_path)
 
-    # --- Extract entries ---
-    extracted_entries = []
-    print(f"[INFO] Extracting entries for indices: {indices_to_process}")
+#     print(f"[INFO] Loading configuration/rubric JSON: {configuration_path}")
+#     config_json = load_json(configuration_path)
 
-    for idx in indices_to_process:
-        print(f"[INFO] Extracting entry at index {idx}...")
+#     # --- Determine indices to process ---
+#     print(f"[INFO] Determining indices to process (index={index})")
 
-        _, user_conv_entry = extract_entry_by_index(user_conv_json, idx)
-        _, clinical_entry = extract_entry_by_index(clinical_json, idx)
-        _, rubric_entry = extract_entry_by_index(config_json, idx)
+#     if index is None:
+#         total_entries = min(len(user_conv_json), len(clinical_json), len(config_json))
+#         indices_to_process = list(range(1, total_entries + 1))
+#         print(f"[INFO] No index provided — processing ALL {total_entries} entries.")
 
-        extracted_entries.append({
-            "index": idx,
-            "user_conv_entry": user_conv_entry,
-            "clinical_entry": clinical_entry,
-            "rubric_entry": rubric_entry
-        })
+#     elif isinstance(index, (list, tuple)) and len(index) == 2:
+#         start, end = index
+#         indices_to_process = list(range(start, end + 1))
+#         print(f"[INFO] Range detected — processing indices {start} through {end}.")
 
-    # --- Load template once ---
-    template = load_prompt_template(template_path)
+#     else:
+#         indices_to_process = [index]
+#         print(f"[INFO] Single index detected — processing index {index}.")
 
-    # --- Process each extracted entry ---
-    all_turn_prompts = []
+#     # --- Extract entries ---
+#     extracted_entries = []
+#     print(f"[INFO] Extracting entries for indices: {indices_to_process}")
 
-    for entry in extracted_entries:
-        idx = entry["index"]
-        user_conv_entry = entry["user_conv_entry"]
-        clinical_entry = entry["clinical_entry"]
-        rubric_entry = entry["rubric_entry"]
+#     for idx in indices_to_process:
+#         print(f"[INFO] Extracting entry at index {idx}...")
 
-        print("\n--------------------------------------")
-        print(f"[INFO] Processing conversation index {idx}")
-        print("--------------------------------------")
+#         _, user_conv_entry = extract_entry_by_index(user_conv_json, idx)
+#         _, clinical_entry = extract_entry_by_index(clinical_json, idx)
+#         _, rubric_entry = extract_entry_by_index(config_json, idx)
 
-        # Extract supporting text
-        rubric_text = rubric_entry.get("rubric", "")
-        print(f"[INFO] Rubric extracted for index {idx}")
+#         extracted_entries.append({
+#             "index": idx,
+#             "user_conv_entry": user_conv_entry,
+#             "clinical_entry": clinical_entry,
+#             "rubric_entry": rubric_entry
+#         })
 
-        clinical_case_text = extract_clinical_case_text(clinical_entry)
-        print(f"[INFO] Clinical case extracted for index {idx}")
+#     # --- Load template once ---
+#     template = load_prompt_template(template_path)
 
-        # Parse turns
-        print(f"[INFO] Extracting raw transcript for index {idx}...")
-        raw_transcript = extract_conversation_text(user_conv_entry)
+#     # --- Process each extracted entry ---
+#     all_turn_prompts = []
 
-        print(f"[INFO] Parsing transcript into turns for index {idx}...")
-        turns = parse_transcript_into_turns(raw_transcript)
-        print(f"[INFO] Parsed {len(turns)} turns for index {idx}")
+#     for entry in extracted_entries:
+#         idx = entry["index"]
+#         user_conv_entry = entry["user_conv_entry"]
+#         clinical_entry = entry["clinical_entry"]
+#         rubric_entry = entry["rubric_entry"]
 
-        print(f"[INFO] Building prompts for index {idx}...")
-        conversation_so_far = []
-        turn_prompts = []
+#         print("\n--------------------------------------")
+#         print(f"[INFO] Processing conversation index {idx}")
+#         print("--------------------------------------")
 
-        for i, turn in enumerate(turns, start=1):
-            print(f"\n[INDEX {idx} | TURN {i}] Processing turn...")
+#         # Extract supporting text
+#         rubric_text = rubric_entry.get("rubric", "")
+#         print(f"[INFO] Rubric extracted for index {idx}")
 
-            labeled_turn = (
-                f"Turn {i}:\n"
-                f"User: {turn['user_text']}\n"
-                f"Assistant: {turn['assistant_text'] or '[No assistant response]'}\n"
-                f"Timestamp: {turn['timestamp']}\n"
-            )
-            conversation_so_far.append(labeled_turn)
-            print(f"[INDEX {idx} | TURN {i}] Added to conversation history.")
+#         clinical_case_text = extract_clinical_case_text(clinical_entry)
+#         print(f"[INFO] Clinical case extracted for index {idx}")
 
-            prompt = template.format(
-                turn_index=i,
-                clinical_case_text=clinical_case_text,
-                rubric_text=rubric_text,
-                user_text=turn['user_text'],
-                assistant_text=turn['assistant_text'] or "[No assistant response]",
-                conversation_so_far="\n".join(conversation_so_far)
-            )
-            print(f"[INDEX {idx} | TURN {i}] Prompt generated.")
+#         # Parse turns
+#         print(f"[INFO] Extracting raw transcript for index {idx}...")
+#         raw_transcript = extract_conversation_text(user_conv_entry)
 
-            turn_prompts.append({
-                "entry_index": idx,
-                "turn_index": i,
-                "prompt": prompt,
-                "user_text": turn["user_text"],
-                "assistant_text": turn["assistant_text"],
-                "full_conversation": conversation_so_far.copy(),
-                "timestamp": turn["timestamp"]
-            })
+#         print(f"[INFO] Parsing transcript into turns for index {idx}...")
+#         turns = parse_transcript_into_turns(raw_transcript)
+#         print(f"[INFO] Parsed {len(turns)} turns for index {idx}")
 
-        all_turn_prompts.append({
-            "entry_index": idx,
-            "turn_prompts": turn_prompts
-        })
+#         print(f"[INFO] Building prompts for index {idx}...")
+#         conversation_so_far = []
+#         turn_prompts = []
 
-    print("\n============================")
-    print("   PROMPT CREATION COMPLETE")
-    print(f"   Total conversations processed: {len(all_turn_prompts)}")
-    print("============================\n")
+#         for i, turn in enumerate(turns, start=1):
+#             print(f"\n[INDEX {idx} | TURN {i}] Processing turn...")
 
-    return all_turn_prompts
+#             labeled_turn = (
+#                 f"Turn {i}:\n"
+#                 f"User: {turn['user_text']}\n"
+#                 f"user_timestamp: {turn['user_timestamp']}\n"
+#                 f"Assistant: {turn['assistant_text'] or '[No assistant response]'}\n"
+#                 f"assistant_timestamp: {turn['assistant_timestamp']}\n"
+#             )
+#             conversation_so_far.append(labeled_turn)
+#             print(f"[INDEX {idx} | TURN {i}] Added to conversation history.")
+
+#             prompt = template.format(
+#                 turn_index=i,
+#                 clinical_case_text=clinical_case_text,
+#                 rubric_text=rubric_text,
+#                 user_text=turn['user_text'],
+#                 assistant_text=turn['assistant_text'] or "[No assistant response]",
+#                 conversation_so_far="\n".join(conversation_so_far)
+#             )
+#             print(f"[INDEX {idx} | TURN {i}] Prompt generated.")
+
+#             turn_prompts.append({
+#                 "entry_index": idx,
+#                 "turn_index": i,
+#                 "prompt": prompt,
+#                 "user_text": turn["user_text"],
+#                 "assistant_text": turn["assistant_text"],
+#                 "full_conversation": conversation_so_far.copy(),
+#                 "user_timestamp": turn["user_timestamp"],
+#                 "assistant_timestamp": turn["assistant_timestamp"]
+#             })
+
+#         all_turn_prompts.append({
+#             "entry_index": idx,
+#             "turn_prompts": turn_prompts
+#         })
+
+#     print("\n============================")
+#     print("   PROMPT CREATION COMPLETE")
+#     print(f"   Total conversations processed: {len(all_turn_prompts)}")
+#     print("============================\n")
+
+#     return all_turn_prompts

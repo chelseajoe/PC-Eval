@@ -10,8 +10,9 @@ You are a licensed clinical educator evaluating a simulated clinical conversatio
 ### Conversation Context
 **Current Conversation Turn ({turn_index}):**
 User (Student): {user_text}
+User Timestamp: {user_timestamp}
 Assistant (Patient): {assistant_text}
-Timestamp: {timestamp}
+Assistant Timestamp: {assistant_timestamp}
 
 **Full Conversation So Far:**
 {conversation_so_far}
@@ -60,8 +61,9 @@ Respond **only in valid JSON** using the following structure:
     "summary_comment": "<Concise expert summary of overall performance>"
 }},
     "rubric_update_explanation": [
-    "<List section and score change>",
-    "<Explain why score changed>",
+    "<List section, score change, and explanation> Section: _____ (# -> #) explanation ",
+    "<List section, score change, and explanation> Section: _____ (# -> #) explanation ",
+    ...
     ]
 }}
 
