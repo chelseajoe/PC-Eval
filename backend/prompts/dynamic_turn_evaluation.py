@@ -139,3 +139,85 @@ def build_conversation_so_far(turns, up_to_index):
             f"Assistant: {t['assistant_text'] or '[No assistant response]'}\n"
         )
     return "\n".join(lines)
+
+
+from prompts.dynamic_turn_evaluation import run_dynamic_turn_evaluation
+from llm.llm_runner import client
+import json
+import os
+
+from prompts.dynamic_turn_evaluation import run_dynamic_turn_evaluation
+from llm.llm_runner import client
+import json
+import os
+
+
+def run_full_evaluation(
+    user_conversation_path,
+    clinical_case_path,
+    configuration_path,
+    template_path,
+    turn_eval_output="../results/turn_evaluations.json",
+    final_eval_output="../results/final_evaluation.json",
+    model="gpt-5",
+    index=1,
+    final_prompt_path="prompts/template/final_evaluation_prompt.txt"
+):
+    """
+    Runs dynamic turn evaluation on a conversation, then performs a final evaluation
+    on all turn evaluation results as a single JSON.
+
+    Args:
+        user_conversation_path (str): Path to user conversation JSON.
+        clinical_case_path (str): Path to clinical case JSON.
+        configuration_path (str): Path to rubric/configuration JSON.
+        template_path (str): Path to turn evaluation prompt template.
+        turn_eval_output (str): Path to save turn evaluation results.
+        final_eval_output (str): Path to save final evaluation results.
+        model (str): Model to use for both evaluations.
+        index (int or list/tuple): Which entries to process.
+        final_prompt_path (str): Path to the final evaluation prompt template.
+
+    Returns:
+        tuple: (turn_evaluation_results, final_evaluation_results)
+    """
+
+    # --- Step 1: Run dynamic turn evaluation ---
+    eval_results = run_dynamic_turn_evaluation(
+        user_conversation_path=user_conversation_path,
+        clinical_case_path=clinical_case_path,
+        configuration_path=configuration_path,
+        template_path=template_path,
+        output_path=turn_eval_output,
+        model=model,
+        index=index
+    )
+
+    # --- Step 2: Run final evaluation on all results as one JSON ---
+    print(f"[INFO] Running final evaluation on all turn results...")
+
+    with open(final_prompt_path, "r", encoding="utf-8") as f:
+        final_prompt_template = f.read()
+
+    # Format prompt with all eval_results
+    prompt = final_prompt_template.format(
+        turn_evaluations=json.dumps(eval_results, indent=2)
+    )
+
+    llm_response = client.responses.create(model=model, input=prompt)
+    text = llm_response.output_text.strip()
+
+    try:
+        final_results = json.loads(text)
+    except json.JSONDecodeError:
+        print(f"[WARNING] Could not parse JSON from final evaluation. Saving raw text.")
+        final_results = {"raw_text": text}
+
+    # Save final evaluation results
+    os.makedirs(os.path.dirname(final_eval_output), exist_ok=True)
+    with open(final_eval_output, "w", encoding="utf-8") as f:
+        json.dump(final_results, f, indent=2, ensure_ascii=False)
+
+    print(f"[INFO] Full evaluation complete. Final results saved to {final_eval_output}")
+
+    return eval_results, final_results

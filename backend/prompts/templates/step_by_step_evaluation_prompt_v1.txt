@@ -73,12 +73,14 @@ Evaluate the student’s performance for this turn in context of the entire conv
     "<Rubric Category 1>": {{
       "score": "<integer>",
       "binary_score": "<0 or 1>",
+      "max_score": "<integer>",
       "turns_spent": "<integer>",
       "comment": "<Expert feedback including time allocation analysis>"
     }},
     "<Rubric Category 2>": {{
       "score": "<integer>",
       "binary_score": "<0 or 1>",
+      "max_score": "<integer>",
       "turns_spent": "<integer>",
       "comment": "<Expert feedback including time allocation analysis>"
     }}
