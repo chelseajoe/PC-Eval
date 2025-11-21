@@ -1,0 +1,43 @@
+# --- OS files ---
+.DS_Store
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+
+# --- IDE / Editor folders ---
+.vscode/
+.idea/
+
+# # --- Logs ---
+# *.log
+
+# # --- Results + cached outputs ---
+# results/*
+# !results/.gitkeep  # If you want the folder to exist but stay empty
+
+# # --- Local JSON outputs you don't want tracked ---
+# *_my_turn_results.json
+# my_turn_results.json
+
+# --- Demo data (optional; keep if you want them versioned) ---
+# demo_json_files/
+# If demo files are not sensitive, you can keep them.  
+
+# --- Model outputs ---
+*.jsonl
+outputs/
+cache/
+
+# --- User-specific configuration ---
+config.yaml
+*.secret
+*.key
