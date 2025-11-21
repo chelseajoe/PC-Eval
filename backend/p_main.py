@@ -7,7 +7,7 @@ run_dynamic_turn_evaluation(
     clinical_case_path="demo_json_files/clinical_case.json",
     configuration_path="demo_json_files/configuration.json",
     template_path="prompts/templates/step_by_step_evaluation_prompt_v1.txt",
-    output_path="results/turn_evaluations_TEST.json",
+    output_path="../results/turn_evaluations_TEST.json",
     model="gpt-5",
     index=1
 )
