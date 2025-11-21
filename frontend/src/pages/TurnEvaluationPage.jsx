@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { fetchTurns, fetchOptions, runEvaluation } from "../services/api";
 import EvaluationDisplay from "../components/EvaluationDisplay";
 import EvaluationOptions from "../components/EvaluationOptions";
+import { fetchTurns, fetchOptions, runEvaluation } from "../services/api";
+import EvaluationViewer from "../components/EvaluationViewer";
 
 const TurnEvaluationPage = () => {
   const [turns, setTurns] = useState([]);
@@ -59,22 +60,26 @@ const TurnEvaluationPage = () => {
   if (error) return <p style={{ color: "red" }}>Error: {error.message}</p>;
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Clinical Turn Evaluations</h1>
+    // <div style={{ padding: "20px" }}>
+    //   <h1>Clinical Turn Evaluations</h1>
 
-      {options && (
-        <>
-          <EvaluationOptions options={options} selected={selected} onChange={handleSelectChange} />
-          <button onClick={handleRunEvaluation}>Run Evaluation</button>
-        </>
-      )}
+    //   {options && (
+    //     <>
+    //       <EvaluationOptions options={options} selected={selected} onChange={handleSelectChange} />
+    //       <button onClick={handleRunEvaluation}>Run Evaluation</button>
+    //     </>
+    //   )}
 
-      <div style={{ marginTop: "20px" }}>
-        {turns.map((entry, idx) => (
-          <EvaluationDisplay key={idx} entry={entry} />
-        ))}
-      </div>
-    </div>
+      // <div style={{ marginTop: "20px" }}>
+      //   {turns.map((entry, idx) => (
+      //     <EvaluationDisplay key={idx} entry={entry} />
+      //   ))}
+      // </div>
+    // </div>
+   <div style={{ marginTop: "20px" }}>
+  <EvaluationViewer allEntries={turns} />
+</div>
+
   );
 };
 

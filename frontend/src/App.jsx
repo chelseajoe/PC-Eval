@@ -1,59 +1,57 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//       <div>
-//         <a href="https://vite.dev" target="_blank">
-//           <img src={viteLogo} className="logo" alt="Vite logo" />
-//         </a>
-//         <a href="https://react.dev" target="_blank">
-//           <img src={reactLogo} className="logo react" alt="React logo" />
-//         </a>
-//       </div>
-//       <h1>Vite + React</h1>
-//       <div className="card">
-//         <button onClick={() => setCount((count) => count + 1)}>
-//           count is {count}
-//         </button>
-//         <p>
-//           Edit <code>src/App.jsx</code> and save to test HMR
-//         </p>
-//       </div>
-//       <p className="read-the-docs">
-//         Click on the Vite and React logos to learn more
-//       </p>
-//     </>
-//   )
-// }
-
-// export default App
-
 import { Link, Routes, Route } from "react-router-dom";
 import MainScreen from "./pages/MainScreen";
 import TurnEvaluationPage from "./pages/TurnEvaluationPage";
 import OptionsPage from "./pages/OptionsPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <>
-      <nav style={{ padding: "10px", borderBottom: "1px solid #ccc" }}>
-        <Link to="/" style={{ marginRight: "10px" }}>Main</Link>
-        <Link to="/evaluations" style={{ marginRight: "10px" }}>Turn Evaluations</Link>
-        <Link to="/options">Options</Link>
+    <div className="d-flex flex-column min-vh-100">
+      {/* Navbar */}
+      <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div className="container">
+          {/* Brand */}
+          <Link className="navbar-brand fw-bold" to="/">Clinical Dashboard</Link>
+
+          {/* Toggler for mobile */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          {/* Links */}
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link" to="/">Main</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/evaluations">Turn Evaluations</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/options">Options</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
-      <Routes>
-        <Route path="/" element={<MainScreen />} />
-        <Route path="/evaluations" element={<TurnEvaluationPage />} />
-        <Route path="/options" element={<OptionsPage />} />
-      </Routes>
-    </>
+      {/* Page Content */}
+      <div className="flex-grow-1">
+        <Routes>
+          <Route path="/" element={<MainScreen />} />
+          <Route path="/evaluations" element={<TurnEvaluationPage />} />
+          <Route path="/options" element={<OptionsPage />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 
