@@ -1,14 +1,15 @@
 import React from "react";
 
 const EvaluationDisplay = ({ entry }) => {
-  if (!entry) return null;
+  if (!entry?.response_json) {
+    return <p>Response not available for turn {entry?.turn_index}</p>;
+  }
 
-  const { turn_index, response_json } = entry;
-  const { conversation_context, rubric_evaluation, overall_summary, recommendations } = response_json;
+  const { conversation_context, rubric_evaluation, overall_summary, recommendations } = entry.response_json;
 
   return (
     <div style={{ border: "1px solid #ccc", margin: "10px 0", padding: "10px", borderRadius: "5px" }}>
-      <h2>Turn {turn_index}</h2>
+      <h2>Turn {entry.turn_index}</h2>
 
       <h3>Conversation</h3>
       <p><strong>Student:</strong> {conversation_context.current_turn.user_text}</p>
