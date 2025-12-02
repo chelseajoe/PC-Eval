@@ -1,0 +1,47 @@
+{
+  "overall_session_summary": "Across 24 turns, the clinician maintained a supportive, polite tone and set a basic agenda with time framing early on. They elicited core HPI elements (intense mood swings, chronic emptiness, sensitivity to perceived abandonment/invalidations), reviewed stressors (work/relationship instability), screened current SI/HI (denied), explored past self-harm at a high level, and gathered social supports, coping, ROS (appetite), work context, family psychiatric history, and prior treatment response. However, confidentiality and telehealth safety were never addressed; diagnostic work remained largely untargeted (minimal criterion-based screening for BPD vs bipolar; little synthesis shared); reflective listening and concise summarization were limited; and repeated typos plus an unrepaired early name error risked perceived invalidation. The closing proposed therapy resources and a 4–6 week follow-up but lacked a concise summary, working diagnosis, or safety plan. Performance steadily improved in assessment depth and safety screening mid-visit, but time was over-allocated to rapport and general discussion at the expense of ethics, diagnostic clarity, and structured closure.",
+  "rubric_section_summary": {
+    "Introduction and Rapport Building": {
+      "average_score": 3.79,
+      "strengths": "Consistently warm, supportive tone; early agenda/time-setting; identity verification; multiple validation statements that the patient appreciated.",
+      "weaknesses": "Early misnaming not repaired; no preferred name/pronoun check; excessive time spent on rapport (many turns) reduced time for assessment/plan; lack of early safety framing undermined the sense of a structured, safe space."
+    },
+    "Assessment and Understanding": {
+      "average_score": 3.17,
+      "strengths": "Progressed from no assessment to a focused HPI with onset, worsening factors, supports, coping, appetite, work context, and a basic SI/HI screen; gathered family history and prior treatment response.",
+      "weaknesses": "Assessment started late; limited depth on pattern/frequency of mood lability, triggers, functional impairment, impulsivity, dissociation/paranoia; risk follow-up (methods, last self-harm, current urges/intent/means, protective factors) was incomplete; minimal periodic summarizing to check understanding."
+    },
+    "Communication Skills": {
+      "average_score": 3.75,
+      "strengths": "Respectful, clear questions; frequent validation; collaborative stance and patient-centered language.",
+      "weaknesses": "Repeated typos and an unrepaired name error; sparse reflective summaries and normalizing statements; occasional leading/solution-focused questions; missed opportunities to pair questions with brief empathy for a validation-sensitive patient."
+    },
+    "Confidentiality and Ethical Considerations": {
+      "average_score": 0.0,
+      "strengths": "None consistently demonstrated.",
+      "weaknesses": "Telehealth confidentiality and safety were never addressed: no location/privacy/who-is-present check, no limits of confidentiality, no emergency/backup plan. This was a persistent and critical omission."
+    },
+    "Session closing": {
+      "average_score": 0.13,
+      "strengths": "Final turn included a collaborative plan (therapy resources, follow-up interval) and elicited patient agreement.",
+      "weaknesses": "No concise summary of key findings; no working diagnosis/differential; no explicit safety plan or crisis resources; follow-up interval (4–6 weeks) may be too long given past self-harm and recent instability."
+    },
+    "Application of Psychiatric Diagnosis": {
+      "average_score": 0.17,
+      "strengths": "Asked about prior diagnoses/treatment and collected family psychiatric history relevant to the differential.",
+      "weaknesses": "No structured, criterion-based assessment for BPD features or bipolar rule-out; no synthesis or shared working diagnosis; minimal discussion of differential and implications for treatment."
+    }
+  },
+  "recommendations": [
+    "Always open telehealth visits with safety and ethics: verify location and privacy, ask who is present, explain confidentiality and its limits, and establish an emergency/backup plan; document this before sensitive content.",
+    "Repair and prevent invalidation: confirm and use the patient’s preferred name/pronouns; if a name error occurs, acknowledge and correct it promptly; eliminate typos and filler words to maintain professionalism and trust.",
+    "Complete a structured risk assessment early: clarify past self-harm (methods, frequency, last occurrence), current urges/intent/plan/means, access to lethal means, protective factors, and collaboratively create a brief safety plan; normalize these questions.",
+    "Use a criterion-based diagnostic screen: assess BPD features (fear of abandonment, unstable/intense relationships, affective lability/rapid shifts, chronic emptiness, anger/impulsivity, NSSI, transient dissociation/paranoia) and rule out bipolar spectrum (distinct episodes, decreased need for sleep, grandiosity, increased goal-directed activity, duration); include sleep/energy and substance use.",
+    "Manage time deliberately: limit prolonged rapport building to one brief validation, then transition to focused questions; use signposting and concise summaries to keep momentum and ensure coverage of safety, diagnosis, and plan.",
+    "Enhance reflective communication: pair each content block with a 1–2 sentence reflection/normalization to demonstrate understanding and reduce defensiveness, especially before safety questions or problem-solving.",
+    "Provide a structured close: summarize key concerns and positives/negatives, share a brief working diagnosis/differential, outline an initial plan (e.g., DBT/MBT referral, skills resources), give crisis contacts, assign simple homework (mood/trigger diary, one distress-tolerance skill), and schedule a shorter follow-up (1–2 weeks) when recent instability or self-harm history is present.",
+    "Stay patient-centered when brainstorming changes (e.g., employment): reflect the ambivalence first, then collaborate on small, feasible steps; avoid leading questions.",
+    "Document functional impact: clarify frequency/pattern of mood shifts, specific triggers, and how symptoms affect work, relationships, and daily functioning to support diagnosis and treatment planning."
+  ],
+  "notable_observations": "Communication was consistently empathic and collaborative, which the patient valued, but reflective summaries and precise language were limited and typos recurred. Assessment depth improved mid-visit (onset, stressors, SI/HI screen), yet confidentiality/safety fundamentals for telehealth were omitted throughout. Diagnostic clarification (BPD vs bipolar) never materialized despite multiple prompts; time was disproportionately spent on rapport and non-diagnostic topics (e.g., employment suggestions), delaying risk detail and formulation. Closing included a plan for therapy resources and follow-up but lacked a summary, working diagnosis, and safety plan."
+}
