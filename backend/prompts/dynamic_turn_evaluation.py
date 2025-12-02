@@ -157,8 +157,8 @@ def run_full_evaluation(
     clinical_case_path,
     configuration_path,
     template_path,
-    turn_eval_output="../results/turn_evaluations.json",
-    final_eval_output="../results/final_evaluation.json",
+    turn_eval_output="results/turn_evaluations.json",
+    final_eval_output="results/final_evaluation.json",
     model="gpt-5",
     index=1,
     final_prompt_path="prompts/template/final_evaluation_prompt.txt"

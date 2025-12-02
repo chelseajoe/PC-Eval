@@ -1,1583 +1,425 @@
 [
   {
-    "entry_index": 1,
+    "entry_index": 3,
     "turn_index": 1,
     "response_json": {
       "conversation_context": {
         "current_turn": {
-          "user_text": "Hi, I'm Angela. I'm a licensed mental health counselor. We talked briefly on the phone last week and I'm really glad that you are able to come to today's appointment.",
-          "assistant_text": "Hi Angela, I'm James Knight. Thanks for seeing me today. I guess I'm here because things have been pretty up and down for me lately."
+          "user_text": "I would like to know a little bit more about how this has been kind of affecting your your personal life and your social life for example uh your life at home with your. Roommates or maybe other friendships, relationships with your family. Has it gotten in the way of that?",
+          "assistant_text": "Yeah, I've definitely pulled away from people—I don't go out as much, and I feel kind of isolated from my friends and roommates."
         },
-        "summary_of_full_conversation": "The student opened with a warm greeting and brief introduction, acknowledging prior contact and expressing appreciation that the patient came. The patient shared that things have been up and down lately, hinting at mood instability."
+        "summary_of_full_conversation": "The student opened by asking how anxiety has affected the patient’s social and personal life, focusing on relationships with friends, roommates, and family. The patient reported social withdrawal and feeling isolated from friends and roommates."
       },
       "rubric_evaluation": {
         "Introduction and Rapport Building": {
-          "score": 3,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Warm greeting and clear introduction of role; expressed appreciation for the patient’s attendance. However, the session purpose, structure, and safety expectations were not outlined. Time spent here is appropriate for the first turn but should be followed quickly by agenda setting and validation."
-        },
-        "Assessment and Understanding": {
-          "score": 0,
+          "score": 1,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No assessment questions yet. The patient volunteered that things are ‘up and down,’ but the student has not probed for onset, triggers, severity, safety, or functional impact. At this early point, it’s acceptable not to have started, but the next turn should begin targeted exploration."
+          "comment": "No introduction, agenda-setting, or explicit empathy at the start. The question was open and relevant but somewhat disfluent and lacked rapport-building elements. Early in session, but an opening that establishes safety and purpose would help."
         },
-        "Communication Skills": {
+        "Assessment and Understanding": {
           "score": 3,
           "binary_score": 1,
           "max_score": 5,
           "turns_spent": 1,
-          "comment": "Tone was polite and clear with a welcoming statement that can foster rapport. Active listening and reflective validation have not yet been demonstrated. Given the patient’s sensitivity to invalidation, reflective statements and checking preferences (e.g., how they’d like to be addressed) should come next."
+          "comment": "You appropriately explored psychosocial impact and functional impairment (social withdrawal, isolation). This is on-target for early HPI. However, depth is limited so far—no follow-ups on frequency, duration, triggers, sleep, caffeine/alcohol, work impact, or safety. Time allocation is acceptable at this stage, but plan to broaden to DSM-5 criteria and rule-outs soon."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "Question was open-ended, but delivery included filler and lacked reflective statements (e.g., validating isolation). No interruption occurred. For a skeptical, evidence-focused patient, clearer and more empathic phrasing plus brief reflections would build trust."
         },
         "Confidentiality and Ethical Considerations": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "Confidentiality and its limits were not discussed. This should be addressed at the start of an initial visit, including limits (harm to self/others, abuse/neglect, court orders) and how records are used to build trust."
+          "comment": "Not addressed yet. Early in the session, but this should be covered soon (including limits of confidentiality and emergency/safety procedures)."
         },
         "Session closing": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No closing yet, which is appropriate at this stage. Plan to summarize key concerns, confirm next steps, and set any between-session tasks when ending."
+          "comment": "Not applicable yet; no closing occurred. Will evaluate later. Ensure future closure includes summary, next steps, and between-session plan."
         },
         "Application of Psychiatric Diagnosis": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No diagnostic exploration yet. Early in the visit, it is appropriate to prioritize rapport and initial assessment. Soon, explore mood variability (duration, triggers), rule out bipolar spectrum (mania/hypomania), assess for BPD features, depressive symptoms, trauma history, dissociation, and substance use; also perform a safety screen given past self-harm."
+          "comment": "No diagnostic framework introduced yet. Appropriate early focus on history, but plan to assess DSM-5-TR GAD criteria (excessive worry >6 months, difficulty controlling worry, 3+ associated symptoms, distress/impairment) and rule-outs (panic, OCD, MDD, substance/medical causes)."
         }
       },
       "overall_summary": {
         "total_score": 6,
         "maximum_score": 30,
         "performance_level": "Emerging",
-        "summary_comment": "Strong start with a warm, clear introduction. To progress, promptly outline confidentiality and session structure, then pivot to focused assessment with validation. No time has yet been spent on assessment or diagnosis, which is appropriate for the first exchange but should be initiated in the next turn."
+        "summary_comment": "You began with a relevant, open question about functional impact and elicited meaningful information about social withdrawal. However, there was no introduction, confidentiality statement, or empathic reflection. As the interview progresses, transition from general impact to a structured, criterion-based assessment and begin framing the differential and initial treatment plan."
       },
       "rubric_update_explanation": [
         {
           "section": "Introduction and Rapport Building",
           "previous_score": 0,
-          "new_score": 3,
-          "reason": "Student provided a warm greeting and introduced role but did not explain session goals or structure."
+          "new_score": 1,
+          "reason": "No introduction or agenda-setting; minimal warmth/validation. Awarded minimal credit for a polite, relevant opening question."
         },
         {
           "section": "Assessment and Understanding",
           "previous_score": 0,
-          "new_score": 0,
-          "reason": "No assessment questions asked yet; patient volunteered information without elicitation."
+          "new_score": 3,
+          "reason": "Initiated assessment focused on social/functional impact, eliciting isolation and withdrawal; depth remains limited."
         },
         {
           "section": "Communication Skills",
           "previous_score": 0,
-          "new_score": 3,
-          "reason": "Clear, respectful tone and welcoming language; no reflective listening or validation demonstrated yet."
+          "new_score": 2,
+          "reason": "Open-ended question without interruptions, but lacked reflective listening and clear, empathic phrasing."
         },
         {
           "section": "Confidentiality and Ethical Considerations",
           "previous_score": 0,
           "new_score": 0,
-          "reason": "Confidentiality and its limits not mentioned at the outset."
+          "reason": "Not addressed yet."
         },
         {
           "section": "Session closing",
           "previous_score": 0,
           "new_score": 0,
-          "reason": "Session has just started; closing not applicable yet."
+          "reason": "No closing actions at this stage of the encounter."
         },
         {
           "section": "Application of Psychiatric Diagnosis",
           "previous_score": 0,
           "new_score": 0,
-          "reason": "No diagnostic framework or differential discussed yet, which is acceptable this early but should follow initial assessment."
+          "reason": "No diagnostic criteria or differential diagnosis discussed yet."
         }
       ],
       "recommendations": [
-        "Early next turn, outline confidentiality and its limits, set a brief agenda (e.g., ‘We’ll focus on what’s been up and down, your safety, and next steps’) to enhance safety and structure.",
-        "Use empathic reflections and validation before probing (e.g., ‘It sounds exhausting to feel so up and down; I want to understand what those swings look like for you’) and then ask open-ended questions about triggers, duration, intensity, and impact.",
-        "Begin targeted risk and differential screening: ask about current/past SI/SH, manic/hypomanic symptoms (reduced need for sleep, grandiosity), dissociation, and substance use, while collaboratively normalizing the assessment process to avoid perceived invalidation."
+        "Open the next turn with a brief introduction, agenda, and confidentiality (including limits), then reflect the patient’s emotion (e.g., “It sounds isolating to pull back from people”).",
+        "Use a structured DSM-5-TR screen for GAD: duration, uncontrollability of worry, associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), impairment; also screen for depression, panic, OCD symptoms, substance use (caffeine/alcohol), and medical contributors.",
+        "Adopt clear, concise, evidence-based explanations tailored to her skepticism (e.g., why certain assessments and treatments are recommended), and summarize periodically to maintain engagement and shared understanding."
       ]
     }
   },
   {
-    "entry_index": 1,
+    "entry_index": 3,
     "turn_index": 2,
     "response_json": {
       "conversation_context": {
         "current_turn": {
-          "user_text": "Yes, I remember from our conversation that your life has been really challenging lately. Before we get started, I just want to make sure you know about a few confidentiality guidelines. Your information that you share with me is private. If we are going to bill your insurance, I will need to give them some basic information about your diagnoses and treatment plan. The other exceptions to confidentiality would be if you were to tell me that you are going to harm or kill yourself or someone else. Or if you let me know about a child, elder or person who is disabled being abused. Does all of that make sense from your perspective?",
-          "assistant_text": "Yeah, that makes sense. I appreciate you going over that. I've had experiences where I've felt misunderstood or my feelings were minimized, so it's important to me that things are clear between us."
+          "user_text": "Yeah, that's a very difficult feeling. And you mentioned that this has also been going on for a year. To this kind of year long history of you feeling this sense of worry. Has it occurred previously in your life or is this the first time that this has happened?",
+          "assistant_text": "This is the first time it's been this bad or lasted this long. Before, I had stress, but nothing like this."
         },
-        "summary_of_full_conversation": "The student warmly introduced themselves and welcomed the patient, who shared that things have been up and down. The student then clearly reviewed confidentiality and its limits, checking for understanding. The patient expressed appreciation for the clarity, noting past experiences of feeling misunderstood."
+        "summary_of_full_conversation": "The student began by exploring social/functional impact, and Alex reported withdrawal and isolation. The student then showed brief empathy and clarified chronicity/course, learning this is the worst and most persistent episode."
       },
       "rubric_evaluation": {
         "Introduction and Rapport Building": {
+          "score": 1,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "A brief empathetic statement helped rapport, but there was still no formal introduction, agenda-setting, or framing of session goals. Early rapport is emerging but the lack of a clear opening remains a gap. Time spent here is minimal; add a concise structure and confidentiality early to build trust."
+        },
+        "Assessment and Understanding": {
           "score": 4,
           "binary_score": 1,
           "max_score": 5,
           "turns_spent": 2,
-          "comment": "You maintained a warm, validating tone (\"I remember... challenging lately\") and fostered a sense of safety by moving into confidentiality. That helped build trust with a patient sensitive to invalidation. You have not yet set a collaborative agenda for the session or clarified goals, which would further strengthen rapport. Time spent here remains appropriate, but shift soon to assessment to avoid over-investing in preliminaries."
+          "comment": "You appropriately probed chronicity and prior episodes, which advances understanding toward DSM-5 criteria. Combined with earlier inquiry into social impact, your assessment is progressing. Next, deepen by eliciting associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), functional impairment, triggers, and safety. Time allocation remains appropriate for early HPI."
         },
-        "Assessment and Understanding": {
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "Empathy was expressed and you asked a clear follow-up. Some phrasing was disfluent, which can disrupt clarity with a skeptical patient. Consider reflective summaries and concise, well-structured questions to enhance rapport and understanding."
+        },
+        "Confidentiality and Ethical Considerations": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No assessment questions have been asked yet. This is acceptable this early, but the next turn should transition to targeted exploration (mood swings, triggers, emptiness, safety, functional impact) to balance time and ensure adequate diagnostic formulation."
-        },
-        "Communication Skills": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 2,
-          "comment": "Your language was clear and respectful, with a validating lead-in and a teach-back check. This matches the patient’s need for clarity and validation. You have not yet reflected the patient’s emotions in their own words or summarized their concerns; adding brief reflections and open-ended follow-ups will deepen engagement while keeping momentum toward assessment."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "You clearly explained confidentiality, insurance disclosures, and major limits (harm to self/others; abuse/neglect) and checked for understanding—well done. For completeness, consider mentioning possible court orders/subpoenas and coordination-of-care releases. Time allocation here was appropriate and built trust."
+          "comment": "Not addressed yet. Early in the session, but given the patient’s skepticism, outlining confidentiality (and its limits) would strengthen safety and trust. Plan to cover this shortly."
         },
         "Session closing": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No closing yet, which is appropriate. Plan to end with a concise summary, next steps, and any between-session tasks."
+          "comment": "Not reached yet. Ensure the eventual close includes a summary, shared plan, and concrete between-session steps."
         },
         "Application of Psychiatric Diagnosis": {
-          "score": 0,
-          "binary_score": 0,
+          "score": 1,
+          "binary_score": 1,
           "max_score": 5,
-          "turns_spent": 0,
-          "comment": "No diagnostic exploration has begun. Next, assess mood instability (duration, frequency, triggers), screen for hypomanic/manic symptoms, BPD features (fear of abandonment, identity disturbance, impulsivity, self-harm history), depressive/anxiety symptoms, dissociation, trauma history, and substance use. Include a brief current safety screen given past self-harm and family history of suicide."
+          "turns_spent": 1,
+          "comment": "You began targeted diagnostic inquiry by confirming duration/course, which is relevant to GAD criteria. To progress, assess difficulty controlling worry and at least 3 associated symptoms, rule out other conditions (panic, OCD, MDD, substance/medical causes), and later share a brief, evidence-based formulation."
         }
       },
       "overall_summary": {
-        "total_score": 12,
+        "total_score": 9,
         "maximum_score": 30,
         "performance_level": "Emerging",
-        "summary_comment": "Strong start with warmth, clear role communication, and a thorough confidentiality review that matched the patient’s need for clarity. However, assessment and diagnostic inquiry have not yet begun. Shift promptly into a structured assessment with empathic reflections to balance time and move toward diagnosis and collaborative planning."
+        "summary_comment": "Strengths include focused assessment on functional impact and chronicity, plus brief empathy. To advance, establish structure early (intro and confidentiality), improve clarity/flow, and pivot toward a systematic DSM-5 review with pertinent positives/negatives and rule-outs to build a shared, evidence-based formulation."
       },
       "rubric_update_explanation": [
         {
           "section": "Introduction and Rapport Building",
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "Empathy added rapport (turns_spent now 1), but no introduction or session framing yet; score remains limited."
+        },
+        {
+          "section": "Assessment and Understanding",
           "previous_score": 3,
           "new_score": 4,
-          "reason": "Added validation and created a safe environment by discussing confidentiality, enhancing rapport. No agenda-setting yet, so not full marks."
+          "reason": "Deepened HPI by clarifying chronicity and prior severity, moving closer to DSM-5 criteria; now 2 turns spent on assessment."
         },
         {
           "section": "Communication Skills",
-          "previous_score": 3,
-          "new_score": 4,
-          "reason": "Clear, respectful explanation with a check for understanding; empathetic framing improved communication."
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Empathic statement and a clear follow-up question improved communication, though phrasing remained somewhat disfluent."
         },
         {
           "section": "Confidentiality and Ethical Considerations",
           "previous_score": 0,
-          "new_score": 4,
-          "reason": "Comprehensive explanation of confidentiality and its limits with teach-back; minor omissions (court orders/coordination of care) prevented a 5."
+          "new_score": 0,
+          "reason": "Still not addressed."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Not applicable yet."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 0,
+          "new_score": 1,
+          "reason": "Initiated diagnostic reasoning by assessing duration/course, but has not yet identified diagnosis or ruled out alternatives."
         }
       ],
       "recommendations": [
-        "Set a brief agenda next: “Would it be okay if we start with what’s been most intense this week, do a quick safety check, and then map out goals for today?”",
-        "Begin focused assessment with empathic reflections: explore mood swings (timing, triggers, duration), emptiness, interpersonal patterns, dissociation, and functional impact; screen for hypomania/mania and current SI/HI.",
-        "Continue validating language and use brief summaries (“What I’m hearing is…”) to prevent the patient from feeling minimized while keeping the session on track toward a shared formulation and next steps."
+        "Early structure: Briefly introduce yourself, set the agenda (what we’ll cover today), and explain confidentiality and its limits to build trust.",
+        "Systematize DSM-5 assessment: Ask about difficulty controlling worry and associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), impairment, and rule-outs (substances, medical, mood, panic/OCD).",
+        "Improve clarity and rapport: Use concise, well-phrased questions and periodic reflections/summary statements (e.g., “I’m hearing this past year has been the most intense, affecting sleep and social life—did I get that right?”)."
       ]
     }
   },
   {
-    "entry_index": 1,
+    "entry_index": 3,
     "turn_index": 3,
     "response_json": {
       "conversation_context": {
         "current_turn": {
-          "user_text": "Yes, I agree. It's important that you feel like this can be a place for you to be open about your thoughts and feelings, and that you can feel understood.",
-          "assistant_text": "I hope so. It's been tough lately with all these intense mood swings and feeling kind of empty. It's hard when I feel like people just don't get it."
+          "user_text": "Hm okay okay. Got it um uh, I would like to ask you a few more questions about how you're doing right now um. And kind of less related to your previous symptoms. Would that be okay?",
+          "assistant_text": "Yeah, that's fine, go ahead and ask."
         },
-        "summary_of_full_conversation": "The student warmly introduced themselves and clearly explained confidentiality and its limits. They offered general validation about creating a safe, understanding space. The patient reports intense mood swings, emptiness, and feeling misunderstood, but the student has not yet begun diagnostic assessment or agenda setting."
+        "summary_of_full_conversation": "The student began by asking how anxiety has affected the patient’s social and home life, and the patient reported withdrawal and isolation. The student acknowledged the difficulty and asked about chronicity and prior episodes, learning this is the worst and most prolonged episode. In the current turn, the student sought permission to ask more present-focused questions but did not yet gather additional clinical details."
       },
       "rubric_evaluation": {
         "Introduction and Rapport Building": {
+          "score": 1,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "No introduction or explanation of session goals or confidentiality. While asking permission to proceed is collaborative, there was no explicit empathy or warm framing in this turn. Time spent on rapport remains minimal; a brief but clear introduction and agenda-setting early on would strengthen trust with a skeptical patient."
+        },
+        "Assessment and Understanding": {
           "score": 4,
           "binary_score": 1,
           "max_score": 5,
-          "turns_spent": 3,
-          "comment": "Your validation reinforces safety and openness, which is well-suited to a patient sensitive to invalidation. However, you still have not set a collaborative agenda for the session or clarified goals, which is needed to move forward. Time spent on rapport has now been adequate; shift to structured assessment to balance the visit."
+          "turns_spent": 2,
+          "comment": "You have begun to explore impact and course (social withdrawal; duration and first severe/prolonged episode). This turn did not add new clinical data—only signposted a shift. Given three turns in, consider moving promptly to targeted DSM-5 GAD features (difficulty controlling worry; associated symptoms like restlessness, fatigue, concentration, irritability, muscle tension, sleep), functional impairment, triggers, and safety. Time allocation is acceptable so far, but continued meta-transitions without content will risk under-developing diagnosis."
         },
-        "Assessment and Understanding": {
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 3,
+          "comment": "Seeking permission is respectful and patient-centered. However, heavy filler language and vague signposting reduce clarity and confidence, which can be problematic for a skeptical patient who values structure and rationale. A concise, specific transition (what you plan to ask and why) and a brief reflection would enhance clarity and rapport."
+        },
+        "Confidentiality and Ethical Considerations": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "No assessment questions yet. The patient volunteered key concerns (mood swings, emptiness, feeling misunderstood), but you have not asked about onset, duration, triggers, frequency, severity, functional impact, or safety. At this point, continued emphasis on rapport without initiating assessment risks insufficient time for diagnosis and planning."
-        },
-        "Communication Skills": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 3,
-          "comment": "Clear, respectful, and validating. To deepen engagement, reflect the patient’s specific words (e.g., “intense mood swings,” “empty,” “not being understood”) and follow with an open-ended or permission-based question to guide assessment. Avoid staying solely in general validation, which can feel repetitive to the patient."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Completed earlier and remains clear and appropriate. No additional updates needed this turn."
+          "comment": "Not yet addressed. Early clarification of confidentiality and its limits (including safety) would help establish trust and psychological safety."
         },
         "Session closing": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "Not yet applicable; ensure time is reserved to summarize and plan next steps. If assessment continues to be delayed, closing may feel rushed."
+          "comment": "Not applicable yet; no closing conducted. Ensure later to summarize, set next steps, and assign between-session tasks."
         },
         "Application of Psychiatric Diagnosis": {
-          "score": 0,
-          "binary_score": 0,
+          "score": 1,
+          "binary_score": 1,
           "max_score": 5,
-          "turns_spent": 0,
-          "comment": "No diagnostic exploration yet. Given the presenting themes (rapid, intense mood shifts, emptiness, sensitivity to perceived abandonment/invalidation), begin targeted questions to differentiate personality-related affective instability from bipolar spectrum, assess safety (past self-harm, family suicide), and screen for dissociation, trauma, and substance use."
+          "turns_spent": 1,
+          "comment": "You initiated diagnostic inquiry by clarifying duration/course. No additional diagnostic elaboration occurred this turn. Prioritize assessing DSM-5-TR GAD criteria and pertinent negatives to rule out alternatives (panic disorder, OCD, MDD, substance/medical causes like thyroid/caffeine effects). Avoid spending excessive time in general history at the expense of building a working diagnosis and plan."
         }
       },
       "overall_summary": {
-        "total_score": 12,
+        "total_score": 9,
         "maximum_score": 30,
         "performance_level": "Emerging",
-        "summary_comment": "You’ve established a respectful, validating tone and clearly explained confidentiality—strong foundations. However, by turn 3 there has been no transition into assessment, agenda setting, or diagnostic clarification. To optimize time, pivot now to a focused evaluation while maintaining empathy."
+        "summary_comment": "You have started to understand impact and chronicity and are using collaborative permission-seeking. However, there is no introduction or confidentiality framing, and signposting has been vague with frequent fillers. To avoid spending too much time in general history without advancing diagnosis, move to targeted DSM-5 GAD criteria and rule-outs, provide a clear rationale for questions, and maintain concise, empathic communication."
       },
       "rubric_update_explanation": [
         {
           "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Continued warm validation and emphasis on safety increased time spent in this area but no agenda/goal setting yet; criteria for 5 not fully met."
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "No introduction or explicit empathy/agenda-setting added; asking permission was collaborative but insufficient to raise the score."
         },
         {
           "section": "Assessment and Understanding",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "No assessment questions asked; patient statements were not probed for details (onset, frequency, triggers, impact, safety)."
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "No new clinical data gathered this turn; only a transition statement."
         },
         {
           "section": "Communication Skills",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Validation was clear, but lacked specific reflection of patient language and did not include open-ended follow-up to advance assessment."
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Permission-seeking supports collaboration, but continued disfluency and vague wording prevented improvement."
         },
         {
           "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No new content this turn; prior clear explanation stands."
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Still not addressed."
         },
         {
           "section": "Session closing",
           "previous_score": 0,
           "new_score": 0,
-          "reason": "Session is ongoing without closing behaviors yet."
+          "reason": "No closing yet."
         },
         {
           "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "No diagnostic exploration initiated; time remains concentrated on rapport."
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "No additional diagnostic criteria explored this turn."
         }
       ],
       "recommendations": [
-        "Set a collaborative agenda now: “We have about X minutes today—would it be okay if we focus on understanding the mood swings and their triggers, and do a brief safety check?”",
-        "Initiate focused assessment with validation: “You mentioned intense mood swings and feeling empty. Can you walk me through a recent episode—what set it off, how long it lasted, and how it affected your day?” Then screen for mania/hypomania, dissociation, substance use, and functional impact.",
-        "Do a brief current safety screen given past self-harm and family suicide history: “Any current thoughts about harming yourself or others? Any urges to self-harm, or recent self-injury?” and clarify protective factors and supports."
+        "Open the next turn with a concise structure: introduce yourself/role, state the session’s purpose, outline today’s agenda, and briefly explain confidentiality and its limits.",
+        "Shift promptly to targeted DSM-5 GAD assessment: ask about difficulty controlling worry and the six associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), quantify severity/impairment, and screen for rule-outs (panic, OCD, MDD, substances/caffeine, thyroid).",
+        "Use clear, evidence-aligned signposting and reflections: briefly summarize what you’ve heard, explain why each question matters (“This helps us confirm GAD and rule out medical causes”), and reduce filler words to maintain clarity and confidence."
       ]
     }
   },
   {
-    "entry_index": 1,
+    "entry_index": 3,
     "turn_index": 4,
     "response_json": {
       "conversation_context": {
         "current_turn": {
-          "user_text": "Is it ok with you if I ask you some questions to see if I can better understand what you are going through?",
-          "assistant_text": "Sure, that's fine. What do you want to know?"
+          "user_text": "Could you describe your mood for me um lately like what, how have your spirits been?",
+          "assistant_text": "Honestly, I've just felt pretty on edge and worried most of the time, not really relaxed or happy lately."
         },
-        "summary_of_full_conversation": "The student warmly introduced themselves, oriented James to confidentiality and its limits, and validated his experiences. James described intense mood swings and emptiness and agreed to proceed; the student asked permission to begin questions but has not yet started targeted assessment."
+        "summary_of_full_conversation": "The student has explored social impact (withdrawal/isolation), confirmed that this is the first prolonged/severe episode, and asked permission to shift focus. In the current turn, the student assesses mood, eliciting that the patient feels on edge and worried most of the time. No introduction, confidentiality explanation, diagnostic summary, or treatment discussion yet."
       },
       "rubric_evaluation": {
         "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Your permission-based transition maintains rapport with a patient sensitive to invalidation. However, this is the fourth turn focused on rapport/process without setting a clear agenda or moving into substantive assessment. Time allocation is now tilted toward preliminaries; shift promptly to a collaborative agenda and focused history to avoid shortchanging diagnosis and planning."
-        },
-        "Assessment and Understanding": {
-          "score": 0,
+          "score": 1,
           "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "You have not begun any targeted assessment yet. Asking permission to ask questions is a good transition, but no exploration of mood variability, triggers, safety, or functional impact has occurred. At this stage, continued delay risks insufficient time to develop a diagnostic formulation and treatment plan."
-        },
-        "Communication Skills": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Clear, respectful, permission-seeking communication fits the patient's needs. To reach the highest level, incorporate brief reflections using the patient’s own words (e.g., “intense mood swings,” “feeling empty,” “not being understood”) and summarize before transitioning to focused questions. Time use: communication has been strong but needs to facilitate movement into assessment now."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
           "max_score": 5,
           "turns_spent": 1,
-          "comment": "Completed earlier with clear limits and a check for understanding. No additional updates needed this turn. Time spent was appropriate and built trust."
+          "comment": "No introduction or agenda-setting and no empathy/validation in this turn. Rapport remains limited. Given the patient’s skepticism, an early warm introduction and brief framing would help. Time allocation remains minimal here; this is becoming a missed opportunity to build trust."
         },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not applicable yet. Ensure you reserve time later to summarize key concerns, share a preliminary formulation, and outline next steps/home practice. Prolonged time in rapport without assessment may force a rushed closing."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "No diagnostic exploration has started. Prioritize questions to differentiate affective instability from bipolar spectrum (screen for hypomania/mania), assess BPD features (abandonment sensitivity, identity disturbance, impulsivity, chronic emptiness, unstable relationships, anger, dissociation), current safety (SI/NSSI), trauma history, anxiety/depression, and substance use. Insufficient time here will limit treatment recommendations."
-        }
-      },
-      "overall_summary": {
-        "total_score": 12,
-        "maximum_score": 30,
-        "performance_level": "Emerging",
-        "summary_comment": "Strengths include a warm introduction, clear confidentiality review, validation, and respectful permission-seeking. However, by turn 4 there has been no targeted assessment or diagnostic exploration, creating a time imbalance that risks an underdeveloped formulation and plan. Begin structured assessment immediately while maintaining empathic reflections."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Permission-seeking supports rapport but no new agenda-setting or session structure was added; score unchanged. Turns_spent increased (3 -> 4), indicating time risk if assessment doesn’t begin."
-        },
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Assessment not initiated; permission to ask questions did not elicit clinical information. Time remains insufficiently allocated to assessment."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Respectful, clear communication continues. No reflective summaries or deeper empathic statements this turn; thus no increase."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Already completed appropriately in Turn 2; no change."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Not yet applicable; no change."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "No diagnostic questioning yet; score remains 0."
-        }
-      ],
-      "recommendations": [
-        "Begin focused assessment now using the patient’s words: start with an open prompt (e.g., “Can you walk me through a recent episode of those ‘intense mood swings’?”), then clarify timeline, frequency, triggers, duration, severity, functional impact, and coping.",
-        "Complete a brief but essential differential: screen for hypomania/mania (sleep, energy, grandiosity, impulsivity), BPD features (abandonment sensitivity, identity disturbance, impulsivity, self-harm history, anger, dissociation), current safety (SI/NSSI), trauma, and substance use.",
-        "Set a collaborative micro-agenda and time-check: “We have about X minutes—let’s spend 10 on your recent episodes and safety, then 5 on initial impressions and next steps. Does that plan work for you?”"
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 5,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Can you describe the mood swings to me? Like what seems to set them off and how long they last?",
-          "assistant_text": "They can change really quickly. Sometimes it's stuff like feeling ignored or dismissed by someone close to me. I can feel really sad or angry, like everything's crashing down, and it can last hours or even all day."
-        },
-        "summary_of_full_conversation": "The student opened with a warm introduction and clearly explained confidentiality. The patient described intense, rapidly shifting moods, emptiness, and sensitivity to invalidation. In this turn, the student begins targeted assessment by asking about triggers and duration of mood swings."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
+        "Assessment and Understanding": {
           "score": 4,
           "binary_score": 1,
           "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Rapport was established earlier with warmth and clarity. This turn appropriately pivots to assessment; no additional rapport-building occurred here. Maintain brief validations during questioning to avoid perceived invalidation. Time allocation has shifted appropriately away from extended rapport toward assessment."
+          "turns_spent": 3,
+          "comment": "Good, focused assessment by eliciting current mood—patient reports feeling on edge and worried most of the time, which is pertinent. You have covered social impact, chronicity, and now mood. However, depth remains incomplete for GAD: difficulty controlling worry, associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), and safety have not been systematically reviewed. Time allocation is still appropriate but should quickly progress to targeted DSM-5 criteria and pertinent negatives to avoid spending too long in general history."
         },
-        "Assessment and Understanding": {
+        "Communication Skills": {
           "score": 3,
           "binary_score": 1,
           "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Good initiation of focused assessment by exploring triggers (feeling ignored/dismissed) and duration (hours to all day). To deepen understanding, add frequency, intensity, functional impact, context (interpersonal/work), and a current safety screen. Also differentiate affective instability from bipolar spectrum (elevated mood, decreased need for sleep, grandiosity, impulsivity), and assess BPD features (abandonment sensitivity, identity disturbance, chronic emptiness, anger, dissociation), trauma, and substance use. Timing: This is an appropriate and needed shift into assessment after earlier rapport-building."
-        },
-        "Communication Skills": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 5,
-          "comment": "Clear, focused, and nonjudgmental questioning. For maximal engagement with a patient sensitive to invalidation, pair questions with brief reflections (e.g., \"these swings feel like everything crashes down\") and normalizing statements. Avoid rapid-fire questions; use summaries to show understanding while maintaining structure."
+          "turns_spent": 4,
+          "comment": "Open-ended question was clear and relevant, but delivery had noticeable fillers (“um,” “like”), and lacked reflection or validation of the patient’s distress. For a skeptical patient, concise phrasing plus a brief reflection (e.g., “It sounds exhausting to feel on edge most of the time”) would improve rapport and clarity."
         },
         "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
+          "score": 0,
+          "binary_score": 0,
           "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Previously addressed thoroughly with limits and teach-back. No additional updates this turn. Time allocation here remains appropriate."
+          "turns_spent": 0,
+          "comment": "Still not addressed. Early explanation of confidentiality and its limits (including what happens if you’re concerned about safety) is important for trust and safety, especially given the patient’s questioning style."
         },
         "Session closing": {
           "score": 0,
           "binary_score": 0,
           "max_score": 5,
           "turns_spent": 0,
-          "comment": "Not addressed yet, which is appropriate at this stage. Ensure you reserve time to summarize findings, share a preliminary formulation, and outline next steps; otherwise closure may feel rushed."
+          "comment": "Not applicable yet; no attempt to summarize or plan next steps. Ensure a structured closing later with summary, shared plan, and between-session tasks."
         },
         "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Diagnostic exploration has begun by characterizing triggers and duration of mood shifts. Next, explicitly screen for bipolar symptoms, BPD criteria, current risk (SI/NSSI), dissociation, trauma, depressive/anxiety symptoms, and substance use, then reflect a preliminary formulation to the patient. No diagnostic labeling yet, so keep building the differential."
-        }
-      },
-      "overall_summary": {
-        "total_score": 16,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "You maintained a respectful tone and appropriately transitioned into focused assessment by asking about triggers and duration. Earlier time was heavy on rapport; this turn corrects course. To progress, deepen the diagnostic inquiry (bipolar vs BPD features, safety, functional impact) and plan to summarize a preliminary formulation and next steps before closing."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 0,
-          "new_score": 3,
-          "reason": "Initiated targeted assessment by asking about triggers and duration of mood swings, moving beyond rapport into clinical history."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 0,
-          "new_score": 1,
-          "reason": "Began diagnostic exploration relevant to differential (affective instability); however, no diagnostic identification or systematic rule-out yet."
-        }
-      ],
-      "recommendations": [
-        "Follow up with structured differential questions: screen for hypomania/mania (elevated/expansive mood, decreased need for sleep, grandiosity, pressured speech), BPD features (abandonment, identity disturbance, impulsivity, chronic emptiness, intense anger, stress-related paranoia/dissociation), and functional impact.",
-        "Conduct a brief but direct current safety screen (SI, intent/plan, NSSI urges) and protective factors, given past self-harm and family history of suicide.",
-        "Use empathic reflections and summaries to buffer assessment (e.g., reflect \"it feels like everything crashes down\"), then collaboratively share a preliminary formulation and outline next steps (e.g., DBT-informed skills, safety plan, possible med evaluation) before closing."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 6,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Ok, yes, I can see how feeling ignored or dismissed would lead you to feel sad or angry. And it sounds like it's sometimes long lasting and sometimes goes on for shorter periods of time. When you say you feel empty, can you tell me more about that feeling?",
-          "assistant_text": "It’s like there’s nothing there, no purpose or direction. Just this void. It gets overwhelming and hard to shake off."
-        },
-        "summary_of_full_conversation": "The student greeted the patient, reviewed confidentiality and its limits, and validated the patient’s struggles with mood swings and feeling misunderstood. They then shifted into assessment, asking about mood swing triggers and duration and now exploring the patient’s chronic feelings of emptiness. No safety screen, diagnostic summary, or plan has been discussed yet."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Rapport remains strong through empathic phrasing, though this turn focused on assessment. Early time spent on rapport was adequate; shifting into structured assessment is appropriate now to avoid underdeveloped diagnosis/treatment discussion later."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
+          "score": 2,
           "binary_score": 1,
           "max_score": 5,
           "turns_spent": 2,
-          "comment": "You deepened assessment by exploring chronic emptiness, a key symptom domain. You have begun to clarify triggers and duration and now the quality of emptiness. Next, assess frequency/severity, functional impact (work/relationships), and complete a safety screen (current SI/NSSI, plan/intent). Also screen for bipolar spectrum, dissociation, trauma, and substance use to round out the picture. Time allocation is improving; continue moving toward formulation and plan."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 6,
-          "comment": "Clear, empathic reflection and an open-ended follow-up tailored to a patient sensitive to invalidation. You validated the trigger and mirrored his language before asking for elaboration—excellent pacing and tone. Maintain this reflective style while guiding toward safety and diagnostic clarification."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Handled thoroughly earlier with limits and a check for understanding. No additional actions needed this turn."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not yet addressed, which is appropriate mid-visit. Ensure you reserve time to summarize findings, share a preliminary formulation, and outline next steps to avoid a rushed ending."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 2,
-          "comment": "You continue building data relevant to personality-related affective instability (triggers, rapid shifts, chronic emptiness). However, you have not yet screened for hypomania/mania or articulated a differential. To raise this score, assess pertinent positives/negatives (BPD criteria, bipolar spectrum, MDD, PTSD/dissociation, substance use) and then share a brief preliminary formulation."
+          "comment": "This turn added a DSM-5-relevant feature: being ‘on edge’ and worried most of the time. Combined with prior duration/course, you’re moving toward GAD criteria. Next, assess difficulty controlling worry and at least three associated symptoms, clarify impairment, and start ruling out alternatives (panic attacks, OCD features, MDD, substance/caffeine, thyroid). Plan to synthesize findings aloud to the patient soon."
         }
       },
       "overall_summary": {
-        "total_score": "18",
-        "maximum_score": "30",
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include empathic, validating communication; clear confidentiality review; and a productive shift into assessment focusing on triggers, duration, and emptiness. To advance, prioritize a focused safety screen, differential-driven questions (especially bipolar vs. personality-related affective instability), functional impact, and a brief formulation with next steps before closing."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 3,
-          "new_score": 4,
-          "reason": "Expanded assessment to include the quality of chronic emptiness, demonstrating deeper understanding beyond triggers/duration."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 4,
-          "new_score": 5,
-          "reason": "Used reflective validation and an open-ended question that aligns with the patient’s sensitivities, showing active listening and empathy."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Further diagnostic data gathered (emptiness) but no differential screening (e.g., manic symptoms) or preliminary diagnosis shared yet; score unchanged though turns_spent increased."
-        }
-      ],
-      "recommendations": [
-        "Add a brief, structured safety screen next (current SI/NSSI urges, plan/intent, access to means, protective factors) given past self-harm and family suicide history.",
-        "Use a focused differential checklist: ask about hypomanic/manic symptoms (elevated/irritable mood, decreased need for sleep, grandiosity, pressured speech, risk-taking), dissociation/trauma, functional impact, and substance use.",
-        "Provide a concise synthesis before closing (e.g., “I’m hearing rapid, trigger-linked mood shifts and chronic emptiness; this can happen in certain personality patterns—here’s how we’ll assess and what treatments like DBT target”) and outline next steps."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 7,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "That sounds like a terrible feeling",
-          "assistant_text": "Yeah, it really is. It's frustrating and makes everything feel pointless."
-        },
-        "summary_of_full_conversation": "The student warmly introduced themselves, clearly explained confidentiality and its limits, and established rapport with validation. They began focused assessment about mood swings (triggers, duration) and explored the feeling of emptiness, but have not yet screened for safety, bipolar spectrum, or other differential points. The most recent turn was a brief empathic reflection without advancing diagnostic clarification."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Rapport remains supported by empathic tone throughout, though this turn did not add new introduction or agenda-setting. Early rapport-building was appropriate; however, continued brief validations without agenda or transition to formulation may undercut time for diagnosis and planning."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 2,
-          "comment": "No new assessment questions were asked this turn. Prior exploration covered triggers and duration of mood swings and the quality of emptiness. At this stage, additional targeted questions (safety, bipolar screen, functional impact) are needed; spending another turn purely on validation risks insufficient time for diagnostic formulation."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 7,
-          "comment": "The reflection (“That sounds like a terrible feeling”) is empathic and concise, which fits the patient’s sensitivity to invalidation. To optimize time, pair such reflections with a focused, open question to guide assessment (e.g., safety, impact), preventing overemphasis on validation at the expense of diagnostic progress."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Handled thoroughly earlier with limits and a check for understanding; no change this turn. Time spent remains appropriate."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not addressed yet, which is appropriate mid-visit. Ensure time is reserved to summarize, share a preliminary formulation, and outline next steps/home practice; otherwise closing may feel rushed."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 2,
-          "comment": "No new diagnostic probing this turn. Prior questions started building toward a differential. Next, screen for hypomania/mania, BPD criteria (abandonment sensitivity, unstable relationships, identity disturbance, impulsivity, anger, dissociation, chronic emptiness), current and recent SI/NSSI, trauma, depression/anxiety, and substance use to advance formulation."
-        }
-      },
-      "overall_summary": {
-        "total_score": "18",
-        "maximum_score": "30",
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include a clear confidentiality discussion, strong empathy, and an initial focused assessment on mood swings and emptiness. However, the last turn stayed in validation without advancing assessment. Prioritize targeted diagnostic questions (especially safety and bipolar screen) and begin a preliminary formulation and plan to balance rapport with clinical efficiency."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Empathic tone maintained rapport but did not add new introduction/agenda-setting; no change in score or turns_spent."
-        },
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No additional assessment questions asked this turn; score unchanged and turns_spent remains at 2."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Concise validation demonstrated empathy; turns_spent increased from 6 to 7 while maintaining top-level performance."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Already addressed earlier; no new actions this turn."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Not addressed yet; unchanged."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "No new diagnostic screening this turn; unchanged. Must progress to differential-building questions next."
-        }
-      ],
-      "recommendations": [
-        "After brief validation, pivot to targeted assessment: ask about current safety (SI/NSSI, plan/intent), functional impact, frequency/severity, and a bipolar screen (periods of elevated/irritable mood, decreased need for sleep, grandiosity, risky behavior).",
-        "Use a structure: summarize what you’ve heard, set a brief agenda (e.g., “safety, a few clarifying questions, then initial plan”), and check alignment to maintain rapport while moving efficiently.",
-        "Begin a preliminary formulation and collaborative plan before closing (e.g., reflect likely affective instability patterns, discuss evidence-based options like DBT/skills training, crisis resources, and arrange follow-up)."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 8,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Do you struggle with feeling like you should end your life or harm yourself?",
-          "assistant_text": "I don't feel that way right now. I've struggled with it in the past, but not currently."
-        },
-        "summary_of_full_conversation": "The student warmly introduced themselves, clearly reviewed confidentiality, and validated the patient’s challenges. They explored mood swings (triggers/duration) and the sense of emptiness, offered empathy, and now initiated a direct safety screen. The patient denies current suicidal thoughts but reports past struggles."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "No new introduction content this turn. Rapport remains acceptable; the direct safety question was clinically appropriate. For a patient sensitive to invalidation, consider prefacing safety questions with normalization (e.g., “I ask everyone...”) to maintain alliance. Time spent on rapport earlier was adequate; continuing to balance rapport with focused assessment is appropriate."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 3,
-          "comment": "Good step: direct current safety screen adds essential risk information. Prior turns covered triggers/duration of mood swings and the quality of emptiness. To reach a deeper understanding, follow up on suicide risk (past attempts, methods, intent, access to means, protective factors, NSSI) and broaden the assessment (frequency/severity, functional impact, bipolar screen, dissociation, trauma, substance use). Timing is improving; avoid lingering too long in data gathering without moving toward a preliminary formulation."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 8,
-          "comment": "Clear, direct, and clinically necessary question. With this particular patient, a brief normalization/permission statement could soften the inquiry (e.g., “Is it okay if I ask a few safety questions? I ask everyone because your safety matters”). Pairing validation with targeted follow-ups will maintain rapport while advancing assessment."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Previously addressed well with limits and a check for understanding. No change this turn. As safety is being discussed, it’s helpful to briefly remind patients that if imminent risk arises, you would collaborate on safety steps."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not yet addressed, which is appropriate mid-visit. Ensure time is reserved to summarize findings, share a preliminary formulation, outline next steps, and provide crisis resources; otherwise the closing may feel rushed."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 3,
-          "comment": "You’re gathering diagnostic data (affective instability, emptiness, safety) but have not yet articulated a differential or preliminary formulation. To progress, screen systematically for hypomania/mania, BPD criteria (abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation), MDD/anxiety, trauma, and substance use, then reflect a brief working formulation to the patient."
-        }
-      },
-      "overall_summary": {
-        "total_score": "18",
-        "maximum_score": "30",
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include clear confidentiality review, empathic tone, and a well-timed safety screen. Assessment is building appropriately, but a structured risk follow-up and broader differential probing (bipolar spectrum, BPD criteria, functional impact) are needed. Aim to transition soon to a concise preliminary formulation and plan so that diagnosis/treatment aren’t shortchanged."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Safety screening improved the breadth of assessment, but key follow-ups (detailed risk history, functional impact, bipolar screen) and summarizing have not yet occurred; score remains solid but not maximal."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Diagnostic data continue to accumulate (including safety), but no preliminary differential or DSM-5-TR–based formulation has been shared; score remains at early-stage application."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Direct, necessary safety question maintained clarity. To optimize for this patient, brief normalization/permission language would further strengthen rapport."
-        }
-      ],
-      "recommendations": [
-        "When screening for suicide, add normalization and structure: “I ask everyone these questions to make sure they’re safe.” Then assess current/past SI, plan, intent, means, past attempts/NSSI, protective factors, and recent stressors (use a C-SSRS–style sequence).",
-        "Broaden the differential now: screen for hypomania/mania (elevated mood, decreased need for sleep, increased goal-directed activity, grandiosity, risky behavior), BPD criteria (abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation), functional impact, trauma, and substance use.",
-        "Begin to synthesize: offer a brief preliminary formulation that distinguishes affective instability related to personality features vs bipolar disorder, discuss initial treatment options (e.g., DBT skills, crisis/safety planning), and set expectations for next steps."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 9,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Do you remember the last time you felt like killing yourself?",
-          "assistant_text": "It was a while ago. Things have been rough, but not to that point lately."
-        },
-        "summary_of_full_conversation": "The student established rapport, explained confidentiality and its limits, and began assessing mood swings and chronic emptiness. They transitioned into safety screening, confirming no current suicidal ideation and now probing for the last time SI was present. A broader diagnostic screen (bipolar spectrum, BPD criteria, trauma, dissociation, substance use) and a preliminary formulation/plan have not yet been covered."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "No new rapport-building this turn. Earlier work establishing safety and confidentiality was solid. The phrasing here was quite direct; consider softening (“last time you had thoughts of suicide or ending your life”) to preserve alliance with a patient sensitive to invalidation. Time spent on rapport earlier was adequate; continued focus should be on assessment, formulation, and plan."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "You advanced the risk assessment by clarifying historical SI timing, which is essential. To reach deeper understanding, follow with past attempts, methods, intent, access to means, NSSI, precipitants, and protective factors, plus pivot to functional impact and differential (bipolar screen, BPD criteria, trauma, dissociation, substance use). Time allocation to safety is appropriate, but broaden soon and summarize to demonstrate integrative understanding."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 9,
-          "comment": "Direct, clear, and clinically necessary safety questioning. Given the patient’s sensitivity, consider a brief normalization/permission (“I ask everyone about this because your safety matters”) and more person-centered language to maintain alliance. Overall, communication has been empathic and concise while moving assessment forward."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Previously explained clearly with limits and a check for understanding. As you explore risk, it can help to briefly remind the patient that if imminent risk emerged, you would collaborate on safety steps. No additional actions needed this turn."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not yet addressed, which is appropriate mid-visit. Ensure you reserve time to summarize key findings, share a preliminary formulation, outline next steps (including crisis resources), and set expectations for the next session. Risk of a rushed close remains if assessment continues without planning."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Diagnostic data gathering continues (affective instability, emptiness, safety), but no differential or preliminary formulation has been shared. To progress: explicitly assess hypomania/mania, BPD criteria (abandonment sensitivity, unstable relationships, identity disturbance, impulsivity, anger, dissociation, chronic emptiness), depression/anxiety severity, trauma, and substance use. Then summarize pertinent positives/negatives and present a collaborative working formulation."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
+        "total_score": 10,
         "maximum_score": 30,
         "performance_level": "Emerging",
-        "summary_comment": "Strengths include a clear confidentiality discussion, empathic tone, and appropriate, direct safety screening. Assessment has begun to cover mood swings, emptiness, and suicide risk, but remains narrow. To advance performance, broaden the differential (bipolar screen, BPD features, trauma/dissociation, substance use), summarize understanding, and move toward a collaborative preliminary diagnosis and treatment plan, leaving time for a structured closing."
+        "summary_comment": "You are gathering relevant information and keeping questions patient-centered, with progressive focus on mood and course. However, the lack of an introduction/confidentiality discussion and sparse empathic reflections are limiting rapport. To progress, tighten phrasing, explicitly cover confidentiality, and rapidly move into DSM-5-targeted criteria and safety screening to build a working diagnosis and treatment plan."
       },
       "rubric_update_explanation": [
         {
           "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No new rapport content this turn; direct phrasing may slightly strain alliance, but overall rapport remains adequate. Score unchanged."
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "No new introduction, agenda-setting, or empathy in this turn; performance unchanged."
         },
         {
           "section": "Assessment and Understanding",
           "previous_score": 4,
           "new_score": 4,
-          "reason": "Furthered safety assessment by timing past SI, but no summary or broader functional/diagnostic exploration yet; remains strong but not comprehensive."
+          "reason": "Elicited current mood and worry, adding clinically relevant data; still lacks comprehensive DSM-5 symptom review or summary, so remains at 4."
         },
         {
           "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Direct, clear, and necessary safety question; could be softened with normalization, but overall communication remains high quality."
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Open question appropriate but continued filler words and no reflective validation; no change in score."
         },
         {
           "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No change; previously addressed thoroughly."
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality not yet discussed."
         },
         {
           "section": "Session closing",
           "previous_score": 0,
           "new_score": 0,
-          "reason": "Not yet addressed; appropriate mid-visit."
+          "reason": "No closing actions yet."
         },
         {
           "section": "Application of Psychiatric Diagnosis",
           "previous_score": 1,
-          "new_score": 1,
-          "reason": "Continued data gathering without articulating a differential or preliminary formulation. Score unchanged."
+          "new_score": 2,
+          "reason": "Added DSM-5-relevant symptom (on edge/worried most of the time) in addition to prior duration/course; incremental progress toward diagnosing GAD."
         }
       ],
       "recommendations": [
-        "Complete a structured suicide risk assessment now: last/most severe SI, intent/plan, past attempts, access to means, NSSI, precipitants, protective factors; document and safety plan if indicated.",
-        "Broaden diagnostic screening: ask targeted questions for hypomania/mania, BPD criteria (abandonment sensitivity, unstable relationships, identity disturbance, impulsivity, anger, dissociation), depression/anxiety severity, trauma history, and substance use; clarify functional impact at work and in relationships.",
-        "Summarize and transition: reflect key themes (rapid mood shifts, emptiness, sensitivity to invalidation, no current SI), share a brief working formulation and initial treatment options (e.g., DBT/skills, crisis resources), and set a clear plan and next steps before closing."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 10,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Got it. How about wanting to harm yourself in some way that wouldn't kill you, though would cause you bodily harm?",
-          "assistant_text": "No, I haven't felt that urge lately either."
-        },
-        "summary_of_full_conversation": "The student established rapport and explained confidentiality, then shifted to assessing mood swings, feelings of emptiness, and current safety. The last several turns have focused on a structured suicide/self-harm risk screen. No preliminary diagnostic formulation or treatment planning has been shared yet."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": "4",
-          "binary_score": "1",
-          "max_score": "5",
-          "turns_spent": "4",
-          "comment": "No new rapport-building occurred this turn. Earlier turns provided a warm introduction and clear confidentiality discussion. Time allocation has now appropriately shifted away from introduction; however, a brief normalization before sensitive safety questions could further support rapport with this patient."
-        },
-        "Assessment and Understanding": {
-          "score": "4",
-          "binary_score": "1",
-          "max_score": "5",
-          "turns_spent": "5",
-          "comment": "This turn deepened the safety assessment by screening for non-suicidal self-injury. You have gathered details on triggers/duration of mood swings, emptiness, and suicide risk (current and historical). To reach a fuller understanding, summarize what you've heard, explore functional impact, and widen the differential (bipolar screen, BPD criteria, dissociation, trauma, and substance use). Time spent on risk is appropriate, but avoid lingering solely in history without moving toward formulation."
-        },
-        "Communication Skills": {
-          "score": "5",
-          "binary_score": "1",
-          "max_score": "5",
-          "turns_spent": "10",
-          "comment": "You asked a necessary question clearly and directly. Phrasing could be more person-centered (e.g., normalize and avoid \"wouldn't kill you\") to reduce perceived invalidation, but overall your communication remains empathic, clear, and respectful. Consider brief reflections paired with targeted questions to maintain alliance while advancing the assessment."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": "4",
-          "binary_score": "1",
-          "max_score": "5",
-          "turns_spent": "1",
-          "comment": "Confidentiality and limits were clearly addressed earlier. As you explore safety, a brief reminder that you would collaborate on next steps if risk escalates could reinforce trust. No additional concerns this turn."
-        },
-        "Session closing": {
-          "score": "0",
-          "binary_score": "0",
-          "max_score": "5",
-          "turns_spent": "0",
-          "comment": "Not addressed yet, which is appropriate mid-session. Ensure you reserve time to summarize, share a preliminary formulation, clarify next steps (including crisis resources), and set expectations for the next visit. Currently, time is heavily weighted toward assessment without visible planning."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": "1",
-          "binary_score": "1",
-          "max_score": "5",
-          "turns_spent": "5",
-          "comment": "You continue to gather diagnostic data (affective instability, chronic emptiness, and safety), but you have not yet articulated a working differential or ruled out alternatives. To improve, screen explicitly for hypomania/mania and core BPD features (abandonment sensitivity, unstable relationships, identity disturbance, impulsivity, anger, dissociation), then present a brief, collaborative preliminary formulation before transitioning to treatment."
-        }
-      },
-      "overall_summary": {
-        "total_score": "18",
-        "maximum_score": "30",
-        "performance_level": "Proficient",
-        "summary_comment": "Strong rapport, clear confidentiality, and empathic, direct communication are evident. Assessment is progressing, particularly in risk evaluation, but there has been limited synthesis or diagnostic formulation. To balance time, summarize key findings, broaden differential screening (bipolar vs. BPD and comorbidities), and begin collaborative planning."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No new rapport content this turn; prior warm introduction and confidentiality remain. Maintained score."
-        },
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Furthered safety assessment by asking about NSSI (turns_spent 4 -> 5). Still no summary or expansion to functional impact/differential, so score remains 4."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Questioning remained clear and respectful; phrasing could be gentler, but overall communication quality and pacing were strong. Score maintained."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No additional confidentiality actions this turn; prior explanation stands."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "No closing yet; appropriate mid-visit but needs planning to avoid a rushed end."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Continued data gathering (turns_spent 4 -> 5) without articulating a differential or preliminary diagnosis. Score unchanged."
-        }
-      ],
-      "recommendations": [
-        "Use normalization and person-centered phrasing for safety (e.g., “I ask everyone about self-harm because safety is important; have you had urges to hurt yourself without wanting to die?”).",
-        "Summarize key points so far (triggers, rapid mood shifts, emptiness, current/past SI, no recent NSSI), then broaden assessment to functional impact and differential: screen for hypomania/mania and BPD features (abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation), plus trauma and substance use.",
-        "Transition to a collaborative preliminary formulation and plan (e.g., likely affective instability consistent with BPD features vs. bipolar spectrum), discuss evidence-based options (DBT/skills training), create a brief safety plan and provide crisis resources, and set agenda for next session."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 11,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Ok, thanks for clarifying that. Can you tell me more about your close relationships?",
-          "assistant_text": "They've been pretty rocky. I seem to idealize people one moment and get really upset with them the next. It makes things hard to keep stable."
-        },
-        "summary_of_full_conversation": "The student opened with a warm introduction and clearly explained confidentiality. They explored mood swings, chronic emptiness, and conducted a basic suicide/self-harm risk screen. The student has now begun probing unstable relationships, but has not yet summarized, shared a working formulation, or discussed a treatment plan."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Rapport was established early with warmth and a clear confidentiality review. This turn stayed focused on assessment; no additional rapport steps were added. Consider brief reflection/validation before sensitive probes to support a patient who is sensitive to invalidation. Time allocation is now appropriate to keep momentum toward diagnostic formulation."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 6,
-          "comment": "Good progression by exploring close relationships and eliciting idealization/devaluation, which are highly relevant to the differential. You have assessed triggers, duration, emptiness, and safety. To demonstrate deeper understanding, synthesize with a brief summary and assess frequency/severity, functional impact, fear of abandonment, identity disturbance, impulsivity, anger/dyscontrol, dissociation, trauma history, substance use, and bipolar screen. Time spent on history is substantial; prioritize summarizing and forming a working formulation soon."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 11,
-          "comment": "Clear, polite, and open-ended inquiry. A brief reflective lead-in (e.g., \"It sounds painful when closeness shifts quickly—could we talk about your close relationships?\") would further validate while maintaining direction. Overall pace and clarity remain strong; avoid excessive questioning without periodic summaries."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Confidentiality and limits were clearly explained earlier and have supported alliance during risk assessment. No new actions needed this turn."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not addressed yet, which is acceptable mid-session. However, given the number of turns spent in history, allocate time to summarize, present a preliminary formulation, outline next steps, and provide crisis resources to avoid a rushed ending."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 6,
-          "comment": "You are gathering findings consistent with affective instability, chronic emptiness, and now unstable/idealization–devaluation patterns. However, you have not yet articulated a differential or working formulation. Next, explicitly screen for hypomania/mania and full BPD criteria (abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation), then share a brief, collaborative preliminary formulation before discussing treatment options."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include a warm start, clear confidentiality review, empathic communication, and a steadily expanding assessment that now includes relational instability. To advance, synthesize findings, explicitly differentiate BPD features from bipolar spectrum and other conditions, and present a preliminary formulation with an initial treatment plan. Reserve time for a clear, collaborative close."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Turn 11 added targeted exploration of unstable relationships (idealization/devaluation), increasing turns_spent from 5 to 6. Score remains 4 pending a synthesized summary and clearer evaluation of functional impact and differentials."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Maintained clear, respectful, open-ended questioning. Turns_spent increased from 10 to 11; no change in score as highest level already achieved."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Further data relevant to BPD were gathered (unstable relationships), increasing turns_spent from 5 to 6. Score unchanged because no differential or preliminary formulation has been articulated yet."
-        },
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No new rapport content this turn; score remains stable. Early rapport remains adequate."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Previously completed; no changes this turn."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Not addressed this turn; plan to allocate time for a structured closing."
-        }
-      ],
-      "recommendations": [
-        "Synthesize and summarize: Offer a brief reflection of key themes (rapid mood shifts, emptiness, sensitivity to invalidation, unstable relationships; current denial of SI/NSSI) and check accuracy to demonstrate understanding and transition toward formulation.",
-        "Complete targeted differential: Screen explicitly for hypomania/mania (elevated mood, decreased need for sleep, grandiosity, risky behavior), BPD criteria (fear of abandonment, identity disturbance, impulsivity, anger, dissociation), trauma history, substance use, and functional impact.",
-        "Share a preliminary formulation and plan: Collaboratively present a working hypothesis (e.g., features consistent with borderline personality pathology vs bipolar spectrum), discuss initial treatment options (e.g., DBT skills, safety planning, crisis resources), and assign a brief between-session task (mood/trigger log)."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 12,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Yes, I know what you mean. So sometimes you can feel really good about someone and then something happens where you ten feel really badly about them?",
-          "assistant_text": "Exactly, it's like a switch flips. It feels out of my control sometimes."
-        },
-        "summary_of_full_conversation": "The student opened with a warm introduction and clearly reviewed confidentiality. They explored mood swings, chronic emptiness, and safety (no current SI/NSSI; past SI not recent), and began probing relationship instability/idealization–devaluation. Communication remains empathic and clear, but there has not yet been a synthesized formulation or discussion of treatment/next steps."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "No new rapport content this turn. Earlier rapport was strong and appropriate. Given the patient’s sensitivity to invalidation, brief reflective validations have been helpful; however, it’s time to shift toward summarizing and collaborating on a plan to avoid over-weighting the session toward history alone."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 7,
-          "comment": "You added targeted clarification of unstable relationship perceptions (idealization/devaluation), which is diagnostically relevant. To deepen understanding, briefly summarize what you’ve heard and probe remaining gaps: frequency/severity and functional impact, fear of abandonment, identity disturbance, impulsivity/anger, dissociation, trauma, substance use, and a bipolar screen. Time spent on assessment is substantial; prioritize synthesis and a preliminary formulation next."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 12,
-          "comment": "You reflected and clarified in a concise, validating way, which fits this patient’s needs. The wording includes a minor typo and is somewhat leading; consider open-ended phrasing (e.g., \"What typically flips the switch for you?\") to invite elaboration and agency. Overall, tone and pacing remain empathic and clear."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Previously addressed thoroughly with limits and teach-back. As safety topics have been discussed, a brief reminder of collaborative steps if risk escalates could reinforce trust. No new actions were needed this turn."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not yet addressed, which is understandable mid-session. However, the visit is now heavily weighted toward history; reserve time to summarize, present a preliminary formulation, outline next steps and crisis resources, and assign brief homework to prevent a rushed close."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 7,
-          "comment": "Continued data gathering relevant to BPD features (unstable relationships, chronic emptiness), but you have not articulated a working differential or DSM-5-TR–based formulation. To advance this score, explicitly screen for hypomania/mania and remaining BPD criteria (abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation), then summarize pertinent positives/negatives and share a collaborative preliminary formulation."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include a warm opening, clear confidentiality review, and consistently empathic, validating communication. Assessment has appropriately covered affective instability, emptiness, safety, and unstable relationships. The main gap is synthesis: no working differential/formulation or treatment planning has been shared, and time is now heavily tilted toward history gathering. Transition to summarizing and a collaborative plan is needed."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Added clarification of unstable relationships (idealization/devaluation), increasing turns_spent to 7, but no synthesis or functional impact details yet to justify a score increase."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Maintained empathetic reflection and clear question; minor leading phrasing and typo noted but overall skill level remains high."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Further diagnostic data gathered (BPD-related), raising turns_spent to 7, but no explicit differential or preliminary DSM-5-TR–based formulation has been shared."
-        }
-      ],
-      "recommendations": [
-        "Synthesize now: Summarize key findings (triggers, rapid shifts, emptiness, safety, unstable relationships), check accuracy with the patient, and present a preliminary differential (e.g., BPD features vs. bipolar spectrum) with rationale.",
-        "Fill diagnostic gaps efficiently: Ask brief, targeted screens for hypomania/mania, fear of abandonment, identity disturbance, impulsivity/anger outbursts, dissociation, trauma, and substance use; then state pertinent positives/negatives.",
-        "Transition to planning: Discuss initial treatment options (e.g., DBT skills for emotion regulation and interpersonal effectiveness), agree on next steps, provide crisis resources, and assign a brief between-session task (e.g., mood/trigger log)."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 13,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Right, I bet it does.  Do you feel worried about  being rejected or abandoned by people?",
-          "assistant_text": "Yeah, a lot. It's like I'm always on edge, worrying that people will leave or forget about me."
-        },
-        "summary_of_full_conversation": "The student opened with a warm introduction and clearly reviewed confidentiality. They conducted a focused history on mood swings, emptiness, safety (current and past SI/NSSI), and unstable relationships, and now probed fear of abandonment. The student has not yet summarized, provided a preliminary diagnostic formulation, or discussed treatment/next steps."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Earlier turns established rapport and safety well. This turn did not add new rapport content. Given the patient's sensitivity to invalidation, the brief validation helped, but it's time to set a collaborative agenda and transition toward summarizing and planning to balance the session."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 8,
-          "comment": "Good targeted assessment: asking about fear of abandonment directly addresses a core domain relevant to the differential. Cumulatively, you've covered triggers/duration of mood shifts, emptiness, safety, and relationship instability. However, no synthesis or summary yet, and key gaps remain (functional impact, bipolar screen, impulsivity/anger, identity disturbance, dissociation/trauma, substance use). Time is now heavily weighted toward history; prioritize summarizing and forming a working hypothesis."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 13,
-          "comment": "Clear, respectful tone with brief validation followed by a focused question. To optimize with this patient, consider an open-ended or permission-based approach (\"Can we talk about times you worry someone might leave?\") and periodic summaries to demonstrate active listening and maintain alliance while advancing the interview."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Handled well early in the session with limits and a check for understanding. As risk has been assessed, a brief reminder that you would collaborate on safety steps if risk increases could further reinforce trust."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not addressed yet. Given the number of turns spent in assessment, plan to transition soon to a concise summary, preliminary formulation, next steps, and crisis resources to avoid a rushed ending."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 8,
-          "comment": "You are gathering data consistent with borderline personality features (affective instability, chronic emptiness, unstable relationships, fear of abandonment) and have screened for current risk. However, you have not articulated a working differential or ruled out alternatives (e.g., bipolar spectrum). To advance, screen explicitly for hypomania/mania, identity disturbance, impulsivity/anger, dissociation/trauma, and substance use, then present a brief, collaborative preliminary formulation."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include a warm start with clear confidentiality, empathic tone, and a steadily progressing, targeted assessment that now includes fear of abandonment. However, time is heavily weighted toward history without synthesis or a preliminary diagnostic formulation, and there has been no transition to planning. Summarize key findings, share a working formulation that considers BPD vs bipolar spectrum, and outline next steps to balance the session."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Unchanged. You added a focused question on fear of abandonment (important domain), increasing depth, but have not yet summarized or synthesized the information; key gaps remain and time is drifting toward prolonged history."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Unchanged. You probed a core BPD criterion (abandonment fear) but have not articulated a working differential or ruled out alternatives (e.g., bipolar); no preliminary formulation has been shared."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Unchanged. The brief validation and clear question support alliance; consider more open-ended phrasing and periodic summaries to maintain engagement and efficiency."
-        },
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Unchanged. Rapport established earlier remains strong; this turn did not add introduction content. It's appropriate to pivot to summarizing and planning now."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Unchanged. Addressed thoroughly earlier; no new issues this turn."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Unchanged. Closing has not yet been initiated; plan to allocate time soon for summary and next steps."
-        }
-      ],
-      "recommendations": [
-        "Provide a concise summary of what you’ve heard (mood swings, emptiness, unstable relationships, fear of abandonment, current safety) and check accuracy to demonstrate understanding before moving to diagnosis and planning.",
-        "Complete the differential: screen for hypomania/mania (elevated/irritable mood, decreased need for sleep, increased goal-directed activity, grandiosity, risky behaviors), plus identity disturbance, impulsivity/anger outbursts, dissociation/trauma, functional impact, and substance use.",
-        "Transition to a collaborative preliminary formulation and plan (e.g., features consistent with borderline personality pathology vs bipolar), discuss evidence-based options such as DBT/MBT, agree on immediate goals, and provide crisis resources; set expectations for the next session."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 14,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "That can cause a lot of suffering",
-          "assistant_text": "It really does. It tends to make everything else feel even more unstable."
-        },
-        "summary_of_full_conversation": "The student introduced themselves, reviewed confidentiality clearly, and has explored mood swings, chronic emptiness, suicide/NSSI risk, unstable relationships, and fear of abandonment with empathic validation. However, there has been no synthesis or preliminary formulation and key differentials (bipolar spectrum, identity disturbance, impulsivity/anger, dissociation/trauma, substance use, functional impact) remain underexplored. The session remains weighted toward history and validation without transitioning to diagnosis or next steps."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Rapport remains supported by empathic tone, but this turn did not add new introduction or agenda-setting. Earlier rapport work was solid; at this point, continuing brief validations without a clear agenda or synthesis risks time imbalance. Shift to summarizing and collaborative planning."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 8,
-          "comment": "No new assessment content was added this turn; it was a validation-only response. Cumulatively you have assessed mood swings, emptiness, risk, and relationship instability/fear of abandonment. However, there is still no synthesis, and key gaps remain (functional impact, bipolar screen, impulsivity/anger, identity disturbance, dissociation/trauma, substance use). Further history without formulation would be excessive; pivot to summary and differential."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 14,
-          "comment": "Concise, empathic reflection that validates the patient’s distress, which fits their sensitivity to perceived invalidation. That said, repeated stand-alone validations are beginning to stall progress; pair reflections with a focused open question or a summary plus a signposted transition to maintain momentum."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Handled clearly earlier with limits and teach-back. No new content this turn. As risk has been discussed, a brief reminder that you would collaborate on safety steps if risk escalates can reinforce trust during planning."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not addressed yet. Given substantial time on history and validation, ensure a timely transition to summary, preliminary formulation, next steps, and crisis resources to avoid a rushed ending."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 8,
-          "comment": "No diagnostic probing or synthesis this turn. Cumulatively, you have data suggestive of borderline personality features (affective instability, chronic emptiness, unstable relationships, fear of abandonment) and current safety is negative. You still need to screen for hypomania/mania, impulsivity/anger, identity disturbance, dissociation/trauma, substance use, and functional impact, then present a brief collaborative working formulation. Too much time has been spent in history/validation relative to formulation and treatment planning."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "Strengths include clear confidentiality review, empathic communication, and targeted assessment of key interpersonal and safety domains. However, the last few turns have been validation-only without advancing the differential or plan. Prioritize summarizing findings, screening remaining differentials (especially bipolar spectrum and BPD criteria), and offering a preliminary formulation with next-step treatment options to balance the session."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "No new introduction or agenda-setting occurred; rapport remains adequate but unchanged."
-        },
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "This was a validation-only turn; no additional assessment data gathered. Time balance now favors history; synthesis is needed."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Continued empathic reflection appropriate to the patient's sensitivity; however, repeated validation without direction risks stagnation."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Previously addressed thoroughly; no change this turn."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Closing not initiated yet; ensure time is reserved for summary and planning."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "No new diagnostic probing or synthesis; differential and preliminary formulation remain pending."
-        }
-      ],
-      "recommendations": [
-        "Use a concise summary and signpost a transition: “Here’s what I’m hearing so far… Does that fit? If so, can I ask a few questions to rule out bipolar symptoms and then share a working hypothesis?”",
-        "Target remaining diagnostic gaps efficiently: brief bipolar screen (elevated mood, decreased need for sleep, increased activity), functional impact, impulsivity/anger, identity disturbance, dissociation/trauma, and substance use; then state pertinent positives/negatives.",
-        "Offer a preliminary, collaborative formulation and next steps (e.g., traits consistent with borderline personality disorder vs bipolar spectrum) and discuss evidence-based treatments (DBT/skills training, schema therapy), crisis resources, and a simple homework (mood/trigger diary card) before closing."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 15,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "When you talk about feeling unstable, do you feel like that extends to your identity within yourself too? Like you don't fully know who you are as a person?",
-          "assistant_text": "Yeah, sometimes I feel like I don't really know myself or where I fit in. It's like everything is shifting around inside."
-        },
-        "summary_of_full_conversation": "The student established rapport and explained confidentiality, then conducted a focused history on mood swings, chronic emptiness, safety (SI/NSSI), and unstable relationships with fear of abandonment. The most recent turns continued diagnostic exploration by probing identity disturbance consistent with borderline personality features. Despite thorough history-taking, there has not yet been a summary, differential diagnosis, or preliminary treatment plan."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "Earlier turns set a warm tone and covered confidentiality well. This turn focused on assessment and did not add new rapport elements. Time use is now weighted toward history; a transition to synthesis and collaborative planning is needed to balance the session."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 9,
-          "comment": "Strong, targeted probe into identity disturbance, a key diagnostic domain. Cumulatively you’ve covered mood instability, emptiness, safety, relationships, and fear of abandonment. However, there is still no synthesis or summary. Key gaps remain (functional impact; bipolar screen—including decreased need for sleep, grandiosity, pressured speech; impulsivity/anger; dissociation/trauma; substance use). Time allocation is edging toward excessive data gathering without integrating into a working formulation."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 15,
-          "comment": "Clear, respectful, clinically focused question. The phrasing is slightly leading; consider a more open-ended approach and pair questions with brief reflections or summaries to demonstrate understanding and maintain alliance while advancing the interview."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Confidentiality and its limits were clearly outlined earlier and supported subsequent risk assessment. No additional action this turn. As you move to planning, a brief reminder about collaboration if risk changes may be helpful."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not addressed yet, which is acceptable mid-visit. However, given the extensive time on history, reserve time to summarize, provide a preliminary formulation and differential, outline next steps (including crisis resources), and set expectations/home practice to avoid a rushed ending."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 9,
-          "comment": "You continue to explore DSM-5-TR–relevant features (identity disturbance), building evidence consistent with borderline personality features. However, you have not articulated a working diagnosis/differential or assessed pertinent negatives (e.g., hypomania/mania) to rule out alternatives. Prolonged history without synthesis and a clear working formulation is limiting progress."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "You’ve maintained a validating tone, explained confidentiality, and conducted a thorough, targeted assessment including safety, affective instability, emptiness, relationship instability, fear of abandonment, and now identity disturbance. The main gap is synthesis: there has been little integration into a working differential (e.g., borderline personality disorder vs bipolar spectrum, MDD, PTSD/dissociation) or discussion of next steps. The session is now heavily weighted toward history at the expense of diagnosis formulation and treatment planning."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Turn 15 added diagnostic depth by probing identity disturbance; however, lack of synthesis/summary and remaining gaps (bipolar screen, functional impact, impulsivity/anger, dissociation/trauma, substance use) kept the score at 4."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Continued clear, respectful, and focused inquiry. Question was slightly leading; overall skill level remains high."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "While the student assessed another DSM-5-TR criterion (identity disturbance), they have not yet articulated a working differential or ruled out bipolar spectrum; therefore the score remains at the introductory level."
-        }
-      ],
-      "recommendations": [
-        "Provide a concise synthesis and preliminary formulation now (e.g., summarize affective instability, chronic emptiness, unstable relationships, abandonment fears, identity disturbance; note negative current SI/NSSI) and explicitly state a working differential including rule-outs (bipolar spectrum, MDD, PTSD/dissociation, substance use).",
-        "Close key assessment gaps efficiently: screen for hypomania/mania (elevated mood, decreased need for sleep, grandiosity, impulsivity), impulsivity/anger outbursts, dissociation/trauma exposure, substance use, and functional impact at work/relationships.",
-        "Transition to collaborative planning: discuss evidence-based options (e.g., DBT/MBT/schema therapy), create a brief safety/crisis plan, and assign simple between-session homework (e.g., mood/trigger diary or chain analysis) to shift from history to action."
-      ]
-    }
-  },
-  {
-    "entry_index": 1,
-    "turn_index": 16,
-    "response_json": {
-      "conversation_context": {
-        "current_turn": {
-          "user_text": "Yes, I talk with other people who describe that same kind of feeling. Do you struggle with impulsivity in your life like with spending money or sex or anything like that?",
-          "assistant_text": "I have in the past. I try to keep it in check, but when emotions are high, it can be hard to manage."
-        },
-        "summary_of_full_conversation": "The student established rapport and reviewed confidentiality, then explored mood swings, chronic emptiness, safety (no current SI/NSSI), and unstable relationships with fear of abandonment. They asked about identity disturbance and now impulsivity. A differential or preliminary formulation and treatment discussion have not yet been offered."
-      },
-      "rubric_evaluation": {
-        "Introduction and Rapport Building": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 4,
-          "comment": "A brief normalization in this turn supports rapport, but no new introduction or agenda-setting occurred. Earlier rapport and confidentiality were solid. Time is now heavily weighted toward history; set a clear agenda for synthesis and planning to avoid a rushed close."
-        },
-        "Assessment and Understanding": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 10,
-          "comment": "Targeted probe into impulsivity is clinically relevant and deepens understanding of risk domains and BPD criteria. However, there has been no summary or synthesis yet, and key gaps remain (functional impact, bipolar spectrum screen, dissociation/trauma, substance use, anger outbursts). Time on history is becoming excessive relative to synthesis and planning."
-        },
-        "Communication Skills": {
-          "score": 5,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 16,
-          "comment": "Clear, validating normalization followed by a focused question. Tone is respectful and sensitive to potential invalidation. To optimize efficiency, pair questions with periodic brief summaries to demonstrate understanding and prepare the patient for a transition to formulation."
-        },
-        "Confidentiality and Ethical Considerations": {
-          "score": 4,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 1,
-          "comment": "Confidentiality and limits were clearly explained earlier and appropriately supported risk screening. No new confidentiality actions were needed this turn. As you move toward planning, a short reminder about collaborating if safety concerns arise can reinforce trust."
-        },
-        "Session closing": {
-          "score": 0,
-          "binary_score": 0,
-          "max_score": 5,
-          "turns_spent": 0,
-          "comment": "Not yet addressed. Given the number of turns spent on assessment, reserve time for a concise summary, a preliminary formulation/differential, initial treatment recommendations, and crisis resources."
-        },
-        "Application of Psychiatric Diagnosis": {
-          "score": 1,
-          "binary_score": 1,
-          "max_score": 5,
-          "turns_spent": 10,
-          "comment": "You continue to gather DSM-5-TR–relevant data (impulsivity) consistent with borderline personality features, but have not articulated a working diagnosis or differential, nor ruled out bipolar spectrum with targeted hypomania/mania screening. Prolonged history-taking without synthesis limits progress toward diagnosis and treatment."
-        }
-      },
-      "overall_summary": {
-        "total_score": 18,
-        "maximum_score": 30,
-        "performance_level": "Proficient",
-        "summary_comment": "Strong, empathic communication and thorough risk-sensitive assessment. You have systematically explored multiple BPD-relevant domains and maintained rapport with normalization. However, time is disproportionately spent on history; you have not summarized or offered a preliminary formulation/differential or initial plan. Prioritize synthesizing findings, ruling out bipolar spectrum, and discussing next steps."
-      },
-      "rubric_update_explanation": [
-        {
-          "section": "Introduction and Rapport Building",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Brief normalization supported rapport but no new introduction/agenda-setting; score remains stable."
-        },
-        {
-          "section": "Assessment and Understanding",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Added a targeted impulsivity probe, deepening assessment, but no synthesis yet; score remains at strong assessment level."
-        },
-        {
-          "section": "Communication Skills",
-          "previous_score": 5,
-          "new_score": 5,
-          "reason": "Validation plus focused questioning maintained clarity and empathy; no change."
-        },
-        {
-          "section": "Confidentiality and Ethical Considerations",
-          "previous_score": 4,
-          "new_score": 4,
-          "reason": "Handled earlier; no new confidentiality content this turn."
-        },
-        {
-          "section": "Session closing",
-          "previous_score": 0,
-          "new_score": 0,
-          "reason": "Closing has not been initiated; score unchanged."
-        },
-        {
-          "section": "Application of Psychiatric Diagnosis",
-          "previous_score": 1,
-          "new_score": 1,
-          "reason": "Further DSM-5-TR–relevant data gathered (impulsivity), but no working diagnosis/differential articulated and no bipolar screen yet; score unchanged."
-        }
-      ],
-      "recommendations": [
-        "Give a succinct summary of key findings (mood lability, emptiness, fear of abandonment, unstable relationships, identity disturbance, impulsivity, safety negative) and share a collaborative preliminary formulation/differential (e.g., emotion dysregulation consistent with borderline personality features vs bipolar spectrum).",
-        "Complete targeted rule-out questions for bipolar spectrum (periods of abnormally elevated/irritable mood, decreased need for sleep, grandiosity, pressured speech, increased goal-directed activity) and briefly assess dissociation/trauma, substance use, anger outbursts, and functional impact.",
-        "Transition to next steps: offer psychoeducation and initial treatment plan (e.g., DBT skills, crisis/safety plan, consider medication evaluation if indicated), and set expectations for follow-up."
+        "Open the next segment with a brief structure and confidentiality: “I’m Dr. ___. Today we’ll understand your symptoms, discuss options, and plan next steps. What you share is confidential except for safety concerns like risk of harm.”",
+        "Use concise, empathic reflections and rationale for questions: “It sounds exhausting to feel on edge most days. I’m going to ask a few specific questions because they help us confirm the diagnosis and choose evidence-based treatments.”",
+        "Rapidly complete DSM-5-targeted assessment and safety screen: difficulty controlling worry; associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep); impairment; rule-outs (panic attacks, obsessions/compulsions, depressive symptoms, caffeine/thyroid, substances); then summarize a working diagnosis and outline initial treatment options (CBT, SSRIs/SNRIs, sleep/caffeine strategies)."
       ]
     }
   }

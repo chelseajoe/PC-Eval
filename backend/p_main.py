@@ -19,10 +19,10 @@ turn_results, final_results = run_full_evaluation(
     clinical_case_path="demo_json_files/clinical_case.json",
     configuration_path="demo_json_files/configuration.json",
     template_path="prompts/templates/step_by_step_evaluation_prompt_v1.txt",
-    turn_eval_output="../results/new_turn_evaluations_TEST.json",
-    final_eval_output="../results/final_evaluation.json",
+    turn_eval_output="results/new_turn_evaluations_TEST.json",
+    final_eval_output="results/final_evaluation.json",
     model="gpt-5",
-    index=1,  # process all entries
+    index=3,  # process all entries
     final_prompt_path="prompts/templates/final_evaluation_prompt.txt"
 )
 

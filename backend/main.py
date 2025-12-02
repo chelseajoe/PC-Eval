@@ -35,49 +35,12 @@ app.add_middleware(
 # --------------------------
 # Paths
 # --------------------------
-OUTPUT_JSON_PATH = Path("../results/new_turn_evaluations_TEST.json")
+# OUTPUT_JSON_PATH = Path("../results/new_turn_evaluations_TEST.json")
 FINAL_OUTPUT_JSON_PATH = Path("../results/final_evaluation_TEST.json")
 
 USER_CONVERSATION_DIR = Path("demo_json_files")
 CLINICAL_CASE_DIR = Path("demo_json_files")
 TEMPLATE_DIR = Path("prompts/templates")
-
-# --------------------------
-# 1. Get all turns
-# --------------------------
-# @app.get("/turns")
-# def get_turns():
-#     if OUTPUT_JSON_PATH.exists():
-#         with open(OUTPUT_JSON_PATH) as f:
-#             return json.load(f)
-#     return {"error": "Evaluation file not found."}
-
-# RESULTS_DIR = Path("../results")
-
-# @app.get("/turns")
-# def get_all_turns():
-#     all_data = []
-
-#     # Loop through every JSON file in the results directory
-#     for file in RESULTS_DIR.glob("*.json"):
-#         try:
-#             with open(file, "r") as f:
-#                 data = json.load(f)
-
-#                 # If a file contains one evaluation or multiple entries,
-#                 # always normalize into a list
-#                 if isinstance(data, list):
-#                     all_data.extend(data)
-#                 else:
-#                     all_data.append(data)
-
-#         except Exception as e:
-#             print(f"Error reading {file}: {e}")
-
-#     # Sort by turn_index if present, otherwise just return in filename order
-#     all_data.sort(key=lambda x: x.get("turn_index", 9999))
-
-#     return all_data
 
 RESULTS_DIR = Path("results")
 
