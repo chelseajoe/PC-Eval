@@ -45,3 +45,13 @@ Your task is to produce a **comprehensive summary** of the interaction that incl
 Here is the JSON input: 
 
 {turn_evaluations}
+
+
+
+Things you do well
+Things you shoudl do less of like um buffer words
+Things you shoudl change - forgeot to sanitize sethoscore or diddng give first and last Name
+
+Positive and negative feedback
+things youd id well - sub categories major and minor categories - major you for got ot listen ot heart - minor is forgot last name = hiearchy -- keep just binary since cannot define major and minor base don prof
+things you could improve on - 

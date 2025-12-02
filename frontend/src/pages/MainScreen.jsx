@@ -57,7 +57,7 @@ const MainScreen = () => {
       {/* Footer */}
       <footer className="bg-white py-3 mt-auto shadow-inner">
         <div className="text-center text-secondary small">
-          &copy; {new Date().getFullYear()} Clinical Dashboard
+          &copy; {new Date().getFullYear()} PC-EVAL Dashboard
         </div>
       </footer>
 

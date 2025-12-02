@@ -11,7 +11,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div className="container">
           {/* Brand */}
-          <Link className="navbar-brand fw-bold" to="/">Clinical Dashboard</Link>
+          <Link className="navbar-brand fw-bold" to="/">PC-EVAL Dashboard</Link>
 
           {/* Toggler for mobile */}
           <button

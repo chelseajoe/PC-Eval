@@ -1,110 +1,3 @@
-# from fastapi import FastAPI
-# from fastapi.middleware.cors import CORSMiddleware
-# import json
-# from typing import Optional
-# from pathlib import Path
-
-# # Import your evaluation function
-# from prompts.dynamic_turn_evaluation import run_dynamic_turn_evaluation
-
-# app = FastAPI()
-
-# # Allow frontend access
-# origins = [
-#     "http://localhost:5174",  # Vite dev server
-#     "http://127.0.0.1:5174",  # optional
-#     "http://localhost:3000",  # if you use CRA in another setup
-# ]  
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=origins,
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-
-# # Path to the results JSON
-# OUTPUT_JSON_PATH = Path("results/turn_evaluations_TEST.json")
-
-# @app.get("/turns")
-# def get_turns():
-#     """Return all turns from JSON if exists."""
-#     if OUTPUT_JSON_PATH.exists():
-#         with open(OUTPUT_JSON_PATH) as f:
-#             data = json.load(f)
-#         return data
-#     return {"error": "Evaluation file not found."}
-
-# @app.get("/turn/{turn_index}")
-# def get_turn(turn_index: int):
-#     """Return one turn by index."""
-#     if OUTPUT_JSON_PATH.exists():
-#         with open(OUTPUT_JSON_PATH) as f:
-#             data = json.load(f)
-#         turn = next((t for t in data if t["turn_index"] == turn_index), None)
-#         if turn:
-#             return turn
-#         return {"error": "Turn not found"}
-#     return {"error": "Evaluation file not found."}
-
-# @app.post("/run-evaluation")
-# def run_evaluation(
-#     user_conversation_path: str = "demo_json_files/user_conversation.json",
-#     clinical_case_path: str = "demo_json_files/clinical_case.json",
-#     configuration_path: str = "demo_json_files/configuration.json",
-#     template_path: str = "prompts/templates/step_by_step_evaluation_prompt_v1.txt",
-#     model: str = "gpt-5",
-#     index: int = 1
-# ):
-#     """Run dynamic evaluation and save output JSON."""
-#     run_dynamic_turn_evaluation(
-#         user_conversation_path=user_conversation_path,
-#         clinical_case_path=clinical_case_path,
-#         configuration_path=configuration_path,
-#         template_path=template_path,
-#         output_path=str(OUTPUT_JSON_PATH),
-#         model=model,
-#         index=index
-#     )
-#     return {"status": "success", "output_path": str(OUTPUT_JSON_PATH)}
-
-# # Path to your JSON file
-# OUTPUT_JSON_PATH = Path("../results/new_turn_evaluations_TEST.json")
-
-# @app.get("/json")
-# def get_json():
-#     if OUTPUT_JSON_PATH.exists():
-#         with open(OUTPUT_JSON_PATH) as f:
-#             data = json.load(f)  # this must be a list
-#         return data
-#     return {"error": "File not found"}
-
-
-# # Paths
-# OUTPUT_JSON_PATH = Path("../results/new_turn_evaluations_TEST.json")
-# USER_CONVERSATION_DIR = Path("demo_json_files")
-# CLINICAL_CASE_DIR = Path("demo_json_files")
-# TEMPLATE_DIR = Path("prompts/templates")
-
-# @app.get("/options")
-# def get_options():
-#     """Return available files/options for dropdowns."""
-#     user_conversations = [f.name for f in USER_CONVERSATION_DIR.glob("*.json")]
-#     clinical_cases = [f.name for f in CLINICAL_CASE_DIR.glob("*.json")]
-#     templates = [f.name for f in TEMPLATE_DIR.glob("*.txt")]
-
-#     # Models could also be configurable
-#     models = ["gpt-5", "gpt-4"]
-
-#     return {
-#         "user_conversations": user_conversations,
-#         "clinical_cases": clinical_cases,
-#         "templates": templates,
-#         "models": models
-#     }
-
-
 # --------------------------
 # Imports
 # --------------------------
@@ -152,13 +45,55 @@ TEMPLATE_DIR = Path("prompts/templates")
 # --------------------------
 # 1. Get all turns
 # --------------------------
-@app.get("/turns")
-def get_turns():
-    if OUTPUT_JSON_PATH.exists():
-        with open(OUTPUT_JSON_PATH) as f:
-            return json.load(f)
-    return {"error": "Evaluation file not found."}
+# @app.get("/turns")
+# def get_turns():
+#     if OUTPUT_JSON_PATH.exists():
+#         with open(OUTPUT_JSON_PATH) as f:
+#             return json.load(f)
+#     return {"error": "Evaluation file not found."}
 
+# RESULTS_DIR = Path("../results")
+
+# @app.get("/turns")
+# def get_all_turns():
+#     all_data = []
+
+#     # Loop through every JSON file in the results directory
+#     for file in RESULTS_DIR.glob("*.json"):
+#         try:
+#             with open(file, "r") as f:
+#                 data = json.load(f)
+
+#                 # If a file contains one evaluation or multiple entries,
+#                 # always normalize into a list
+#                 if isinstance(data, list):
+#                     all_data.extend(data)
+#                 else:
+#                     all_data.append(data)
+
+#         except Exception as e:
+#             print(f"Error reading {file}: {e}")
+
+#     # Sort by turn_index if present, otherwise just return in filename order
+#     all_data.sort(key=lambda x: x.get("turn_index", 9999))
+
+#     return all_data
+
+RESULTS_DIR = Path("results")
+
+@app.get("/result_files")
+def list_result_files():
+    files = [f.name for f in RESULTS_DIR.glob("*.json")]
+    # print(files)
+    return {"files": files}
+
+@app.get("/results/{filename}")
+def get_result_file(filename: str):
+    file_path = RESULTS_DIR / filename
+    if file_path.exists():
+        with open(file_path) as f:
+            return json.load(f)
+    return {"error": "File not found"}
 # --------------------------
 # 2. Get single turn
 # --------------------------
