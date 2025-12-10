@@ -421,56 +421,44 @@ const EvaluationDisplay = ({ allEntries, currentTurnIndex }) => {
       </div>
 
       <div className="card-body">
-        {/* ================================================== */}
-        {/* FULL CONVERSATION HISTORY (scrollable) */}
-        {/* ================================================== */}
-        <div
-          className="mb-4 ps-3"
-          style={{ maxHeight: "400px", overflowY: "auto" }}
-        >
-          {conversationHistory.map((entry, index) => {
-            const turn =
-              entry.response_json.conversation_context.current_turn;
-            const summary =
-              entry.response_json.conversation_context.turn_analysis_summary;
+         {/* ================================================== */}
+{/* FULL CONVERSATION HISTORY (scrollable) */}
+{/* ================================================== */}
+<div className="mb-4 ps-3" style={{ maxHeight: "400px", overflowY: "auto" }}>
+  {conversationHistory.map((entry, index) => {
+    const turn = entry.response_json.conversation_context.current_turn;
+    const summary = entry.response_json.conversation_context.turn_analysis_summary;
 
-            // Alternate background colors for the turn container
-            const bgColor = index % 2 === 0 ? "#f8f9ff" : "#f4f5f7";
+    // Alternate background colors for the turn container
+    const bgColor = index % 2 === 0 ? "bg-white" : "bg-gray-100";
 
-            return (
-              <div
-                key={entry.turn_index}
-                className="border rounded p-3 mb-3 shadow-sm"
-                style={{ backgroundColor: bgColor }}
-              >
-                <h6 className="fw-bold mb-2 text-primary">
-                  Turn {entry.turn_index}
-                </h6>
+    return (
+      <div
+        key={entry.turn_index}
+        className={`border rounded p-3 mb-3 shadow-sm ${bgColor}`}
+      >
+        <h6 className="fw-bold mb-2 text-primary">
+          Turn {entry.turn_index}
+        </h6>
 
-                {/* Student text */}
-                <div
-                  className="mb-2 p-2 rounded"
-                  style={{ backgroundColor: "#e0f2ff" }}
-                >
-                  <strong>Student:</strong>
-                  <p className="mb-0 text-blue-900">{turn.user_text}</p>
-                </div>
-
-                {/* Patient text */}
-                <div
-                  className="mb-2 p-2 rounded"
-                  style={{ backgroundColor: "#e6ffe6" }}
-                >
-                  <strong>Patient:</strong>
-                  <p className="mb-0 text-green-900">{turn.assistant_text}</p>
-                </div>
-
-                {/* Turn summary / feedback */}
-                <p className="mt-3 small text-muted fst-italic">{summary}</p>
-              </div>
-            );
-          })}
+        {/* Student text */}
+        <div className="mb-2 p-2 rounded" style={{ backgroundColor: "#e0f2ff" }}>
+          <strong>Student:</strong>
+          <p className="mb-0 text-blue-900">{turn.user_text}</p>
         </div>
+
+        {/* Patient text */}
+        <div className="mb-2 p-2 rounded" style={{ backgroundColor: "#e6ffe6" }}>
+          <strong>Patient:</strong>
+          <p className="mb-0 text-green-900">{turn.assistant_text}</p>
+        </div>
+
+        {/* Turn summary / feedback */}
+        <p className="mt-3 small text-muted fst-italic">{summary}</p>
+      </div>
+    );
+  })}
+</div>
 
        
         {/* ================================================== */}
