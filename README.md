@@ -5,6 +5,13 @@ uvicorn main:app --reload
 frontend
 npm start dev
 
+for github pages
+npm run build 
+- (in frontend directory -> creates build folder)
+npm run deploy 
+- (deploys to github pages - gh-pages branch )
+- if you add .json files to public/results, add the file name into "files.json"
+
 
 
 steps:
@@ -40,3 +47,13 @@ idx 4 / 4: Lee Brown
 - user id: ab476822-7fea-4585-849d-a1a295adccc9
 - configuration id: c68daa8b-4c0f-4bc5-9831-dd7aab6e0ee6
 - case file id: 6670c4bf-814e-4f51-b582-6df3b18af844"
+
+
+Backend for running llm stuff
+prompts - prompt txt files
+demo_json_files - user data files for analysis
+llm - functionality - main code here
+results - where llm code outputs to
+
+run p_main.py for local code running 
+run main.py for unicorn backend connected (used to be)

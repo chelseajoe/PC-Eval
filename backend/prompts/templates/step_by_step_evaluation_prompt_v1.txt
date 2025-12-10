@@ -12,7 +12,7 @@ If relevant, assess and report:
 - Whether the student discussed the required topic (binary 1/0)
 - **Cumulative number of student turns** spent on that category
 - Whether time allocation was appropriate, excessive, or insufficient
-- If there was **too much time spent on a section** while **not enough time building diagnosis or discussing treatment**, highlight this explicitly
+- Whether too much time was spent on history or rapport instead of diagnosis/treatment
 
 ---
 
@@ -32,7 +32,7 @@ If relevant, assess and report:
 - Student Timestamp: {user_timestamp}
 - Patient Timestamp: {assistant_timestamp}
 
-**Full Conversation Transcript (all prior turns included)**
+**Full Conversation Transcript**
 {conversation_so_far}
 
 ### Current Cumulative Rubric Score State
@@ -40,25 +40,25 @@ If relevant, assess and report:
 
 ---
 
-## Your Task
+# **Your Task**
 Evaluate the student’s performance for this turn in context of the entire conversation so far.
 
 1. Score each rubric category using the rubric definition, transcript history, and prior rubric values.
 2. Include **binary scores** (1 = discussed at least once, 0 = not discussed yet).
-3. Update and include **turns_spent**:
-   - Count how many **student turns** have discussed each category across the full conversation history.
-   - Increment appropriately. Do **not** reset to 0 unless the student never addressed it.
-4. Provide a comment explaining:
-   - Quality of communication
-   - Appropriateness of timing / depth balance
-   - Whether too much time was spent on a category versus insufficient time on diagnosis/treatment.
+3. Update and track **turns_spent**:
+   - Count how many **student turns** have addressed each category across the full conversation.
+4. Provide comments explaining:
+   - Communication quality
+   - Timing appropriateness
+   - Whether they spent too much time on one category and not enough on diagnostic reasoning or treatment planning
 5. Update cumulative rubric totals.
-6. Include **rubric_update_explanation** explicitly stating changes (e.g., `1 -> 2 because diagnosis initiated`).
-7. Suggest 3 specific improvement strategies.
+6. Provide **rubric_update_explanation** following the format:
+   - `"Section: X [score change: # → #] reasoning"`
+7. Suggest 3 **specific** improvement strategies.
 
 ---
 
-## Output Format (JSON only — no extra text outside JSON)
+# **Output Format (JSON only)**
 
 ```json
 {{
@@ -67,7 +67,7 @@ Evaluate the student’s performance for this turn in context of the entire conv
       "user_text": "{user_text}",
       "assistant_text": "{assistant_text}"
     }},
-    "summary_of_full_conversation": "<Brief 2–3 sentence summary>"
+    "turn_analysis_summary": "<One concise annotation style sentence for this turn - but word it in a way a mentor would give constructive feedback>"
   }},
   "rubric_evaluation": {{
     "<Rubric Category 1>": {{
@@ -89,16 +89,15 @@ Evaluate the student’s performance for this turn in context of the entire conv
     "total_score": "<integer>",
     "maximum_score": "<integer>",
     "performance_level": "<Emerging | Proficient | Exemplary>",
-    "summary_comment": "<Concise expert summary of strengths + improvement needs>"
+    "summary_comment": "<Concise expert summary of strengths + improvement areas>"
   }},
   "rubric_update_explanation": [
     {{
       "section": "<Category Name>",
       "previous_score": <integer>,
       "new_score": <integer>,
-      "reason": "Detailed explanation of reasoning behind score change including time spent or diagnostic relevance"
+      "reason": "Explanation of why the score changed, referencing time allocation or diagnostic progress"
     }}
-    ...
   ],
   "recommendations": [
     "Actionable suggestion #1",

@@ -1,0 +1,73 @@
+{
+  "overall_session_summary": "Across 25 turns, performance was consistently rated Emerging. You gathered a thorough, relevant history with respectful tone and appropriate safety screening. Strengths included collaborative permission-seeking, normalization of sensitive topics, and a broad differential (panic, depression, OCD, phobia, PTSD, sleep apnea, medical contributors). However, the interview lacked an early frame (role, agenda, time) and never addressed confidentiality. Much of the encounter was spent on unstructured history without periodic summaries or a timely pivot to DSM-5-TR criteria. Communication was often filler-heavy and fragmented, with few reflective statements. You moved closer to a GAD formulation late in the session and offered some medical rule-outs, but the synthesis remained incomplete (uncontrollability of worry, irritability, muscle tension not explicitly confirmed). Closing was abrupt, with minimal summary, no clear working diagnosis early, and limited next steps.",
+  "rubric_section_summary": {
+    "Introduction and Rapport Building": {
+      "final_score": "1.9",
+      "max_score": "5",
+      "strengths": "Polite, empathic tone; normalized and asked permission for sensitive topics; offered validation after difficult questions.",
+      "weaknesses": "No explicit introduction of role, agenda, or time expectations; no confidentiality discussion; limited reflective statements; orientation to what comes next often missing.",
+      "turns_spent": "7"
+    },
+    "Assessment and Understanding": {
+      "final_score": "4.0",
+      "max_score": "5",
+      "strengths": "Comprehensive history: social/functional impact, chronicity/course, mood, sleep, appetite, panic screen, SI/HI, OCD/phobia/PTSD screens, past psych/substance history, and relevant medical rule-outs.",
+      "weaknesses": "History-taking became prolonged without periodic summaries; delayed transition to a structured DSM-5-TR criteria review; occasionally vague or scattered ROS without synthesis.",
+      "turns_spent": "14"
+    },
+    "Communication Skills": {
+      "final_score": "3.0",
+      "max_score": "5",
+      "strengths": "Respectful, collaborative stance; normalized sensitive topics; invited patient questions; allowed space without interrupting.",
+      "weaknesses": "Frequent fillers and fragmented/compound questions; occasional judgmental wording (e.g., “irrational”); answers to evidence-seeking questions were sometimes vague and lacked structure; limited reflective statements and signposting.",
+      "turns_spent": "25"
+    },
+    "Confidentiality and Ethical Considerations": {
+      "final_score": "0.0",
+      "max_score": "5",
+      "strengths": "Appropriate suicide/violence risk screening.",
+      "weaknesses": "Confidentiality and its limits were never discussed, including prior to SI/HI and trauma questions; missed an opportunity to enhance trust with a skeptical, control-seeking patient.",
+      "turns_spent": "0"
+    },
+    "Session closing": {
+      "final_score": "0.1",
+      "max_score": "5",
+      "strengths": "Invited final questions and transparently noted stepping out to speak with a preceptor.",
+      "weaknesses": "No concise summary, working diagnosis, or clear plan/home practice before pausing; closing felt abrupt and incomplete given the extensive history.",
+      "turns_spent": "3"
+    },
+    "Application of Psychiatric Diagnosis": {
+      "final_score": "2.9",
+      "max_score": "5",
+      "strengths": "Progressed toward a GAD formulation with associated symptoms (sleep disturbance, fatigue, concentration difficulty, restlessness) and multiple differentials ruled out; later offered rationale tying presentation to GAD; considered medical contributors (e.g., thyroid, anemia).",
+      "weaknesses": "Did not explicitly confirm uncontrollability of worry, irritability, or muscle tension; DSM-5-TR mapping and provisional diagnosis were delayed and incomplete; rule-outs (caffeine/alcohol timing/amounts, medications/substances) were not systematically covered; plan not clearly linked to criteria-based synthesis.",
+      "turns_spent": "16"
+    }
+  },
+  "things_you_do_well": [
+    "Use a respectful, empathic tone with normalization and permission-seeking for sensitive questions.",
+    "Conduct comprehensive, relevant history-taking and explore functional impairment.",
+    "Appropriately screen for safety (SI/HI) and multiple differentials (panic, OCD, phobia, PTSD, sleep apnea, depression).",
+    "Invite patient questions and align explanations with an evidence-seeking style.",
+    "Begin to connect symptoms to a likely GAD formulation and consider basic medical rule-outs."
+  ],
+  "things_you_should_do_less_of": [
+    "Filler words, hedging, and long, fragmented sentences.",
+    "Extended, unstructured history without periodic summaries or signposting transitions.",
+    "Vague responses to evidence-focused questions (be specific and structured).",
+    "Potentially judgmental language (e.g., “irrational” fears).",
+    "Delaying key setup steps (introduction, agenda, confidentiality)."
+  ],
+  "recommendations": [
+    "Open with a clear frame in the first minute: introduce your role, set the agenda (history, diagnosis, plan), time expectations, and provide a concise confidentiality statement with limits (risk of harm to self/others, abuse, court orders).",
+    "Use a concise DSM-5-TR checklist early when GAD is suspected: confirm excessive, hard-to-control worry most days for 6+ months; assess restlessness/keyed up, fatigue, concentration problems, irritability, muscle tension, and sleep disturbance; document functional impairment.",
+    "Summarize every few minutes: deliver a 1–2 sentence synthesis before pivoting to the next topic to maintain structure and demonstrate active listening.",
+    "Screen key differentials and contributors efficiently: quantify daily caffeine and timing; assess weekend alcohol and rebound anxiety; ask about thyroid symptoms, medications/supplements, anemia/B12 risks; screen bipolar (past hypomania) and PTSD/OCD if not already done.",
+    "When safety is denied, complete a brief risk wrap-up: ask about passive death wishes, past self-harm/attempts, access to means, and protective factors; provide a concise crisis plan (988/ER, who to contact).",
+    "Answer evidence-seeking questions with structure: validate the concern, summarize why GAD fits, list specific first-line labs with rationale (e.g., TSH, CBC ± ferritin, CMP, B12, fasting glucose/A1c; pregnancy test if relevant; urine tox if indicated), and clarify that sleep studies are for OSA/RLS symptoms (snoring, witnessed apneas, daytime sleepiness).",
+    "Provide a clear provisional diagnosis and rationale: explicitly map reported symptoms to DSM-5 criteria and state your working diagnosis; explain how normal labs support but do not prove the clinical diagnosis.",
+    "Tighten delivery: ask one clear question at a time, remove fillers, avoid compound phrasing, and use neutral language (e.g., “specific fears or situations you avoid?”).",
+    "Add reflective statements and signposting: briefly reflect the patient’s last point, explain your rationale for the next question, and outline what comes next (e.g., “I’ll ask a few sleep questions, then we’ll discuss options”).",
+    "Close with structure: give a 3–4 sentence summary, confirm the working diagnosis, outline next steps (labs/tests, CBT referral and/or SSRI/SNRI discussion, sleep hygiene and caffeine reduction), assign simple homework (worry/sleep log), provide crisis resources, and set follow-up timing; check understanding using teach-back."
+  ]
+}

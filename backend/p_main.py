@@ -22,7 +22,7 @@ turn_results, final_results = run_full_evaluation(
     turn_eval_output="results/new_turn_evaluations_TEST.json",
     final_eval_output="results/final_evaluation.json",
     model="gpt-5",
-    index=4,  # process all entries
+    index=3,  # process all entries (starts from index 1)
     final_prompt_path="prompts/templates/final_evaluation_prompt.txt"
 )
 

@@ -1,0 +1,1114 @@
+[
+  {
+    "entry_index": 4,
+    "turn_index": 1,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you been feeling down recently?",
+          "assistant_text": "I've been really frustrated and tired, but I wouldn't say I've felt truly down or deeply sad."
+        },
+        "turn_analysis_summary": "Student opened with a single depressive-symptom screen without introduction, agenda setting, or empathy, beginning rudimentary diagnostic exploration."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "No greeting, introduction, or agenda-setting; this can feel abrupt and impersonal at session start. Early rapport-building was missed."
+        },
+        "Assessment and Understanding": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "1",
+          "comment": "Asked about depressed mood, which is relevant to differentiating GAD from MDD. However, the assessment is very limited so far and does not explore anxiety phenomenology, duration, functional impact, somatic symptoms, or triggers. Time allocation is currently narrow and symptom-focused without contextual understanding."
+        },
+        "Communication Skills": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "1",
+          "comment": "Clear and concise question, but lacks empathy and reflective listening. Did not validate the patient’s frustration/tiredness or use open-ended prompts. Early engagement would benefit from affirming statements and collaborative tone."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "Confidentiality not addressed. This should be covered near the beginning to set expectations and safety parameters."
+        },
+        "Session closing": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "No closing elements yet, which is expected this early; ensure the session ends with a summary and next steps when appropriate."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": "1",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "1",
+          "comment": "Initial diagnostic probing (depressed mood) began, but no articulation of a working differential or DSM-5-TR criteria review. Needs targeted questions for GAD (excessive worry ≥6 months, difficulty controlling worry, associated symptoms: restlessness, fatigue, concentration, irritability, muscle tension, sleep), impairment, and rule-outs (substances/caffeine, thyroid, panic, PTSD, OCD, social anxiety, MDD, medical causes)."
+        }
+      },
+      "overall_summary": {
+        "total_score": "5",
+        "maximum_score": "30",
+        "performance_level": "Emerging",
+        "summary_comment": "You initiated a relevant screening question for depression, which supports differential diagnosis, but the session began abruptly without introduction, rapport building, or confidentiality. Communication lacked empathy and reflection. Next, broaden and structure your assessment around DSM-5-TR criteria for GAD and related rule-outs, while improving engagement and clarity of session framework."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No introduction, greeting, or agenda-setting occurred in this opening turn."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Asked one targeted mood question relevant to differential diagnosis but did not yet explore anxiety features, impact, or context."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Communication was clear but lacked empathy, validation, or reflective listening."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality not addressed at all in this initial exchange."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Closing elements are not applicable yet and were not provided."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 0,
+          "new_score": 1,
+          "reason": "Began diagnostic inquiry with a depressive symptom screen but has not formed or discussed a working diagnosis or DSM-5-TR criteria."
+        }
+      ],
+      "recommendations": [
+        "Open with a brief, warm introduction, purpose of the visit, and confidentiality overview; set an agenda collaboratively (e.g., “We’ll understand your worries, their impact, and discuss options”).",
+        "Use empathy and reflective listening before the next question (e.g., “It sounds frustrating and exhausting; tell me more about what the worry looks like day to day?”).",
+        "Structure the assessment around DSM-5-TR for GAD and key rule-outs: duration and control of worry; associated symptoms; impairment; suicidality; substances/caffeine; medical causes (e.g., thyroid); and screen for panic, PTSD, OCD, and social anxiety."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 2,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Next question, have you, no worries, i'll continue um have you experienced any trouble with concentration guilt or changes in. Appetite recently.",
+          "assistant_text": "Concentration's definitely been tough, but my appetite hasn't really changed much, and I don't feel guilty for no reason."
+        },
+        "turn_analysis_summary": "Student asked a stacked, closed depressive-screening question; elicited concentration difficulty but showed limited empathy and no pivot to GAD-focused exploration."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No greeting, introduction, or agenda-setting yet. Early rapport remains unaddressed, which can feel abrupt and impersonal."
+        },
+        "Assessment and Understanding": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "You have gathered some pertinent symptoms (mood check; concentration, appetite, guilt). However, questioning remains narrowly focused on depressive screening rather than anxiety phenomenology. To align with the chief complaint, assess GAD-specific features (excessive/uncontrollable worry ≥6 months, associated symptoms, triggers, impairment) and summarize to verify understanding. Time allocation is currently tilted toward isolated symptom checklists without context."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "Communication was somewhat disfluent and included stacked questions (“concentration, guilt, or appetite”) with filler (“um”), and no reflection of the patient’s prior feelings. Maintain clarity with one question at a time and validate responses (e.g., acknowledging concentration difficulty) to build engagement."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality has not been addressed yet; this should be covered early to establish safety and trust."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No closing elements yet, which is expected at this stage. Ensure you plan to summarize and set next steps at the end."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 1,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "Some diagnostic probing has begun (mood, concentration, appetite, guilt), but there is no working differential or DSM-5-TR alignment. Shift toward GAD criteria (worry frequency, control, restlessness, fatigue, irritability, muscle tension, sleep), functional impairment, and key rule-outs (substances including caffeine, thyroid issues, panic, PTSD, OCD, social anxiety, MDD)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 6,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You’ve begun basic symptom assessment and elicited a relevant positive (concentration difficulty). However, the session lacks an introduction, confidentiality discussion, empathetic reflection, and targeted exploration of GAD. Questioning is closed and stacked, keeping the focus on depressive screening and missing the chief concern. Rebalance time toward a structured, empathic, GAD-focused diagnostic interview."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Additional symptom data (concentration, appetite, guilt) were gathered, modestly improving depth; however, the focus remains narrow and not yet centered on GAD phenomenology."
+        }
+      ],
+      "recommendations": [
+        "Open with a brief reset: introduce yourself, state the session purpose, outline confidentiality and limits, and get buy-in for the agenda (e.g., focusing on worry and its impact).",
+        "Use empathic, structured questioning: reflect the patient’s response (“Sounds like concentration has been tough”) and ask one clear, GAD-focused question at a time (e.g., “How often do you find yourself worrying, and is it hard to control?”).",
+        "Pivot to DSM-5-TR–aligned GAD assessment and rule-outs: duration (≥6 months), control of worry, associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep), impairment; screen for substances/caffeine, thyroid issues, panic/OCD/PTSD; include safety (SI) and consider brief measures (GAD-7)."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 3,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Find that next question. Have you ever experienced panic attacks like sudden episodes of intense fear or physical symptoms such as racing heart? Or shortness of breath.",
+          "assistant_text": "Not really, no—I get anxious a lot, but I don't have those sudden, intense fear episodes or those physical symptoms out of nowhere."
+        },
+        "turn_analysis_summary": "Student screens for panic attacks (useful rule-out) but uses stacked, closed questions with awkward filler and no reflective empathy or summary."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No greeting, introduction, or agenda-setting across the first three turns. Early rapport remains unaddressed, which may feel abrupt and impersonal."
+        },
+        "Assessment and Understanding": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 3,
+          "comment": "You added a relevant differential question (panic attacks), which helps rule out panic disorder. Overall assessment remains checklist-heavy and has not yet explored GAD core features (duration ≥6 months, uncontrollability of worry, associated symptoms like restlessness/fatigue/irritability/muscle tension/sleep), functional impairment, triggers, or context. Time is concentrated on isolated screening questions without summarizing to verify understanding."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 3,
+          "comment": "Communication remains clear enough but includes filler (“Find that next question”) and stacked yes/no items. There is no reflective listening or validation of the patient’s prior responses. Consider one question at a time and brief empathic reflections to enhance engagement."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits have not been addressed; cover this early to build trust and safety."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No closing elements yet, which is expected at this stage. Plan to summarize and set next steps near the end."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 3,
+          "comment": "Screening for panic attacks is appropriate for ruling out panic disorder and refining the differential. However, there is still no explicit working diagnosis or DSM-5-TR alignment for GAD. Next, assess uncontrollable worry, duration (≥6 months), associated symptoms (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance), impairment, and key rule-outs (caffeine/substances, thyroid issues, PTSD, OCD, social anxiety, MDD)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 7,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "The student is gathering some pertinent symptoms and appropriately screened for panic attacks, but rapport-building and confidentiality have been missed, and questioning remains checklist-like without synthesis or empathy. Shift toward a structured GAD assessment with reflective listening and agenda-setting to improve both diagnostic accuracy and patient engagement."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No introduction or rapport work added this turn; time remains focused on symptom checklists."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Panic-screening was added, but broader GAD phenomenology and impact have not been explored; depth remains limited."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Continued stacked, closed questions and filler language without reflective statements or empathy."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality still not discussed."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing yet, appropriate for this stage but remains unaddressed."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 1,
+          "new_score": 2,
+          "reason": "Relevant differential probing for panic disorder improves diagnostic application, though no working DSM-5-TR formulation yet."
+        }
+      ],
+      "recommendations": [
+        "Begin next turn with a concise reflection and summary (e.g., “You’re anxious a lot without sudden panic episodes; I want to understand how long this has been going on and how it affects sleep and tension”) to show understanding and guide the agenda.",
+        "Cover confidentiality and set a brief agenda (e.g., “We’ll review your symptoms, how they impact your day, and discuss next steps; everything is confidential with certain safety exceptions”).",
+        "Shift to GAD-focused questions: duration (≥6 months), difficulty controlling worry, associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), impairment, triggers, and rule-outs (caffeine, substances, thyroid), using one clear question at a time."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 4,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Another question. Do you find yourself excessively worrying about specific situations objects or social interactions?",
+          "assistant_text": "Yes, I worry about lots of things—work, money, friendships—sometimes even little things that most people probably wouldn't think twice about."
+        },
+        "turn_analysis_summary": "Good targeted probe of excessive, multi-domain worry (core GAD feature), but delivery remains closed-ended and lacking empathy or synthesis."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "No introduction, agenda-setting, or rapport building across four turns. This omission is increasingly noticeable and may reduce engagement early in the encounter."
+        },
+        "Assessment and Understanding": {
+          "score": "4",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "4",
+          "comment": "Your question directly targeted a core GAD criterion (excessive worry about multiple domains) and elicited relevant content (work, money, friendships, minor issues). However, the assessment remains checklist-heavy and is missing duration (≥6 months), uncontrollability, associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep), functional impairment, and contextual triggers. Time allocation is heavily weighted toward closed symptom screening without periodic summarization to verify understanding."
+        },
+        "Communication Skills": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "4",
+          "comment": "Clear but mechanical phrasing (“Another question… specific situations objects or social interactions”) and no reflection or validation after the patient’s responses. Use brief empathic reflections and signposting to keep the patient oriented and engaged, especially given her skeptical style and need for rationale."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "Confidentiality and its limits have not been addressed. This should be covered early to establish safety and trust."
+        },
+        "Session closing": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "5",
+          "turns_spent": "0",
+          "comment": "No closing elements yet, which is appropriate mid-visit. Plan to summarize findings, share a preliminary formulation, and outline next steps before ending."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": "3",
+          "binary_score": "1",
+          "max_score": "5",
+          "turns_spent": "4",
+          "comment": "You are beginning to apply DSM-5-TR criteria for GAD by confirming excessive worry across multiple domains and previously ruling out panic attacks. To strengthen diagnostic application, assess duration (≥6 months), difficulty controlling worry, at least three associated symptoms, impairment, and key rule-outs (caffeine, alcohol, thyroid, PTSD, OCD, social anxiety, MDD). Then share a concise working diagnosis with an evidence-based rationale."
+        }
+      },
+      "overall_summary": {
+        "total_score": "9",
+        "maximum_score": "30",
+        "performance_level": "Emerging",
+        "summary_comment": "You are gathering relevant data and now appropriately targeted a core GAD feature, but the interview remains checklist-driven with minimal rapport-building, no confidentiality discussion, and no synthesis. Shift from serial closed questions to empathic reflections, DSM-5-TR–focused confirmation (duration, uncontrollability, associated symptoms, impairment), and early formulation sharing."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 3,
+          "new_score": 4,
+          "reason": "You directly assessed a core GAD feature (excessive, multi-domain worry), improving alignment with the chief complaint; however, synthesis and full criteria coverage are still pending."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Progress toward DSM-5-TR criteria by confirming excessive worry across several domains and having screened for panic; next steps include duration, uncontrollability, associated symptoms, and impairment."
+        }
+      ],
+      "recommendations": [
+        "Open the next segment with a brief reset: introduce your role, set the agenda, and clearly explain confidentiality and its limits; then ask permission to proceed with focused questions.",
+        "Use empathic reflections and signposting (e.g., “I’m hearing that worry spans work, finances, and friendships and even small things—did I get that right?”) and ask one targeted question at a time, with a brief rationale for why you’re asking.",
+        "Pivot to DSM-5-TR confirmation: ask about duration (≥6 months) and uncontrollability, screen associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), gauge impairment and triggers (including caffeine/alcohol), summarize, and share a tentative GAD formulation with next steps."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 5,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I appreciate you sharing that. Just a couple more questions. Do you ever experience unwanted thoughts or feel compelled certain actions repeatedly?",
+          "assistant_text": "No, I don't have unwanted thoughts or feel like I need to do certain things over and over."
+        },
+        "turn_analysis_summary": "Student offers brief validation and signposting, then screens for OCD to refine the differential; still a closed, checklist-style question."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 1,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "First instance of overt empathy (“I appreciate you sharing that”) and signposting, which helps rapport. However, there was no initial introduction, role, or agenda-setting. Early missed opportunity persists and can reduce engagement. Time so far is tilted to symptom checklists without foundational rapport/agenda."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 5,
+          "comment": "You added an OCD rule-out, which is relevant. Cumulatively you’ve covered mood, concentration, appetite, guilt, panic, worry breadth, and now OCD. Assessment remains heavily checklist-driven and still lacks GAD core elements (duration ≥6 months, uncontrollability, associated symptoms such as restlessness/fatigue/irritability/muscle tension/sleep), functional impairment, substance/caffeine impacts, and brief summaries to verify understanding. Time allocation continues to favor rapid screening over depth and synthesis."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 5,
+          "comment": "Improved with a brief validation and signposting. Still predominantly closed questions with minimal reflective listening or summarizing. Consider chunk-check-chunk and open-ended prompts to match the patient’s inquisitive style and build collaboration."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits have not been addressed. This should be covered early to foster safety and trust, especially given patient skepticism."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No closing components yet (summary, next steps, homework), which is expected mid-visit. Ensure you reserve time to synthesize findings, share a working diagnosis, and plan next steps."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 5,
+          "comment": "Adding OCD screening strengthens your differential and rule-outs. You have also screened for panic and elicited multi-domain worry. To fully apply DSM-5-TR for GAD, assess duration, uncontrollability, at least three associated symptoms, impairment, and substance/medical contributors (e.g., caffeine, thyroid). Then state a succinct working diagnosis with rationale."
+        }
+      },
+      "overall_summary": {
+        "total_score": 12,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths: steady symptom screening across relevant differentials (panic/OCD) and a small step toward rapport via validation and signposting. Areas to improve: no introduction or confidentiality, minimal reflective listening, and an overreliance on closed checklist questions without synthesizing findings. Pivot toward DSM-5-TR GAD criteria (duration, uncontrollability, associated symptoms, impairment), summarize periodically, and collaborate on a working diagnosis and next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 0,
+          "new_score": 1,
+          "reason": "Added brief validation and signposting improved warmth, but no initial introduction or agenda-setting has occurred."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "OCD screening added data, but core GAD features (duration, uncontrollability, associated symptoms, impairment) remain unexplored; overall depth unchanged."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Use of validation and signposting improved clarity and empathy, though questioning is still predominantly closed with limited reflective listening."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No confidentiality discussion yet."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing elements introduced yet, appropriate mid-session."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 3,
+          "new_score": 4,
+          "reason": "OCD rule-out further refines the differential alongside prior panic screening and worry breadth; still need full DSM-5-TR GAD assessment and a stated working diagnosis."
+        }
+      ],
+      "recommendations": [
+        "Open the next segment with a brief summary and agenda-setting: “Here’s what I’ve heard so far… does that fit? Next, I’d like to ask about how long this has been happening and how controllable the worry feels.”",
+        "Target DSM-5-TR GAD criteria with focused, patient-centered questions: duration (≥6 months), uncontrollability, associated symptoms (restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep), functional impairment, and contributors (caffeine, alcohol, thyroid).",
+        "Address structure and trust: briefly review confidentiality/limits now, then share a tentative working diagnosis and rationale, and outline next steps (e.g., psychoeducation about GAD, CBT, sleep hygiene, caffeine reduction), inviting the patient’s questions."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 6,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Helpful to know uh one last question, have you ever experienced any hallucinations like hearing or seeing things that others don't? Or any beliefs that others might find unusual.",
+          "assistant_text": "No, I've never had anything like that—just the constant worrying, but not seeing or hearing things that aren't there."
+        },
+        "turn_analysis_summary": "Student screens for psychosis (hallucinations/delusions) as a rule-out with a stacked, closed question; continues checklist style without empathy or synthesis."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 1,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "Minimal rapport language (“Helpful to know… one last question”) but no initial introduction, role, or agenda-setting. Rapport remains underdeveloped relative to six turns spent on screening. Time allocation favors checklists over establishing a safe, collaborative tone."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 6,
+          "comment": "Adding a psychosis rule-out appropriately broadens the differential. Cumulatively, you’ve covered mood, concentration, appetite, guilt, panic, breadth of worry, OCD, and psychosis. However, you still have not clarified GAD core criteria (duration ≥6 months, uncontrollability of worry, associated symptoms such as restlessness/fatigue/irritability/muscle tension/sleep disturbance) or functional impairment. Time remains heavily weighted to closed screening without summarizing to confirm understanding."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 6,
+          "comment": "Clear enough but disfluent (“uh”) with stacked, closed questions and no reflective statements. Brief signposting helped orientation, but the lack of validation or summary risks disengagement for a skeptical, detail-oriented patient. Consider chunk–check–chunk with brief reflections."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits still not addressed. This omission is notable at this point and can undermine trust, especially for a skeptical patient."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No closing elements yet, which is acceptable mid-visit. Reserve time to summarize findings, propose a working diagnosis, and outline next steps/homework to avoid an abrupt ending."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 6,
+          "comment": "Psychosis screening strengthens rule-outs. You have partially built the differential (panic/OCD/psychosis ruled out; multi-domain worry present) but still haven’t explicitly tested DSM-5-TR GAD criteria (duration, uncontrollability, ≥3 associated symptoms, impairment) or provided a concise working diagnosis. The interview is over-weighted to history-taking vs. synthesis."
+        }
+      },
+      "overall_summary": {
+        "total_score": 12,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You are systematically screening relevant differentials and expanding the rule-out set (panic, OCD, psychosis). However, after six turns, the encounter is dominated by closed checklist questions with minimal rapport, no confidentiality review, and no synthesis into a working diagnosis or plan. Shift toward confirming DSM-5-TR GAD criteria, summarizing, and collaboratively outlining next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "Another minor rapport phrase was used, but no introduction/agenda or warm empathy; remains minimal despite increased turns on screening."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Psychosis rule-out adds breadth, but core GAD criteria, impairment, and context remain unassessed; depth still insufficient for a 5."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Communication remains clear but mechanical; stacked question with filler and no reflection; no meaningful change."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality not addressed yet."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing or planning elements introduced yet."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Added psychosis rule-out supports differential, but no explicit DSM-5-TR confirmation or working diagnosis shared yet."
+        }
+      ],
+      "recommendations": [
+        "Pause to summarize and test DSM-5-TR GAD criteria: confirm duration (≥6 months), uncontrollability of worry, associated symptoms (restlessness, fatigue, concentration issues, irritability, muscle tension, sleep), and functional impact; then state a concise working diagnosis.",
+        "Backfill rapport and structure: briefly review confidentiality and limits, set an agenda for the remainder of the visit, and use short reflective statements validating her experiences before moving to synthesis.",
+        "Reduce stacked closed questions; use chunk–check–chunk: ask one focused question, reflect/validate, summarize briefly, and then proceed. This will match her need for clarity and improve engagement."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 7,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Thank you for clarifying that as well. And just to wrap up, have you had any thoughts of feelings that you'd be better off?",
+          "assistant_text": "No, I haven't felt that way—I just mostly want to feel less overwhelmed and anxious."
+        },
+        "turn_analysis_summary": "Student conducted a brief safety screen with vague wording, continuing checklist-style questioning without summarizing or addressing core GAD criteria."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 1,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 3,
+          "comment": "You offered a brief acknowledgment (“Thank you for clarifying”), which helps slightly, but there was no initial introduction, purpose-setting, or explicit agenda. After seven turns of screening, rapport remains underdeveloped, which can reduce engagement for a skeptical patient."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "You added a basic suicide screen, which is appropriate. However, the risk assessment was incomplete (no plan, intent, means, past attempts, or protective factors), and you still have not clarified GAD core elements (duration ≥6 months, uncontrollability of worry, associated symptoms—restlessness, fatigue, irritability, muscle tension, sleep disturbance—functional impairment). Time remains heavily weighted toward closed checklist questions without summarizing to confirm understanding."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "The phrasing of the safety question was vague (“thoughts of feelings that you'd be better off?”), which could reduce clarity. There was minimal reflective listening or normalization. Consider asking one clear question at a time, using direct language for safety, and adding brief empathy/summary statements."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits have not been addressed at any point, which is particularly important before asking about safety. This omission can undermine trust and disclosure."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Although you said “just to wrap up,” there was no actual closing structure (summary, shared understanding, next steps, or homework). Plan time to synthesize and set a collaborative plan."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "The suicide screen is important for differential and safety but does not advance DSM-5-TR application for GAD. You have begun ruling out panic, OCD, psychosis, and confirmed multi-domain worry; now explicitly assess duration, uncontrollability, ≥3 associated symptoms, and impairment, then share a concise working diagnosis and rationale."
+        }
+      },
+      "overall_summary": {
+        "total_score": 12,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You have systematically screened several differentials and added a basic safety check, but the interview remains checklist-heavy with limited rapport, no confidentiality discussion, and no synthesis. To progress, clarify GAD core criteria, complete a focused risk assessment, and move toward a succinct working diagnosis with next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "A brief acknowledgment was added, but there is still no introduction, agenda-setting, or sustained empathic engagement; overall level unchanged."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Safety screen adds relevant information, but missing GAD core elements, functional impact, and summarization; depth did not improve enough to change level."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Clarity was hindered by vague safety phrasing and minimal reflection; communication quality remains similar overall."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality and its limits still not discussed, including prior to safety questions."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Despite 'wrap up' language, no actual summary or plan was provided."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Risk screening is appropriate but does not further align the history with DSM-5-TR criteria for GAD; no working diagnosis stated."
+        }
+      ],
+      "recommendations": [
+        "Provide a concise synthesis and test DSM-5-TR GAD criteria directly: confirm duration (≥6 months), uncontrollability of worry, associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep disturbance), functional impairment, and key rule-outs; then share a clear working diagnosis and rationale.",
+        "Complete a direct, structured safety assessment: ask explicitly about suicidal ideation, intent, plan, means, past attempts, and protective factors; document and provide a brief safety plan/crisis resources if indicated.",
+        "Backfill structure and engagement: explain confidentiality and its limits, set a brief agenda, use clear single-question phrasing with brief empathic reflections, and reserve time to close with summary and next steps (e.g., evidence-based options like CBT and SSRIs with rationale)."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 8,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Glad to hear that and appreciate your openness throughout this interview.",
+          "assistant_text": "Thanks for saying that—answering all these questions is a bit nerve-wracking, but I do want help, so I get why you ask."
+        },
+        "turn_analysis_summary": "A brief, supportive validation that modestly improves rapport but does not advance assessment, diagnosis, or planning."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 4,
+          "comment": "This turn adds warmth and appreciation, which helps rapport. However, there was no initial introduction, purpose-setting, or agenda earlier in the visit. Time remains heavily weighted toward checklist screening rather than building a collaborative frame upfront."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "No new assessment data this turn. Cumulatively you have screened several differentials (panic, OCD, psychosis) and elicited broad worry. You still have not clarified GAD core elements (duration ≥6 months, uncontrollability, associated symptoms, impairment) or summarized to verify understanding. Time allocation remains tilted toward brief screens rather than depth and synthesis."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 8,
+          "comment": "The validation was respectful and clear. Overall, communication remains largely closed-question, checklist style with limited reflective listening or summarization. Given the patient’s stated nervousness, a brief reflection/normalization and signposting of next steps would strengthen engagement."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Still not addressed. This is especially important before and after safety/risk questions. Consider a brief, clear statement on confidentiality and its limits to support trust and disclosure."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No closing structure yet. You previously signposted 'wrap up' but did not summarize findings or outline next steps. Reserve time to summarize, share a working diagnosis, and co-create a plan."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "No change this turn. You have ruled out panic/OCD/psychosis and confirmed multi-domain worry, but you have not explicitly confirmed DSM-5-TR GAD criteria (duration, uncontrollability, ≥3 associated symptoms, impairment) or stated a working diagnosis with rationale. Time is overconcentrated on screening versus diagnostic synthesis."
+        }
+      },
+      "overall_summary": {
+        "total_score": 13,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You offered a kind validation this turn, but the visit overall remains checklist-heavy with limited rapport framing, confidentiality clarification, diagnostic synthesis, or closing plan. Prioritize confirming core GAD criteria, summarizing understanding, and transitioning to a collaborative formulation and next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 1,
+          "new_score": 2,
+          "reason": "This turn added a warm acknowledgment and appreciation, modestly improving rapport, though an introduction and agenda remain missing."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "No new assessment content this turn; core GAD elements and synthesis still pending."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Supportive tone improved engagement slightly, but overall the interaction remains dominated by closed questions with limited reflection or summaries."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality has not been addressed yet despite sensitive questioning."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No summary or next steps provided this turn."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "No additional diagnostic clarification or synthesis occurred this turn."
+        }
+      ],
+      "recommendations": [
+        "Acknowledge and normalize the patient’s stated nervousness (e.g., reflect feelings, validate the effort, offer a brief agenda: what you’ll cover next and why).",
+        "Shift from screening to DSM-5-TR confirmation for GAD: ask about duration (≥6 months), uncontrollability of worry, associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep), impairment, and contributors (caffeine, sleep schedule, thyroid). Then summarize and share a concise working diagnosis with rationale.",
+        "Address confidentiality and its limits promptly, then plan a structured close: summarize key findings in the patient’s words, outline next steps (e.g., education about GAD, CBT referral, self-monitoring like a worry log and sleep hygiene), and confirm follow-up."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 9,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Is there anything else you'd like to share with me?",
+          "assistant_text": "Not really, I think we covered all the big stuff—I just want to figure out how to manage this anxiety better."
+        },
+        "turn_analysis_summary": "Open-ended closing-style prompt without synthesis or plan; patient explicitly requests guidance on managing anxiety."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 4,
+          "comment": "Rapport remains minimal overall; while you have occasionally acknowledged the patient, there was no initial introduction or agenda. This turn did not add warmth or empathy. Time has been heavily spent on checklist screening rather than establishing a collaborative frame early."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 8,
+          "comment": "The open-ended check for anything else is appropriate, but core GAD elements (duration ≥6 months, uncontrollability, associated symptoms—restlessness/fatigue/irritability/muscle tension/sleep disturbance—and functional impairment) remain unclarified, and there has been no synthesis of findings. Overall, you’ve spent many turns on closed screening with insufficient depth or summary."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 9,
+          "comment": "This open-ended question is clear and invites additional concerns, which is good. However, reflective listening and empathic validation remain limited, and there has been little signposting or summarizing to keep the patient oriented—especially important given her skeptical, detail-seeking style."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits have not been discussed at any point, including before asking about safety. This omission can reduce trust and disclosure."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "You have twice moved toward closure (\"just to wrap up\" earlier and now \"anything else to share\"), but there has been no summary, shared understanding, or plan/homework. Given the patient’s request for management guidance, the lack of a structured closing with next steps is a significant gap."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "You have screened several differentials (panic, OCD, psychosis) and elicited multi-domain worry, but you still have not confirmed DSM-5-TR GAD criteria (duration, uncontrollability, ≥3 associated symptoms, impairment) or stated a working diagnosis with rationale. There has been substantial time on history without diagnostic synthesis."
+        }
+      },
+      "overall_summary": {
+        "total_score": 13,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You conducted broad screening and used a few validating statements, but the interview remained checklist-driven with limited empathy, no confidentiality discussion, and no synthesis or treatment planning. The patient explicitly asked for help managing anxiety, yet there was no summary, working diagnosis, or next steps. Rebalance time from closed screening to diagnostic synthesis and collaborative planning."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional rapport-building elements (empathy, agenda-setting) were added this turn."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "An open-ended closing check was asked, but core GAD criteria and functional impact remain unassessed; no synthesis provided."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Open-ended phrasing slightly supports engagement, but there was still no reflective summary or validation to raise the score."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality not addressed at any point in the session."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Closing was initiated by checking for additional concerns, but there was no summary or plan; thus score remains 0. (Turns_spent updated to reflect two closing attempts.)"
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "No new diagnostic content; core DSM-5-TR criteria for GAD still not explicitly confirmed or synthesized."
+        }
+      ],
+      "recommendations": [
+        "Before moving further, provide a concise summary and propose a working diagnosis (e.g., likely GAD) using DSM-5-TR language: confirm duration, uncontrollability, and associated symptoms (restlessness/fatigue/irritability/muscle tension/sleep) plus impairment.",
+        "Shift from checklist questions to chunk–check–chunk: summarize what you’ve heard, ask 1–2 targeted questions (e.g., duration and uncontrollability), then check understanding; use brief reflective statements to validate the patient’s experience.",
+        "Close with a structured plan: explain confidentiality and its limits, share the working diagnosis and rationale, outline first-line treatments (CBT; SSRIs/SNRIs; sleep/caffeine strategies), invite questions, and assign simple homework (e.g., worry log or sleep diary) with a concrete follow-up date."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 10,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I'd like to ask you a few questions about your social situation and daily life first who do you live with right now? Do you have any roommates or live alone?",
+          "assistant_text": "I live in an apartment with a few roommates, so I'm not alone, but lately I've been kind of keeping to myself."
+        },
+        "turn_analysis_summary": "Student transitions to social history with brief signposting but asks a double-barreled, closed question and misses an opportunity to reflect the patient’s isolation."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 4,
+          "comment": "A neutral, procedural tone with signposting, but no warmth or empathy in this turn; no introduction or agenda-setting occurred earlier. Rapport remains minimal relative to the number of screening turns spent so far."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 9,
+          "comment": "Gathered relevant social context (roommates; recent withdrawal), which helps gauge functioning and support. However, the interview still lacks key GAD criteria (duration ≥6 months, uncontrollability, associated symptoms—restlessness, fatigue, irritability, muscle tension, sleep disturbance—and explicit functional impairment). Time remains weighted toward checklist history rather than depth plus synthesis."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 10,
+          "comment": "Signposting aided clarity, but the question was double-barreled and closed. Missed a chance to reflect the patient’s isolation (“keeping to myself”). Use one clear question at a time and brief empathic reflections to match the patient’s skeptical, detail-oriented style."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Confidentiality and its limits have not been addressed at any point, including before safety questions—an important trust-building step that remains overdue."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "No closing structure this turn. Earlier, you twice moved toward closure without summarizing or planning. Given the patient’s request for help, reserve time to synthesize, share a working diagnosis, and outline next steps/homework."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 7,
+          "comment": "Today’s social question adds context but does not advance DSM-5-TR application. You have partial rule-outs (panic/OCD/psychosis) and broad worry; now explicitly confirm duration, uncontrollability, ≥3 associated symptoms, and impairment, then present a concise working diagnosis with rationale."
+        }
+      },
+      "overall_summary": {
+        "total_score": 13,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You have gathered several relevant screens and began exploring social context, but the session remains checklist-heavy with limited empathy, no confidentiality review, and no diagnostic synthesis or plan despite the patient asking for help. Prioritize confirming GAD core criteria, summarizing your understanding, and collaboratively outlining next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Brief signposting helped orientation, but there was no empathy or introduction/agenda; rapport remains limited despite multiple screening turns."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Added social context and noted withdrawal, but still missing key GAD criteria (duration, uncontrollability, associated symptoms) and functional impairment; no synthesis yet."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Signposting improved clarity, but the question was double-barreled/closed with no reflection of the patient’s isolation; overall engagement unchanged."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality has not been discussed; this omission persists after safety questions and should be corrected promptly."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing elements this turn; prior premature closure attempts still lacked summary and plan."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Today’s question did not further DSM-5-TR criteria confirmation or differential synthesis; the working diagnosis remains unstated."
+        }
+      ],
+      "recommendations": [
+        "Confirm DSM-5-TR GAD criteria directly: ask about duration (≥6 months), uncontrollability of worry, and associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep disturbance), and explicitly assess functional impairment.",
+        "Add brief empathy and reflections after key disclosures (e.g., “It sounds isolating to keep to yourself even with roommates”) and use one clear, open-ended question at a time to avoid double-barreled, closed prompts.",
+        "Shift time from further checklist history to synthesis: summarize what you’ve heard, present a tentative GAD formulation with rationale, discuss confidentiality, and outline an evidence-based plan (e.g., CBT, sleep hygiene, caffeine reduction; discuss medication options if appropriate) with clear next steps."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 11,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "How about your friendships?",
+          "assistant_text": "I've got a good circle of friends, but I've been pretty withdrawn from them lately because of all this anxiety."
+        },
+        "turn_analysis_summary": "Student explores friendships to assess social functioning/impairment but offers no reflection or synthesis."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 4,
+          "comment": "This turn did not add warmth or agenda-setting. Cumulatively, rapport remains minimal (brief acknowledgments earlier) with no initial introduction or purpose-setting. Excessive time has been spent on checklists without establishing a collaborative frame, which can hinder engagement—especially for a skeptical, detail-seeking patient."
+        },
+        "Assessment and Understanding": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 10,
+          "comment": "Asking about friendships appropriately evaluates functional impairment and social withdrawal linked to anxiety. However, core GAD criteria remain insufficiently explored (duration ≥6 months, uncontrollability, associated symptoms such as restlessness, fatigue, irritability, muscle tension, sleep disturbance) and there has been no synthesis/summary to verify understanding. Time remains weighted toward serial screening rather than depth plus synthesis."
+        },
+        "Communication Skills": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 11,
+          "comment": "Clear, concise question, but lacks reflective listening or validation (e.g., acknowledging the patient’s withdrawal and its impact). Consider brief empathic reflections and summarizing to maintain alliance and meet the patient’s preference for clear, collaborative communication."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Still not addressed. This is a significant omission—particularly since safety was queried earlier. Clarifying confidentiality and its limits early supports trust and fuller disclosure."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "No closing steps this turn. Earlier pre-closing language occurred without summary or plan. Ensure you allocate time to summarize findings, present a working diagnosis with rationale, and outline next steps/homework to avoid an abrupt finish."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 4,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 8,
+          "comment": "Exploring friendships adds evidence of impairment—relevant to DSM-5-TR criteria. You have partially addressed rule-outs (panic/OCD/psychosis) and multi-domain worry. Next, explicitly confirm duration, uncontrollability, and ≥3 associated symptoms; assess substance/medical contributors (e.g., caffeine, alcohol, thyroid); then state a concise working diagnosis and rationale."
+        }
+      },
+      "overall_summary": {
+        "total_score": 13,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths include comprehensive screening across several differentials and appropriate inquiry into social functioning. However, the interview is over-weighted toward checklist history with limited empathy, no confidentiality discussion, and no synthesis into a working diagnosis or plan. To progress, explicitly confirm DSM-5-TR GAD criteria, summarize to ensure shared understanding, and transition to a brief evidence-based treatment discussion aligned with the patient’s need for rationale."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "This turn did not add empathy or agenda-setting; rapport remains minimal despite multiple screening turns."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Social functioning/withdrawal was explored (good), but core GAD criteria and synthesis still missing; thus score remains at solid but not comprehensive assessment."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Question was clear but lacked reflection or validation of the reported withdrawal; no improvement in empathic communication."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality still has not been addressed."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing elements this turn; earlier pre-closure lacked summary/plan."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 4,
+          "new_score": 4,
+          "reason": "Assessing friendships supports impairment criterion, but duration, uncontrollability, and associated symptoms are still not explicitly confirmed; no working diagnosis stated."
+        }
+      ],
+      "recommendations": [
+        "Pivot to DSM-5-TR GAD criteria with one clear question at a time: confirm duration (≥6 months), difficulty controlling worry, and associated symptoms (restlessness, fatigue, irritability, muscle tension, sleep disturbance), plus quantify impairment.",
+        "Use a brief summary and reflection before transitioning: “I’m hearing worry across work, finances, and relationships with sleep trouble and withdrawal—did I capture that? If so, I’d like to explain what this points to and discuss options.”",
+        "Address confidentiality and then share a concise working diagnosis with an evidence-based rationale and initial plan (CBT, SSRIs/SNRIs, sleep/caffeine strategies), inviting questions to match the patient’s preference for data-driven explanations."
+      ]
+    }
+  }
+]
