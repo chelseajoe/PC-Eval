@@ -42,3 +42,19 @@
 }
 
 
+
+@keyframes softPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(99, 102, 241, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(99, 102, 241, 0);
+  }
+}
+
+.current-turn {
+  animation: softPulse 2.5s infinite;
+}

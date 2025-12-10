@@ -1,3 +1,5 @@
+conda activate pceval
+
 backend
 uvicorn main:app --reload
 

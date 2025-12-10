@@ -1,0 +1,73 @@
+{
+  "overall_session_summary": "Across 24 turns, performance remained at the Emerging level. You were thorough in broad screening (depression, panic, OCD, psychosis, suicidality, social context, and substance use) and gradually incorporated more validation, signposting, and collaboration near the end. However, the session consistently lacked an opening orientation and a confidentiality statement, relied heavily on closed, multi-barreled questions, and never transitioned in a timely way to DSM-5-TR–based synthesis. A cautious, therapy-first plan aligned with the patient’s preferences was eventually proposed, but without a clear working diagnosis, brief evidence rationale, concrete homework, or a defined follow-up/monitoring plan. Average total score per turn was roughly 10/30 (Emerging).",
+  "rubric_section_summary": {
+    "Introduction and Rapport Building": {
+      "final_score": "0.7",
+      "max_score": "5",
+      "strengths": "Occasional appreciation/validation later in the visit; some process transparency before stepping out; collaborative tone when discussing plan.",
+      "weaknesses": "No warm introduction, role clarification, or agenda-setting; minimal normalization and reflective statements early; overall checklist feel reduced rapport.",
+      "turns_spent": "17"
+    },
+    "Assessment and Understanding": {
+      "final_score": "3.8",
+      "max_score": "5",
+      "strengths": "Comprehensive differential screening (depression elements, panic, OCD, psychosis, suicidality), plus social supports/impairment and substance use exploration.",
+      "weaknesses": "Prolonged, closed-ended, multi-barreled questioning; delayed pivot to DSM-5-TR GAD specifics (duration, uncontrollability, associated symptoms), functional impact, and contributors; redundant substance questions; few interim summaries.",
+      "turns_spent": "24"
+    },
+    "Communication Skills": {
+      "final_score": "2.3",
+      "max_score": "5",
+      "strengths": "Some signposting; intermittent open-ended questions; validation increased later; collaborative stance near closure.",
+      "weaknesses": "Frequent multi-barreled/fragmented phrasing, occasional unclear or non-English wording; limited reflective listening and rationales; inconsistent clarity and empathic reflections.",
+      "turns_spent": "24"
+    },
+    "Confidentiality and Ethical Considerations": {
+      "final_score": "0.0",
+      "max_score": "5",
+      "strengths": "None documented.",
+      "weaknesses": "Confidentiality and its limits were never explained during an initial visit despite sensitive topics (SI), undermining trust and safety.",
+      "turns_spent": "0"
+    },
+    "Session closing": {
+      "final_score": "0.6",
+      "max_score": "5",
+      "strengths": "Initiated treatment discussion; stepwise, therapy-first plan aligned with patient preference; signposted consulting the preceptor; growing collaboration.",
+      "weaknesses": "No concise summary of findings; no explicit working diagnosis; no evidence rationale; no homework, monitoring measures (e.g., GAD-7), or specific follow-up timeline.",
+      "turns_spent": "6"
+    },
+    "Application of Psychiatric Diagnosis": {
+      "final_score": "2.6",
+      "max_score": "5",
+      "strengths": "Differential diagnoses were progressively refined; core worry across multiple domains elicited; panic/OCD/psychosis largely ruled out; safety screened.",
+      "weaknesses": "No explicit DSM-5-TR mapping for GAD (duration, uncontrollability, ≥3 associated symptoms) and no communicated working diagnosis or brief rationale before planning.",
+      "turns_spent": "23"
+    }
+  },
+  "things_you_do_well": [
+    "Thorough differential and safety screening across relevant domains.",
+    "Increased validation, collaboration, and signposting later in the visit.",
+    "Explored social supports, impairment, and potential financial/insurance barriers.",
+    "Engaged the patient in shared decision-making and aligned with her cautious preferences.",
+    "Maintained process transparency when stepping out to speak with a preceptor."
+  ],
+  "things_you_should_do_less_of": [
+    "Closed-ended, multi-barreled, or fragmented questions that reduce clarity.",
+    "Prolonged checklist-style screening without timely synthesis.",
+    "Proceeding without an introduction, agenda, or confidentiality explanation.",
+    "Using unclear grammar/jargon or non-English phrasing that disrupts flow (e.g., CPT instead of CBT, vague SI wording).",
+    "Deferring diagnosis and plan details until the very end without interim summaries or rationales."
+  ],
+  "recommendations": [
+    "Start every initial visit with a 20–30 second orientation: introduce your role, set an agenda, and explain confidentiality with its limits (including safety exceptions); confirm the patient’s goals.",
+    "Use empathy early and often: reflect key feelings/concerns and normalize; add brief rationales for sensitive questions to match evidence-seeking patients.",
+    "Ask one clear question at a time: open-ended first to elicit narrative, then targeted yes/no follow-ups; avoid multi-barreled or fragmented phrasing and use plain English.",
+    "Confirm DSM-5-TR criteria promptly when GAD is suspected: duration (≥6 months), uncontrollability of worry, associated symptoms (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance), functional impairment, and contributors (caffeine/stimulants, alcohol, sleep schedule, medical issues).",
+    "Summarize every 2–3 questions: synthesize what you’ve heard, check understanding, and signpost the next step to maintain structure and rapport.",
+    "Safety assessment best practice: use direct, clear language for SI (thoughts of being better off dead or self-harm), and assess intent, plan, means, past attempts, and protective factors; provide crisis resources and safety planning as indicated.",
+    "State a working diagnosis with brief evidence: explicitly map symptoms to DSM-5-TR for GAD (or other diagnosis) and check if the formulation fits the patient’s experience.",
+    "Close with structure: outline an evidence-based plan (CBT as first-line; consider SSRIs/SNRIs using start-low–go-slow titration), give patient-friendly rationale and timelines, and invite questions.",
+    "Assign concrete homework and monitoring: e.g., 1-week worry log, sleep hygiene/caffeine adjustments, brief relaxation practice; establish baseline measures (GAD-7), side-effect monitoring steps, and a specific follow-up interval (2–4 weeks).",
+    "Improve clarity and precision: avoid jargon or incorrect terms (use CBT, not CPT for GAD), quantify substance/caffeine use, and correct wording errors to reduce confusion and build trust."
+  ]
+}

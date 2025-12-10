@@ -1,0 +1,214 @@
+[
+  {
+    "entry_index": 4,
+    "turn_index": 1,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you been feeling down recently?",
+          "assistant_text": "I've been really frustrated and tired, but I wouldn't say I've felt truly down or deeply sad."
+        },
+        "turn_analysis_summary": "Student began with a single depressive-symptom screen without introduction or empathy; patient provided a pertinent negative for depressed mood and noted fatigue/frustration."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No introduction, agenda setting, or validation; starting with a direct symptom question may feel abrupt, especially for an anxious, skeptical patient. Time allocation overly favors symptom check over rapport at this early stage."
+        },
+        "Assessment and Understanding": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "Asked one targeted question about mood, yielding a useful pertinent negative for depressed mood and a positive for fatigue/frustration. However, this is narrow and does not explore the chief complaint of pervasive anxiety, worry control, duration, triggers, sleep, impairment, or ruling out other causes. Early focus is slightly misaligned with the presenting problem."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 1,
+          "comment": "Clear, brief question but no reflective listening or empathy. For this patient’s style, validating frustration and summarizing would build trust. Time use is minimal but could be better spent with empathic acknowledgment before probing."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Not addressed. Early clarification of confidentiality and its limits is important in an initial interview to reduce anxiety and skepticism."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Not applicable yet; no summary or next steps mentioned, which is expected at this early point but should be planned for later."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No discussion of diagnostic framework or DSM-5-TR criteria. A depression screen is reasonable, but there has been no structured assessment of generalized anxiety features (excessive worry, control difficulty, associated symptoms, duration, impairment) or differential diagnosis."
+        }
+      },
+      "overall_summary": {
+        "total_score": 4,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You obtained a helpful depressive symptom screen result, but the opening lacked introduction, confidentiality, and empathy. Redirect toward the patient’s chief complaint of anxiety with a structured, validating approach and begin tying questions to diagnostic criteria while maintaining rapport."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No greeting, role, or purpose stated; no validation; time spent moved straight to symptom inquiry."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Asked one symptom question yielding pertinent information, but did not explore anxiety-related domains or functional impact."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Clear but minimal; lacked reflective listening and empathy which are key with this patient’s skepticism."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Confidentiality not discussed at all in this initial turn."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No closing elements yet, which is acceptable early in the session but remains unaddressed."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No linkage to DSM-5-TR criteria or differential; only a single depressive symptom screen question asked."
+        }
+      ],
+      "recommendations": [
+        "Start with a warm introduction, outline the session plan, and briefly explain confidentiality and its limits to build trust (e.g., “I’m [Name], today we’ll focus on understanding your anxiety and its impact; what we discuss is confidential except for safety concerns.”).",
+        "Use empathic reflections and summaries before probing (e.g., “It sounds frustrating and exhausting—let’s explore how the anxiety shows up day to day.”) and then assess GAD criteria systematically: worry frequency/control, domains of worry, associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep), duration ≥6 months, and impairment.",
+        "Align with the patient’s evidence-focused style by previewing rationale (e.g., “I’ll ask a few standardized questions like GAD-7 and PHQ-9; these help us gauge severity and guide evidence-based treatment options.”)."
+      ]
+    }
+  },
+  {
+    "entry_index": 4,
+    "turn_index": 2,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Next question, have you, no worries, i'll continue um have you experienced any trouble with concentration guilt or changes in. Appetite recently.",
+          "assistant_text": "Concentration's definitely been tough, but my appetite hasn't really changed much, and I don't feel guilty for no reason."
+        },
+        "turn_analysis_summary": "Student asked a multi-part depression screen question with disfluent phrasing; patient endorsed concentration difficulty but denied appetite change and guilt—missed chance to validate and to pivot toward the anxiety-focused HPI."
+      },
+      "rubric_evaluation": {
+        "Introduction and Rapport Building": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No introduction, agenda-setting, or validation in either turn; the disfluent lead-in (“no worries…um…”) does not build rapport. Time remains focused on symptom check rather than creating a safe, collaborative frame."
+        },
+        "Assessment and Understanding": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "You collected additional pertinent positives/negatives (concentration difficulty; no appetite change; no guilt). However, assessment is still skewed toward a depression screen despite a chief complaint of pervasive anxiety. You have not yet explored GAD-defining features (excessive/uncontrollable worry, duration, muscle tension, sleep, irritability, impairment, triggers, caffeine use impact). Time allocation: 2 student turns on history, still missing alignment with the presenting problem."
+        },
+        "Communication Skills": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 5,
+          "turns_spent": 2,
+          "comment": "Communication was halting and unclear (“changes in. Appetite”), and there was no reflective listening or empathy. Multi-part closed questions reduce clarity. Consider brief validation and one specific question at a time. Time use: continued questioning without summarizing or reflecting the patient’s statements."
+        },
+        "Confidentiality and Ethical Considerations": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Not addressed. In an initial interview—especially with a skeptical, anxious patient—early explanation of confidentiality and its limits would help reduce anxiety and build trust."
+        },
+        "Session closing": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "Not yet addressed, which is appropriate for this stage. Plan to summarize key concerns, set expectations for next steps, and provide a brief between-session task before closing."
+        },
+        "Application of Psychiatric Diagnosis": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 5,
+          "turns_spent": 0,
+          "comment": "No diagnostic framework shared and no targeted evaluation of DSM-5-TR criteria for GAD. While ruling out depression is reasonable, there has been no identification of the primary problem area with the patient nor ruling out differentials (e.g., substance/caffeine effects, medical causes, panic, OCD). Time allocation remains on general symptom check rather than diagnostic reasoning."
+        }
+      },
+      "overall_summary": {
+        "total_score": 5,
+        "maximum_score": 30,
+        "performance_level": "Emerging",
+        "summary_comment": "You are gathering pertinent symptoms, but the approach is disorganized and misaligned with the patient’s anxiety-focused chief complaint. Rapport-building and confidentiality have not been addressed, communication lacks validation, and diagnostic reasoning toward GAD criteria has not begun. Pivot promptly to an anxiety-focused HPI and provide a brief, empathic structure for the visit."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Rapport Building",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No introduction, agenda, or validation added in this turn; continues to feel abrupt and task-focused."
+        },
+        {
+          "section": "Assessment and Understanding",
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Additional pertinent positives/negatives were elicited (concentration difficulty, appetite/guilt negatives), modestly improving data collection despite limited alignment with the anxiety chief complaint."
+        },
+        {
+          "section": "Communication Skills",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Clarity and empathy did not improve; disfluent phrasing persisted. Score remains at a basic level."
+        },
+        {
+          "section": "Confidentiality and Ethical Considerations",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Still not addressed in the initial portion of the interview."
+        },
+        {
+          "section": "Session closing",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Not yet applicable; no movement toward closing occurred."
+        },
+        {
+          "section": "Application of Psychiatric Diagnosis",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No DSM-5-TR–guided assessment or explicit diagnostic reasoning toward GAD initiated."
+        }
+      ],
+      "recommendations": [
+        "Open the next turn with brief empathy and structure: “Thanks for sharing that—sounds exhausting. Today I’d like to understand your anxiety and how it’s affecting sleep and daily life; then we’ll discuss options. Does that plan work for you?”",
+        "Pivot to DSM-5-TR GAD assessment with clear, single-focus questions: excessive worry most days for ≥6 months; control difficulty; associated symptoms (restlessness, fatigue, concentration, irritability, muscle tension, sleep); impairment; triggers; impact of caffeine and schedule; and rule-outs.",
+        "Improve clarity and rapport: avoid filler words, ask one question at a time, and use reflective summaries (e.g., “You’re not depressed but feel constantly on edge with poor focus and sleep—did I get that right?”) before proceeding."
+      ]
+    }
+  }
+]
