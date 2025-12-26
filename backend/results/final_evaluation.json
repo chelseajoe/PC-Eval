@@ -1,0 +1,73 @@
+{
+  "overall_session_summary": "You set a warm, respectful tone from the start and covered confidentiality clearly and early, which helped build trust with a validation‑sensitive patient. Communication remained empathic, collaborative, and patient‑centered throughout. After several rapport‑focused turns, you transitioned into a thorough, well‑structured assessment that covered mood reactivity, triggers, chronic emptiness, interpersonal instability, abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation/paranoia, safety (SI/NSSI), substance use, anxiety, trauma/PTSD features, and functional impact. Performance progressed from Emerging in the earliest turns to consistently Proficient thereafter. The principal gap across the session was time management and synthesis: history‑taking dominated, while agenda‑setting, concise mid‑session summaries, explicit differential diagnosis (especially bipolar spectrum), and a clear working formulation and treatment plan were delayed or omitted. Closing actions began (homework, follow‑up implied, collaborative stance), but a structured summary, named working diagnosis, explicit rule‑outs, modality/frequency, concrete safety plan, and appointment details were not fully delivered.",
+  "rubric_section_summary": {
+    "Introduction and Rapport Building": {
+      "final_score": "4",
+      "max_score": "5",
+      "strengths": "Warm, respectful introductions; remembered prior contact; consistently validating tone; asked permission to proceed and normalized sensitive topics; emphasized collaboration and feedback.",
+      "weaknesses": "No explicit agenda/time check; extended rapport without timely pivot to assessment early on; occasional phrasing risked sounding minimizing.",
+      "turns_spent": "5"
+    },
+    "Assessment and Understanding": {
+      "final_score": "5",
+      "max_score": "5",
+      "strengths": "Comprehensive, targeted assessment across core domains: mood swings (triggers, duration), emptiness, SI/NSSI, interpersonal patterns, abandonment fears, identity disturbance, impulsivity, anger, dissociation/paranoia, substances, anxiety, trauma/PTSD features, and functional impact.",
+      "weaknesses": "Risk assessment was not fully structured (intent, plan, means, protective factors) and synthesis was deferred; occasional closed/leading questions limited depth.",
+      "turns_spent": "21"
+    },
+    "Communication Skills": {
+      "final_score": "5",
+      "max_score": "5",
+      "strengths": "Consistently empathic, nonjudgmental, and clear; frequent validation and normalization; collaborative phrasing; checked understanding; invited feedback about what feels helpful.",
+      "weaknesses": "At times over‑reliance on closed or leading questions; occasional typos; reflections were not always linked to a forward‑moving question or summary.",
+      "turns_spent": "34"
+    },
+    "Confidentiality and Ethical Considerations": {
+      "final_score": "5",
+      "max_score": "5",
+      "strengths": "Confidentiality and its limits (SI/HI, abuse/neglect) explained early and clearly; insurance disclosures included; understanding checked, enhancing safety and trust.",
+      "weaknesses": "During later risk/planning discussions, brief reminders about collaborative safety steps could have reinforced trust.",
+      "turns_spent": "1"
+    },
+    "Session closing": {
+      "final_score": "3",
+      "max_score": "5",
+      "strengths": "Initiated treatment planning; invited collaboration and feedback; assigned between‑session task; confirmed intent to follow up.",
+      "weaknesses": "No concise summary of key findings; no explicit working diagnosis or rule‑outs; plan lacked modality/frequency specifics and a concrete safety plan; appointment details not clearly confirmed.",
+      "turns_spent": "4"
+    },
+    "Application of Psychiatric Diagnosis": {
+      "final_score": "4",
+      "max_score": "5",
+      "strengths": "Elicited many DSM‑5‑TR–consistent BPD features (affective instability, emptiness, identity disturbance, interpersonal instability, impulsivity, anger, stress‑related paranoia/dissociation) and probed PTSD/anxiety and substance use.",
+      "weaknesses": "Did not explicitly rule out bipolar spectrum in‑session or present a collaborative working diagnosis/formulation; synthesis was deferred to the close and ultimately remained incomplete.",
+      "turns_spent": "21"
+    }
+  },
+  "things_you_do_well": [
+    "Establish trust early with a clear, comprehensive confidentiality discussion and checks for understanding.",
+    "Maintain a highly empathic, validating, and nonjudgmental communication style tailored to a validation‑sensitive patient.",
+    "Seek permission and normalize sensitive topics (suicide, NSSI, trauma, impulsivity), supporting autonomy and alliance.",
+    "Conduct a focused, thorough assessment across all relevant domains, including safety and functional impact.",
+    "Use clear, patient‑friendly language and collaborative phrasing that invites feedback.",
+    "Assign collaborative homework and convey optimism about treatment while respecting patient concerns."
+  ],
+  "things_you_should_do_less_of": [
+    "Spending multiple consecutive turns on validation without advancing assessment, synthesis, or planning.",
+    "Relying on closed or leading questions when open‑ended probes would deepen understanding.",
+    "Delaying agenda‑setting and time checks until late (or omitting them).",
+    "Deferring diagnostic synthesis and rule‑outs until the end—and then skipping them.",
+    "Using phrasing that can feel minimizing (e.g., 'not a current issue') and allowing typos that may reduce perceived precision."
+  ],
+  "recommendations": [
+    "Open with a micro‑agenda and time check: briefly outline the plan (assessment focus, safety check, formulation, and next steps) and confirm it collaboratively.",
+    "Pair validation with a forward pivot: after each empathic reflection, ask a targeted open‑ended question or provide a brief summary to maintain momentum.",
+    "Complete structured suicide risk assessment when indicated: passive vs. active SI, frequency, intensity, intent, plan, access to means, past attempts vs. NSSI (methods/lethality), triggers, protective factors/reasons for living; then co‑create a brief safety plan and share crisis resources.",
+    "Make differentials explicit: screen for bipolar spectrum (distinct elevated/expansive mood, decreased need for sleep without fatigue, grandiosity, increased goal‑directed activity), quantify substance use (type, amount, frequency, last heavy use, consequences), and clarify trauma/PTSD symptoms (re‑experiencing, avoidance, hyperarousal). Document pertinent positives/negatives.",
+    "Provide mini‑summaries during the visit and a 60–90 second synthesis before closing: reflect key themes, check accuracy, and present a collaborative working diagnosis (e.g., BPD features with trauma‑related symptoms and anxiety), including why bipolar is or isn’t likely.",
+    "Translate formulation into a concrete plan: propose evidence‑based options (e.g., DBT/MBT), specify frequency/modality, identify initial skill targets (emotion regulation, distress tolerance, interpersonal effectiveness, grounding for dissociation), and confirm the patient’s preferences based on prior unhelpful experiences.",
+    "Assign specific, doable homework: e.g., DBT diary card or daily trigger‑emotion‑urge‑behavior log, one distress‑tolerance or grounding practice (paced breathing, 5‑4‑3‑2‑1) with when/where to practice; explore anticipated barriers and supports.",
+    "Strengthen closing structure: summarize key points, restate the plan and safety steps, confirm the next appointment (date/time) and how to reach you between sessions for urgent concerns.",
+    "Refine language and questioning: avoid minimizing phrasing, normalize sensitive topics, prefer open questions to yes/no, and proofread to avoid typos that could affect credibility."
+  ]
+}
