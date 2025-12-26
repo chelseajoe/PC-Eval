@@ -1,73 +1,74 @@
 {
-  "overall_session_summary": "You set a warm, respectful tone from the start and covered confidentiality clearly and early, which helped build trust with a validation‑sensitive patient. Communication remained empathic, collaborative, and patient‑centered throughout. After several rapport‑focused turns, you transitioned into a thorough, well‑structured assessment that covered mood reactivity, triggers, chronic emptiness, interpersonal instability, abandonment sensitivity, identity disturbance, impulsivity, anger, dissociation/paranoia, safety (SI/NSSI), substance use, anxiety, trauma/PTSD features, and functional impact. Performance progressed from Emerging in the earliest turns to consistently Proficient thereafter. The principal gap across the session was time management and synthesis: history‑taking dominated, while agenda‑setting, concise mid‑session summaries, explicit differential diagnosis (especially bipolar spectrum), and a clear working formulation and treatment plan were delayed or omitted. Closing actions began (homework, follow‑up implied, collaborative stance), but a structured summary, named working diagnosis, explicit rule‑outs, modality/frequency, concrete safety plan, and appointment details were not fully delivered.",
+  "overall_session_summary": "Across 24 turns, performance consistently fell in the Emerging range. Strengths included systematic screening of key psychiatric domains (depression features, panic, OCD, psychosis) and appropriate safety assessment, a generally polite tone, and late-stage movement toward a collaborative, stepwise plan aligned with the patient’s cautious preferences. However, the session was dominated by closed, multi‑barreled questions with minimal early introduction/agenda, limited empathic reflection, and very little open-ended exploration of the anxiety narrative. Core elements of a GAD history (duration/uncontrollability, somatic symptoms, sleep specifics, functional impairment, caffeine timing/quantity, alcohol quantification, past treatments, medical contributors) remained incomplete. Diagnostic synthesis and a preliminary differential were never explicitly provided before proposing treatment. Communication clarity occasionally slipped (meta-comments, disfluencies, one non‑English phrase, vague safety wording). The end of the encounter showed improvement with open-ended exploration of concerns and alignment to a cautious plan, but it still lacked a concise diagnostic summary and brief evidence-based rationale to meet the patient’s need for safety and effectiveness.",
   "rubric_section_summary": {
     "Introduction and Rapport Building": {
-      "final_score": "4",
-      "max_score": "5",
-      "strengths": "Warm, respectful introductions; remembered prior contact; consistently validating tone; asked permission to proceed and normalized sensitive topics; emphasized collaboration and feedback.",
-      "weaknesses": "No explicit agenda/time check; extended rapport without timely pivot to assessment early on; occasional phrasing risked sounding minimizing.",
+      "final_score": "1",
+      "max_score": "3",
+      "strengths": "Polite tone; occasional affirmations and thanks; intermittent signposting helped orientation late in the visit.",
+      "weaknesses": "No clear introduction or role clarification, no explicit agenda-setting, and scant empathy/validation despite patient skepticism and anxiety. Missed opportunities to reflect feelings and set expectations; occasional informal or confusing phrases undermined trust.",
+      "turns_spent": "12"
+    },
+    "Open-Ended Inquiry": {
+      "final_score": "2",
+      "max_score": "3",
+      "strengths": "Some late open prompts (wrap-up, social supports, treatment concerns) that surfaced patient priorities and ambivalence.",
+      "weaknesses": "Open-ended exploration came late and infrequently. Heavy reliance on closed, multi-barreled questions limited the patient’s narrative about anxiety pattern, triggers, duration, and impact.",
       "turns_spent": "5"
     },
-    "Assessment and Understanding": {
-      "final_score": "5",
-      "max_score": "5",
-      "strengths": "Comprehensive, targeted assessment across core domains: mood swings (triggers, duration), emptiness, SI/NSSI, interpersonal patterns, abandonment fears, identity disturbance, impulsivity, anger, dissociation/paranoia, substances, anxiety, trauma/PTSD features, and functional impact.",
-      "weaknesses": "Risk assessment was not fully structured (intent, plan, means, protective factors) and synthesis was deferred; occasional closed/leading questions limited depth.",
-      "turns_spent": "21"
+    "Focused Inquiry and Probing Questions": {
+      "final_score": "2",
+      "max_score": "3",
+      "strengths": "Thorough screening across multiple psychiatric domains and inclusion of social and substance history; appropriate safety check.",
+      "weaknesses": "Core GAD characterization remained incomplete (duration, uncontrollability, restlessness, muscle tension, irritability, sleep details, functional impairment). Limited quantification of caffeine/alcohol and sleep schedule; redundancy at times; multi-part questions reduced clarity.",
+      "turns_spent": "13"
     },
-    "Communication Skills": {
-      "final_score": "5",
-      "max_score": "5",
-      "strengths": "Consistently empathic, nonjudgmental, and clear; frequent validation and normalization; collaborative phrasing; checked understanding; invited feedback about what feels helpful.",
-      "weaknesses": "At times over‑reliance on closed or leading questions; occasional typos; reflections were not always linked to a forward‑moving question or summary.",
-      "turns_spent": "34"
+    "Differential Diagnosis Development": {
+      "final_score": "1",
+      "max_score": "3",
+      "strengths": "Implicit consideration of multiple anxiety/depressive and substance-related etiologies in comments.",
+      "weaknesses": "No concise diagnostic summary or preliminary differential was presented despite extensive history. Missed opportunity to orient the patient (e.g., likely GAD vs alternatives) before offering treatment.",
+      "turns_spent": "0"
     },
-    "Confidentiality and Ethical Considerations": {
-      "final_score": "5",
-      "max_score": "5",
-      "strengths": "Confidentiality and its limits (SI/HI, abuse/neglect) explained early and clearly; insurance disclosures included; understanding checked, enhancing safety and trust.",
-      "weaknesses": "During later risk/planning discussions, brief reminders about collaborative safety steps could have reinforced trust.",
-      "turns_spent": "1"
+    "Communication Skills and Professionalism": {
+      "final_score": "2",
+      "max_score": "3",
+      "strengths": "Generally respectful, collaborative tone; clear signposting when stepping out; willingness to align with patient preferences.",
+      "weaknesses": "Clarity lapses (meta-comments, disfluencies, a non-English phrase), multi-barreled questions, and vague safety phrasing. Limited reflective listening and normalizing; roadmap and summaries were sparse.",
+      "turns_spent": "24"
     },
-    "Session closing": {
-      "final_score": "3",
-      "max_score": "5",
-      "strengths": "Initiated treatment planning; invited collaboration and feedback; assigned between‑session task; confirmed intent to follow up.",
-      "weaknesses": "No concise summary of key findings; no explicit working diagnosis or rule‑outs; plan lacked modality/frequency specifics and a concrete safety plan; appointment details not clearly confirmed.",
-      "turns_spent": "4"
-    },
-    "Application of Psychiatric Diagnosis": {
-      "final_score": "4",
-      "max_score": "5",
-      "strengths": "Elicited many DSM‑5‑TR–consistent BPD features (affective instability, emptiness, identity disturbance, interpersonal instability, impulsivity, anger, stress‑related paranoia/dissociation) and probed PTSD/anxiety and substance use.",
-      "weaknesses": "Did not explicitly rule out bipolar spectrum in‑session or present a collaborative working diagnosis/formulation; synthesis was deferred to the close and ultimately remained incomplete.",
-      "turns_spent": "21"
+    "Motivation/Counseling": {
+      "final_score": "2",
+      "max_score": "3",
+      "strengths": "Late-stage alignment with a cautious, stepwise plan; autonomy support; elicited medication concerns and offered to proceed slowly.",
+      "weaknesses": "Insufficient elicitation of goals/preferences early; limited brief, evidence-based rationale (CBT/SSRI efficacy, timelines, side effects); no explicit monitoring/follow-up plan; missed chances to reinforce change talk and summarize.",
+      "turns_spent": "6"
     }
   },
   "things_you_do_well": [
-    "Establish trust early with a clear, comprehensive confidentiality discussion and checks for understanding.",
-    "Maintain a highly empathic, validating, and nonjudgmental communication style tailored to a validation‑sensitive patient.",
-    "Seek permission and normalize sensitive topics (suicide, NSSI, trauma, impulsivity), supporting autonomy and alliance.",
-    "Conduct a focused, thorough assessment across all relevant domains, including safety and functional impact.",
-    "Use clear, patient‑friendly language and collaborative phrasing that invites feedback.",
-    "Assign collaborative homework and convey optimism about treatment while respecting patient concerns."
+    "Systematically screened major psychiatric domains and addressed safety.",
+    "Maintained a polite, respectful tone and used some signposting.",
+    "Aligned late with the patient’s preference for a cautious, stepwise plan.",
+    "Invited concerns and used a few open-ended questions toward the end.",
+    "Expressed gratitude and reassurance to support engagement."
   ],
   "things_you_should_do_less_of": [
-    "Spending multiple consecutive turns on validation without advancing assessment, synthesis, or planning.",
-    "Relying on closed or leading questions when open‑ended probes would deepen understanding.",
-    "Delaying agenda‑setting and time checks until late (or omitting them).",
-    "Deferring diagnostic synthesis and rule‑outs until the end—and then skipping them.",
-    "Using phrasing that can feel minimizing (e.g., 'not a current issue') and allowing typos that may reduce perceived precision."
+    "Closed, multi-barreled, and redundant questions that limit narrative and clarity.",
+    "Meta-commentary, filler, disfluencies, and informal phrasing (including non-English statements).",
+    "Delaying introduction/agenda-setting, empathy, and diagnostic synthesis.",
+    "Vague safety wording; avoid indirect phrasing for SI assessment.",
+    "Proposing plans before completing core anxiety history and sharing a differential."
   ],
   "recommendations": [
-    "Open with a micro‑agenda and time check: briefly outline the plan (assessment focus, safety check, formulation, and next steps) and confirm it collaboratively.",
-    "Pair validation with a forward pivot: after each empathic reflection, ask a targeted open‑ended question or provide a brief summary to maintain momentum.",
-    "Complete structured suicide risk assessment when indicated: passive vs. active SI, frequency, intensity, intent, plan, access to means, past attempts vs. NSSI (methods/lethality), triggers, protective factors/reasons for living; then co‑create a brief safety plan and share crisis resources.",
-    "Make differentials explicit: screen for bipolar spectrum (distinct elevated/expansive mood, decreased need for sleep without fatigue, grandiosity, increased goal‑directed activity), quantify substance use (type, amount, frequency, last heavy use, consequences), and clarify trauma/PTSD symptoms (re‑experiencing, avoidance, hyperarousal). Document pertinent positives/negatives.",
-    "Provide mini‑summaries during the visit and a 60–90 second synthesis before closing: reflect key themes, check accuracy, and present a collaborative working diagnosis (e.g., BPD features with trauma‑related symptoms and anxiety), including why bipolar is or isn’t likely.",
-    "Translate formulation into a concrete plan: propose evidence‑based options (e.g., DBT/MBT), specify frequency/modality, identify initial skill targets (emotion regulation, distress tolerance, interpersonal effectiveness, grounding for dissociation), and confirm the patient’s preferences based on prior unhelpful experiences.",
-    "Assign specific, doable homework: e.g., DBT diary card or daily trigger‑emotion‑urge‑behavior log, one distress‑tolerance or grounding practice (paced breathing, 5‑4‑3‑2‑1) with when/where to practice; explore anticipated barriers and supports.",
-    "Strengthen closing structure: summarize key points, restate the plan and safety steps, confirm the next appointment (date/time) and how to reach you between sessions for urgent concerns.",
-    "Refine language and questioning: avoid minimizing phrasing, normalize sensitive topics, prefer open questions to yes/no, and proofread to avoid typos that could affect credibility."
+    "Open every encounter with structure: introduce yourself and role, set a clear agenda, and ask for the patient’s top goals/concerns; explicitly acknowledge the impact of symptoms and normalize anxiety.",
+    "Elicit the narrative early with one open prompt (e.g., how the worry unfolds over a typical day/week and its impact on sleep, work, and relationships) before targeted screens.",
+    "Complete a focused, concise GAD history: duration (>6 months), uncontrollability, somatic symptoms (restlessness, muscle tension, irritability), sleep onset/maintenance and schedule, triggers/avoidance, and functional impairment.",
+    "Quantify contributors: caffeine type/amount/timing, alcohol quantity/frequency, other substances, and relevant medical contributors (medications, thyroid); capture prior treatments and family history.",
+    "Use clear, single-part questions; avoid multi-barreled or leading phrasing; eliminate meta-comments and maintain professional, plain-English language.",
+    "Assess safety directly and clearly: ask about suicidal ideation with normalized, explicit wording; if positive, assess intent, plan, means, past attempts, and protective factors.",
+    "Summarize periodically and provide a concise diagnostic synthesis with a preliminary differential (e.g., likely GAD; panic/OCD/psychosis less likely by history; consider sleep/caffeine factors); check understanding and invite corrections.",
+    "Provide brief, evidence-based counseling tailored to skepticism: explain CBT’s effectiveness and structure (skills, typical 8–12 sessions) and SSRIs/SNRIs (first-line, common side effects, response timeline 4–6 weeks); emphasize a start-low–go-slow approach and what to do if side effects occur.",
+    "Co-create a concrete plan that matches preferences (e.g., CBT first, sleep hygiene, caffeine reduction, scheduled worry time, relaxation training), with written resources and options.",
+    "Set monitoring and follow-up: define measurable goals (e.g., sleep hours, GAD-7/PHQ-9), specify check-in intervals, and outline warning signs warranting earlier contact.",
+    "Use signposting to manage flow (e.g., transitioning from history to impression to plan) and provide an expected return time when stepping out; use teach-back to confirm understanding."
   ]
 }

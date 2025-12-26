@@ -1,0 +1,73 @@
+{
+  "overall_session_summary": "Across 34 turns, you demonstrated consistently empathic, professional communication with clear validation, normalization, and permission-asking. You built strong trust (including an early confidentiality review) and elicited rich narratives about mood lability, emptiness, interpersonal instability, fear of abandonment, identity disturbance, impulsivity, anger dysregulation, stress-related paranoia/dissociation, trauma exposure, hyperarousal, anxiety, and substance use. You pivoted appropriately to suicide risk mid-visit and maintained a collaborative tone through the close with homework assigned. Performance progressed from Emerging early to stable Proficient thereafter. Primary gaps were structural: no explicit agenda or expectations were set; focused assessment and risk wrap-up were incomplete (intent/plan/means, HI, protective factors, mania screen, sleep specifics, prior treatments/meds/allergies, family history); and a concise summary with a working differential was never shared. Sessions were weighted toward rapport and phenomenology at the expense of synthesis and concrete planning.",
+  "rubric_section_summary": {
+    "Introduction and Building Rapport": {
+      "final_score": "2.0",
+      "max_score": "3",
+      "strengths": "Warm, validating tone; clear confidentiality review; permission-asking; normalization; explicit invitation for process feedback; consistent efforts to reduce perceived invalidation.",
+      "weaknesses": "No explicit agenda or elicitation of expectations; excessive time spent on rapport without transitioning to structure, synthesis, and planning.",
+      "turns_spent": "21"
+    },
+    "Open-Ended Inquiry": {
+      "final_score": "2.7",
+      "max_score": "3",
+      "strengths": "Effective open invitations once initiated (e.g., elaborating on emptiness, relationships), allowing meaningful narratives that deepened the HPI.",
+      "weaknesses": "Delayed initial open-ended question; occasional leading/closed phrasing; limited summarizing before transitioning to focused probes.",
+      "turns_spent": "4"
+    },
+    "Focused Inquiry and Probing Questions": {
+      "final_score": "1.9",
+      "max_score": "3",
+      "strengths": "Appropriate and progressive probing of triggers, duration, interpersonal patterns, anger, impulsivity, dissociation, trauma, anxiety, hyperarousal, and substance use.",
+      "weaknesses": "Key domains remained incomplete: full suicide risk (intent/plan/means, protective factors), homicidal ideation, brief mania/bipolar screen, sleep specifics, prior treatments/medications/allergies, family psychiatric history (including bipolar), concise functional impact; timing and efficiency of probes could improve.",
+      "turns_spent": "20"
+    },
+    "Differential Diagnosis Development": {
+      "final_score": "1.0",
+      "max_score": "3",
+      "strengths": "Appropriate deferral early while gathering history.",
+      "weaknesses": "No concise summary or working differential was shared despite adequate data (e.g., emotion dysregulation with borderline traits/disorder; trauma-related symptoms/PTSD; rule out bipolar spectrum; MDD with mood lability). No explicit differentiation of reactive affective shifts vs sustained hypomania/mania, and no shared reasoning with the patient.",
+      "turns_spent": "0"
+    },
+    "Communication Skills and Professionalism": {
+      "final_score": "3.0",
+      "max_score": "3",
+      "strengths": "Consistently empathic, clear, nonjudgmental, and collaborative; good normalization and permission-asking; language tailored to a validation-sensitive patient; respectful closure.",
+      "weaknesses": "Occasional typos and occasional leading phrasing; could pair direct risk questions more consistently with normalization/validation.",
+      "turns_spent": "34"
+    },
+    "Motivation/Counseling": {
+      "final_score": "2.0",
+      "max_score": "3",
+      "strengths": "Reflective listening; affirmations; process transparency; homework invitation; collaborative stance; elicited goals for stability near the end.",
+      "weaknesses": "Limited elicitation of change talk, goals, and values early; minimal concrete coping skills or safety planning delivered in-session; did not explore prior unhelpful treatment experiences before proposing plan.",
+      "turns_spent": "18"
+    }
+  },
+  "things_you_do_well": [
+    "Establish trust quickly with clear confidentiality framing and empathic validation.",
+    "Use permission-asking and normalization to reduce defensiveness on sensitive topics.",
+    "Elicit rich narratives with well-timed open-ended prompts once initiated.",
+    "Maintain a calm, respectful, and collaborative tone throughout, including wrap-up.",
+    "Address suicide risk directly and professionally."
+  ],
+  "things_you_should_do_less_of": [
+    "Spending multiple turns on rapport without setting a clear agenda or expectations.",
+    "Prolonged phenomenology without timely synthesis, risk wrap-up, and planning.",
+    "Leading or closed questions when an open prompt or summary would yield better data.",
+    "Deferring diagnostic formulation until the end (or not sharing one at all).",
+    "Letting minor typos and phrasing drift (which can read as inattention to detail)."
+  ],
+  "recommendations": [
+    "Open with structure in the first 60–90 seconds: elicit the patient’s priorities, set a brief agenda (history, safety, summary/differential, plan), and confirm expectations.",
+    "Complete a concise, structured risk screen early and revisit briefly before closing: current/past SI (passive vs active), intent, plan, means, past attempts and NSSI, protective factors, and homicidal ideation.",
+    "Rapidly close key diagnostic screens: brief bipolar screen (4+ days elevated/irritable mood, decreased need for sleep, increased goal-directed activity); sleep/energy; substance use (last 30 days, type/amount/frequency); prior treatments/medications/allergies and responses; family psychiatric history (especially bipolar); concise functional impact.",
+    "Summarize and share a working differential mid-to-late visit: likely emotion dysregulation with borderline traits/disorder and trauma-related symptoms; rule out bipolar spectrum; consider MDD with mood lability. Distinguish reactive mood shifts from sustained hypomanic/manic episodes. Check understanding and invite questions.",
+    "Use brief summaries to transition between open-ended exploration and focused probes, signaling why you’re asking each cluster of questions.",
+    "Enhance MI: reflect nervousness/hope, explore what was unhelpful in prior care and what the patient wants done differently, elicit values and concrete goals, and collaboratively select next steps.",
+    "Deliver at least one in-session skill and a micro–safety plan: teach a quick grounding or paced-breathing exercise; identify early warning signs, coping steps, and crisis resources; confirm buy-in.",
+    "Reduce leading phrasing; prefer open prompts first, then tighten with targeted probes. Pair direct risk questions with normalization (e.g., “I ask everyone because your safety matters”).",
+    "Close with structure every time: a 30–60 second synthesis, explicit differential and rationale, confirm risk status and crisis resources, SMART between-session task(s), and clear next-step expectations.",
+    "Document clearly: risk assessment details (intent/plan/means/protective factors), differential reasoning, and the collaborative plan (skills/homework, referrals such as DBT, follow-up cadence)."
+  ]
+}
