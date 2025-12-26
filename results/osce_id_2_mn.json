@@ -1,0 +1,2408 @@
+[
+  {
+    "entry_index": 6,
+    "turn_index": 1,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Hello Jame my name is Maria Rodriguez Nunez I will be your nurse practioner student",
+          "assistant_text": "Hi Maria, nice to meet you. Thanks for taking the time to see me today."
+        },
+        "turn_analysis_summary": "Good start introducing yourself and role; next, set a clear agenda and invite the patient’s concerns with an open-ended question while using the correct name and validating language."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "You introduced yourself and your role, which establishes initial rapport. You did not set the agenda, check preferred name/pronouns, or ask for the patient’s main concerns or expectations. Minor name misspelling (“Jame” vs. James) can erode trust. For this early stage, spending a brief moment to validate and outline the plan would be appropriate."
+        },
+        "Open-Ended Inquiry": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No open-ended question was used to invite the patient’s story. Early in the visit, this is essential to understand the chief concerns and to convey respect for the patient’s perspective."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No symptom characterization or safety/substance/medical history probing yet. This is expected at turn 1, but plan to transition efficiently after initial open-ended inquiry."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic reasoning shared yet, which is appropriate at this very early stage. Ensure you progress toward summarizing themes and a preliminary differential later."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "Polite and professional tone. Accuracy matters: use the correct patient name and consider confirming preferred name/pronouns given the sensitive context. Brief empathy or validation would strengthen alliance from the outset."
+        },
+        "Motivation/Counseling": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No motivational interviewing or counseling yet, which is reasonable this early. Plan to validate emotions and collaborate on goals, especially given likely sensitivity to perceived invalidation."
+        }
+      },
+      "overall_summary": {
+        "total_score": "4",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You opened with a clear introduction and role, maintaining a respectful tone. To build a stronger therapeutic alliance and efficiently guide the visit, quickly set an agenda, confirm the correct name/pronouns, and invite the patient’s perspective with an open-ended question before moving to focused inquiry."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Introduced name and role, but no agenda-setting or eliciting concerns; minor name error noted which impacts rapport."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No open-ended questions asked yet; no time allocated to eliciting the narrative."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No focused history elements obtained at this early turn."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Too early for diagnostic synthesis; not addressed yet."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "Professional tone and role clarity, but accuracy and empathy could be improved (name misspelling; no validation)."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Not initiated at this stage; no time spent on collaborative goal-setting or validation."
+        }
+      ],
+      "recommendations": [
+        "Set an agenda and invite concerns: “I’d like to understand what’s been most challenging lately; what would you like us to focus on today?”",
+        "Confirm name/pronouns and use validating language early: “I want to make sure I’m addressing you correctly—what name and pronouns do you prefer? I appreciate you coming in; these experiences can feel overwhelming.”",
+        "Follow the open-to-focused flow: start with 1–2 open-ended questions, then transition to targeted safety, mood, anxiety, trauma, substance use, and functional impact questions."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 2,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Of course! Before we get started, I just wanted to explain this telehealth visit, we will discuss why you are here and move forward with a plan that feels the best for you. this visit should take aporoxiek aelty 20mintues is that ok with you/",
+          "assistant_text": "Yeah, that sounds fine to me. I'm just hoping to get a better handle on what's been going on with me lately."
+        },
+        "turn_analysis_summary": "You set a clear agenda and time frame, which is helpful; now pivot to an open-ended invitation and brief validation to start the patient’s story."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "2",
+          "comment": "You added agenda-setting and time expectations, which strengthens structure and collaboration. However, you have not yet elicited all concerns, checked preferred name/pronouns, or asked about expectations. After two turns on introduction, it’s time to transition to the patient’s narrative to avoid spending too long on preliminaries."
+        },
+        "Open-Ended Inquiry": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No open-ended question yet. The patient is ready to share; promptly invite their story (e.g., “Can you walk me through what’s been most difficult lately?”). Spending additional time without this risks delaying diagnostic progress."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No targeted questions yet about triggers, duration, safety, past treatments, substance use, or functional impact. This is appropriate only initially; move into focused inquiry after the opening narrative."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic reasoning shared at this stage, which is appropriate early on. Ensure you summarize themes and preview a differential after adequate history."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "2",
+          "comment": "Polite and collaborative tone with agenda-setting. Watch written clarity and typos, which can undermine professionalism. In telehealth, also consider confirming privacy, location, and a backup plan. A brief validation would help with this patient’s sensitivity to invalidation."
+        },
+        "Motivation/Counseling": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No motivational interviewing yet. Soon, reflect feelings and emphasize collaboration (e.g., “I want to make sure we don’t miss how intense this is for you; we’ll work together on next steps.”)."
+        }
+      },
+      "overall_summary": {
+        "total_score": "4",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You established your role and set an agenda with timing, which builds structure. To advance the visit, promptly invite an open-ended narrative and show empathy. Next, move into focused safety and symptom inquiry to support diagnostic reasoning and treatment planning."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You improved by setting an agenda and time frame, but you have not yet elicited concerns, expectations, or checked preferred name/pronouns; performance remains in the Good range."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No open-ended question used yet; this is delaying the patient’s narrative."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No targeted history gathered yet; appropriate early, but should follow the opening narrative soon."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic reasoning discussed yet, which is expected prior to history-taking."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Tone remains professional and collaborative, but typos and lack of telehealth privacy/location checks limit advancement to Excellent."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No reflective statements or counseling yet; appropriate to add soon given the patient’s concerns about invalidation."
+        }
+      ],
+      "recommendations": [
+        "Transition now with an open-ended prompt and validation: “I hear you want a better handle on this. Can you walk me through what’s been most intense or disruptive lately?”",
+        "Add brief telehealth safety/structure checks: confirm location, privacy, and an emergency contact/backup plan; verify preferred name and pronouns.",
+        "After the narrative, move to focused questions (triggers, duration, interpersonal patterns, dissociation, sleep, function) and a safety screen (SI/NSSI, past attempts, access to means, substance use)."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 3,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I hear you. As we begin can you verifry your name and date of birth",
+          "assistant_text": "Sure, my name is James Knight, and my date of birth is May 12, 1966."
+        },
+        "turn_analysis_summary": "You professionally confirmed identity and offered a brief validating phrase, but this is the third setup turn—move promptly to an open-ended invitation to share his story."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "3",
+          "comment": "You maintained rapport with a brief validation (“I hear you”) and performed identity verification. However, after three setup turns, you have not yet elicited the patient’s concerns, expectations, or understanding. Time on preliminaries is now excessive—transition to the patient’s narrative to avoid conveying disengagement or invalidation."
+        },
+        "Open-Ended Inquiry": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No open-ended question yet. At this point, it’s important to invite the patient’s story (e.g., “What’s been most difficult lately?”) and allow uninterrupted time to speak. The delay risks undermining diagnostic progress and rapport with a patient sensitive to invalidation."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No targeted clinical questions yet. After an opening narrative, move to focused areas: triggers and patterns of mood shifts, duration, safety (current SI/HI and self-harm urges), dissociation, substance use, sleep/appetite, functional impact, past treatments, and trauma/interpersonal stressors."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic reasoning shared yet, which is reasonable this early, but progress toward synthesis is needed soon. Plan to summarize themes and consider BPD, mood disorders (including bipolar spectrum), MDD, PTSD/trauma-related, and substance-related contributions after obtaining history."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "3",
+          "comment": "Identity verification was appropriate and your tone remains polite. Recurrent typos (“verifry”) reduce clarity. In telehealth, also confirm privacy/location and a backup contact plan. More explicit empathy and checking preferred name/pronouns would strengthen alliance."
+        },
+        "Motivation/Counseling": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "A brief “I hear you” is a start, but no reflective listening or collaborative goal-setting yet. Given sensitivity to perceived invalidation, reflect feelings and emphasize partnership before shifting into focused questioning."
+        }
+      },
+      "overall_summary": {
+        "total_score": "4",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You established role and agenda and verified identity with a respectful tone, but the visit is stalled in preliminaries. Prioritize an open-ended invitation to share his chief concerns, then proceed to focused risk and symptom assessment. Enhance empathy, reduce typos, and confirm telehealth privacy to strengthen trust."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You added identity verification and brief validation, but still have not elicited concerns or expectations; time spent on introduction is now excessive."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No open-ended question yet; continued delay in inviting the patient’s narrative."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No targeted clinical questions asked; still in pre-history phase."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis offered yet; appropriate early but should follow after initial history."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Professional identity check and polite tone maintained; typos and lack of privacy confirmation keep this from Excellent."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "Only minimal validation; no reflective listening or collaborative goal setting yet."
+        }
+      ],
+      "recommendations": [
+        "Move immediately to an open-ended prompt and allow uninterrupted time (e.g., “Can you walk me through what’s been most challenging lately?”).",
+        "Use explicit validation and reflective statements and confirm preferred name/pronouns to reduce perceived invalidation (e.g., “What you’re feeling sounds intense and real to you; I want to understand it.”).",
+        "After the narrative, conduct focused risk and symptom screening: current SI/HI or self-harm urges, triggers/patterns of mood shifts, sleep, substance use, dissociation, functional impact, and past treatments; then summarize and share a preliminary plan."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 4,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Ok thank you for that. Can you now explain to me what bring you here today",
+          "assistant_text": "Lately, I've been having these intense mood swings and feeling really empty. It's like any small thing can trigger me into feeling like I'm on an emotional roller coaster. I also feel really distressed when it seems like people are abandoning or invalidating me, whether they're close to me or not. It's just been really hard to manage."
+        },
+        "turn_analysis_summary": "Good pivot to an open-ended prompt inviting James’s story; now add explicit validation and be ready to transition to safety and focused history after allowing him to speak."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "3",
+          "comment": "Introductions and agenda were established earlier; in this turn you acknowledged the patient briefly but did not extend rapport with validation, expectations, or preferred name/pronouns. Time on preliminaries was already long; this shift to the patient’s narrative is appropriate. Consider a brief empathic statement to reduce perceived invalidation."
+        },
+        "Open-Ended Inquiry": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "You used an open-ended question that allowed the patient to describe his difficulties, which elicited a rich response. To reach excellence, follow with reflective listening and summarizing before narrowing. Given earlier delays, this was a timely transition; allow space to speak, then move to focused safety and symptom characterization."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No targeted probing yet. After his narrative, prioritize safety (current SI/HI, self-harm urges), mood episode timing and duration, bipolar screening (elevated mood, decreased need for sleep), dissociation, substance use, sleep/appetite, functional impact, past treatments, trauma/interpersonal triggers, and medical rule-outs."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic synthesis yet, appropriate at this stage. After focused history, plan to summarize and consider BPD, bipolar spectrum disorders, MDD with anxious distress, PTSD/trauma-related, and substance/medical contributions."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "Polite and inviting tone. Minor grammar/typos persist (“what bring you here”), and explicit empathy would strengthen alliance with a patient sensitive to invalidation. In telehealth, remember to confirm privacy/location and a backup plan early in the visit."
+        },
+        "Motivation/Counseling": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No reflective or motivational strategies yet. Briefly validate intensity (“That sounds exhausting and painful”) and collaborate on goals; later, ask permission to discuss coping skills and evidence-based treatments (e.g., DBT), emphasizing partnership."
+        }
+      },
+      "overall_summary": {
+        "total_score": "6",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You successfully transitioned to an open-ended inquiry, which elicited meaningful information. Rapport remains adequate but would benefit from explicit validation and clarifying the patient’s expectations. Next, move efficiently to safety screening and focused history to support a clear diagnostic formulation and collaborative plan."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 0,
+          "new_score": 2,
+          "reason": "You asked a broad, non-leading question that elicited the patient’s narrative; further reflective listening and summarizing would be needed for an excellent score."
+        }
+      ],
+      "recommendations": [
+        "Follow the patient’s narrative with a concise reflection and summary, then pivot to safety screening (current SI/HI/self-harm urges) before proceeding to targeted symptom questions.",
+        "Use explicit validation tailored to his stated distress (e.g., “It makes sense you’d feel overwhelmed and worried about being invalidated; thank you for sharing this”).",
+        "After focused history, provide a brief synthesis and preview likely differentials (BPD vs bipolar spectrum, MDD, trauma-related) and invite collaboration on next steps (e.g., discussing DBT, coping strategies)."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 5,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I can tell you that you are not alone and I am hear to listen",
+          "assistant_text": "Thank you, I appreciate that. It's been tough, and it means a lot to hear that."
+        },
+        "turn_analysis_summary": "Your validation is compassionate and builds trust, but at this point you need to pivot promptly to safety and focused assessment, and watch spelling/clarity to maintain professionalism."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "Another empathic statement strengthens rapport. However, you still have not elicited the patient’s expectations/understanding or checked preferred name/pronouns, and you spent four turns on introductions/validation before advancing assessment. Keep rapport, but move into structured evaluation now."
+        },
+        "Open-Ended Inquiry": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "No open-ended question this turn. You elicited a useful narrative previously; now summarize briefly and transition to focused questions rather than adding more general reassurance."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "Still no targeted assessment. Given the presenting concerns and history, prioritize immediate safety screening (current SI/HI, self-harm urges), mood episode characterization (duration, triggers, rapid shifts), bipolar screening (elevated mood, decreased need for sleep), dissociation, substance use, sleep/appetite, functional impact, past treatment/trauma, and medical rule-outs."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic synthesis yet, which is appropriate until more data are gathered. After focused history, plan to summarize and consider BPD, bipolar spectrum, MDD with anxious distress, PTSD/trauma-related, and substance/medical contributions."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "5",
+          "comment": "Your tone is warm and validating. Recurrent typos (“hear” vs “here”) reduce clarity and professionalism. In telehealth, also confirm privacy/location and a backup plan. Balance empathy with forward momentum into assessment to avoid the patient feeling stalled or unheard about specific concerns."
+        },
+        "Motivation/Counseling": {
+          "score": "1",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "You provided supportive validation (“you are not alone; I’m here to listen”), which is a good start. To deepen MI, reflect the patient’s own words (intense mood swings, emptiness, fears of abandonment), ask permission to discuss coping strategies, and collaborate on a brief agenda."
+        }
+      },
+      "overall_summary": {
+        "total_score": "7",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths include a warm, validating tone, clear introduction, and one effective open-ended prompt. However, time allocation is now skewed toward introductions and reassurance, with no focused history or safety assessment yet. Prioritize a concise empathic summary and move into targeted questions to support diagnostic clarity and safety."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 0,
+          "new_score": 1,
+          "reason": "You offered explicit validation and support this turn, indicating initial engagement in motivational strategies, though without deeper reflection or collaborative planning yet."
+        }
+      ],
+      "recommendations": [
+        "After acknowledging his feelings, immediately transition to safety: “Given how intense this has been, can I ask a few safety questions—any current thoughts about harming yourself or others, or urges to self-harm?” Follow with frequency, triggers, intent, plan, means, and protective factors.",
+        "Use an empathic summary to pivot to focused inquiry: “You’re riding intense, rapid mood shifts and feel empty and afraid of being dismissed. I’d like to understand the pattern better—when did this start, what triggers it, how long do these shifts last, any times of unusually high energy or less need for sleep?” Also ask about dissociation, substance use, sleep/appetite, functional impact, and past treatments.",
+        "Tighten communication: check preferred name/pronouns and telehealth privacy, reduce typos, and set a collaborative micro-agenda: “In the next 10–15 minutes, let’s cover safety, patterns of these mood shifts, and then talk about options like DBT skills—does that plan work for you?”"
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 6,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Can you tell me more on when this began?",
+          "assistant_text": "Well, it's been going on for several years now. I can't pinpoint an exact time it started, but it's definitely gotten worse recently with some stress at work and in my personal life."
+        },
+        "turn_analysis_summary": "Good pivot into a focused timeline question; now quickly expand to safety, symptom characterization (including bipolar screening), and functional impact to build your differential."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "No additional rapport work this turn, which is acceptable since earlier time on introductions/validation was already lengthy. You still have not clarified preferred name/pronouns or patient expectations for the visit. Given prior time spent, continue moving forward efficiently while maintaining brief empathic check-ins."
+        },
+        "Open-Ended Inquiry": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "Your earlier open-ended question elicited a rich narrative. This turn used a more targeted question (timing), which is appropriate now. Consider a brief reflection/summary before the next focused cluster to maintain engagement and mitigate perceived invalidation."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "1",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "This is your first focused probe, clarifying duration and recent worsening with stress—useful data. Next, prioritize safety (current SI/HI, self-harm urges), bipolar screening (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, past treatments, and trauma/interpersonal triggers. Time allocation is improving, but a broader focused assessment is still needed."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic synthesis yet, which is acceptable until essential safety and symptom domains are covered. After focused history, summarize themes and consider borderline personality disorder, bipolar spectrum, MDD with anxious distress, PTSD/trauma-related, and substance/medical factors."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "6",
+          "comment": "Clear and professional tone, though grammar remains slightly awkward (“on when this began”). Maintain empathic language given the patient’s sensitivity to invalidation. In telehealth, remember to confirm privacy/location and a backup plan early in the visit."
+        },
+        "Motivation/Counseling": {
+          "score": "1",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "No motivational interviewing this turn. Incorporate brief reflections of the patient’s emotions (e.g., intensity, emptiness, fear of abandonment) and ask permission to discuss coping strategies and treatment options to reinforce collaboration."
+        }
+      },
+      "overall_summary": {
+        "total_score": "8",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You transitioned from prolonged introductions into focused history by clarifying onset and recent stressors, which is a step forward. To progress, you need timely safety screening and broader symptom characterization to inform a differential and plan. Maintain empathy while avoiding excessive time on rapport at the expense of assessment."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 0,
+          "new_score": 1,
+          "reason": "You asked your first targeted question about onset and recent worsening; however, essential domains (safety, bipolar features, substance use, functional impact) are still outstanding."
+        }
+      ],
+      "recommendations": [
+        "Immediately conduct a brief, direct safety screen: current suicidal or homicidal ideation, self-harm urges, means/access, past attempts, and a crisis/backup plan; then ask about dissociation and substance use.",
+        "Use a concise reflect-and-summarize statement (e.g., “It’s been intense for years, getting worse with stress, leaving you feeling empty and on edge”) before moving into a structured cluster on bipolar symptoms (elevated/irritable mood, decreased need for sleep, impulsivity), sleep/appetite, and functional impact.",
+        "After gathering key history, share a succinct preliminary differential and collaborate on next steps (e.g., discuss DBT, safety resources, and coping skills), while also clarifying preferred name/pronouns and confirming telehealth privacy."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 7,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Can you tell me why it has recently gotten worse?",
+          "assistant_text": "I've been dealing with a lot of instability at work since I'm freelancing, which has been stressful. On top of that, my personal relationships haven't been very stable, either. It all just feels overwhelming."
+        },
+        "turn_analysis_summary": "Nice focused, open-ended probe about recent worsening; now pivot quickly to safety, bipolar/impulsivity screening, and a brief reflective summary to validate before continuing."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "No additional rapport-building this turn, which is appropriate given earlier time spent on introductions and validation. You still have not checked preferred name/pronouns or elicited expectations for the visit. A brief empathic reflection here (“That sounds overwhelming”) before moving to safety and structured assessment would reduce perceived invalidation without slowing progress."
+        },
+        "Open-Ended Inquiry": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "2",
+          "comment": "Your question was open-ended and allowed the patient to expand on triggers (work instability, relationship stress). Good use of open-ended prompts. To reach excellence, pair these with brief reflective summaries to ensure the patient feels understood, then transition to targeted safety and symptom characterization to avoid lingering too long in broad exploration."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "2",
+          "comment": "Progress: you explored the reason for recent worsening and elicited key psychosocial stressors. However, the focused assessment remains incomplete. Next, prioritize immediate safety (current SI/HI, self-harm urges), bipolar screening (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, past treatments, trauma/interpersonal triggers, and basic medical/meds/allergies review. Time allocation is improving but still insufficient on safety and risk."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No synthesis provided yet, which is acceptable until you complete essential safety and symptom domains. After gathering more data, summarize themes and consider borderline personality disorder, bipolar spectrum, MDD with anxious distress, PTSD/trauma-related factors, and substance/medical contributions."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "7",
+          "comment": "Clear, neutral, and nonjudgmental phrasing. Continue to integrate empathic reflections given the patient’s sensitivity to invalidation. Watch written clarity (earlier typos) and remember telehealth best practices (confirm privacy/location and a backup contact)."
+        },
+        "Motivation/Counseling": {
+          "score": "1",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "1",
+          "comment": "No motivational interviewing this turn. Briefly reflect the patient’s emotions (“overwhelming,” “instability”) and ask permission to discuss coping skills and treatment options to strengthen collaboration and autonomy."
+        }
+      },
+      "overall_summary": {
+        "total_score": "9",
+        "maximum_score": "18",
+        "performance_level": "Proficient",
+        "summary_comment": "You are moving from general exploration toward a more focused assessment and elicited important psychosocial stressors that worsen symptoms. The main gap is timely safety/risk screening and broader targeted history (mania, dissociation, substance use, sleep, past treatment). Keep brief empathic reflections to avoid perceived invalidation, then proceed efficiently to a structured risk and symptom review before offering a preliminary diagnostic framework and plan."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 1,
+          "new_score": 2,
+          "reason": "You added a targeted, open-ended probe that elicited key triggers for recent worsening (work and relationship instability), representing progress toward a more complete focused assessment; safety and other key domains remain unaddressed."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You continued to use an open-ended prompt, but without reflective summarizing or a comprehensive elicitation of the patient’s story beyond previously gathered information; overall performance remains good but not yet excellent."
+        },
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional rapport elements were added this turn; maintaining the prior score is appropriate as earlier introductions were sufficient but incomplete (no preferred name/pronouns or expectations)."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis has been offered yet; appropriate to defer until after essential safety and symptom data are collected."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Communication remained clear and neutral; continued need to add brief empathy and complete telehealth professionalism items keeps this at a good level."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 1,
+          "new_score": 1,
+          "reason": "No new counseling or motivational interviewing this turn; prior minimal validation stands without additional progress."
+        }
+      ],
+      "recommendations": [
+        "Immediately conduct a concise safety screen: ask about current suicidal ideation, self-harm urges/behaviors, homicidal thoughts, and means/access; document protective factors.",
+        "Do a brief, structured symptom review: mania/hypomania (elevated/irritable mood, decreased need for sleep, pressured speech, impulsivity), dissociation, substance use, sleep/appetite, functional impact, past treatments/meds and response, trauma/interpersonal triggers, and medical history/meds/allergies.",
+        "Use a quick reflective summary to validate and maintain alliance: e.g., “I’m hearing the work and relationship instability feel overwhelming and intensify the mood swings; let’s make sure you’re safe first, then we’ll outline options together,” then ask permission to discuss evidence-based options (e.g., DBT, coping skills) and collaboratively set next steps."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 8,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "It sounds like you have alot on your plate but there are resources I can provide if you are interested later in this visit.",
+          "assistant_text": "I guess that could be helpful. Sometimes it feels like any bit of support might make a difference."
+        },
+        "turn_analysis_summary": "Your empathic reflection and offer of resources were supportive, but at this point you should pivot quickly to safety screening and a structured assessment to advance the visit."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "You added another empathic validation, which supports rapport. However, time spent on rapport is becoming excessive relative to diagnostic needs, and you still have not checked preferred name/pronouns or the patient’s expectations for the visit. Maintain brief empathy but transition to safety and focused assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 2,
+          "comment": "No open-ended question this turn. You previously elicited a good narrative; now you should avoid further broad prompts and move into targeted questions to progress clinically."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 2,
+          "comment": "No focused probes this turn. Given history of mood lability and past self-harm, you should now prioritize safety (current SI/HI, self-harm urges, access to means), bipolar screening (elevated/irritable mood, decreased need for sleep), dissociation, impulsivity, substance use, sleep/appetite, functional impact, trauma/interpersonal stressors, past treatments, and meds/allergies."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No diagnostic synthesis yet, which is understandable until key domains are covered. After safety and core symptom characterization, summarize themes and discuss a preliminary differential (e.g., borderline personality disorder, bipolar spectrum, MDD with anxious distress, PTSD/trauma-related, substance/medical factors)."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 8,
+          "comment": "Empathic tone and collaborative phrasing are strengths. Watch written clarity/typos (e.g., “alot”), and in telehealth confirm privacy/location and a backup contact plan. Balance warmth with forward momentum to avoid the patient feeling stalled."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 2,
+          "comment": "Good reflective statement and permission-based offer of resources. To deepen MI, briefly reflect core emotions (emptiness, fear of abandonment), elicit the patient’s priorities for change, and ask permission to discuss coping skills (e.g., DBT skills), crisis/safety planning, and next steps."
+        }
+      },
+      "overall_summary": {
+        "total_score": 10,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "You’ve built a supportive, empathic tone and elicited some narrative, but the visit is now weighted toward rapport at the expense of safety assessment and diagnostic progress. Prioritize immediate risk screening, broaden the focused history, and then deliver a concise synthesis with collaborative next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You provided additional validation, but key elements (preferred name/pronouns, expectations) remain unaddressed, and time spent here is already high."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new open-ended questioning this turn; prior use was adequate, and now a shift to focused questioning is needed."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional probing this turn; safety and core diagnostic domains remain to be covered."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis yet; appropriate to defer until after safety and focused history."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathic and professional tone continues, but typos persist and telehealth privacy has not been confirmed."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 1,
+          "new_score": 2,
+          "reason": "You reflected feelings and offered resources with permission, representing a clearer MI/counseling step forward."
+        }
+      ],
+      "recommendations": [
+        "Shift now to a brief but thorough safety screen: current suicidal or homicidal ideation, self-harm urges, past attempts, access to means, protective factors, and develop a collaborative safety plan if indicated.",
+        "Proceed with structured focused history: bipolar spectrum screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, trauma/interpersonal triggers, past treatments/response, and meds/allergies.",
+        "After gathering essentials, summarize and share your working differential and plan; ask permission to discuss evidence-based options (e.g., DBT skills/therapy, medication evaluation), confirm telehealth privacy/location, and clarify the patient’s goals for this visit."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 9,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I understand that. Have you felt things have been piling up for you?",
+          "assistant_text": "Yeah, that's exactly how it feels. Like everything is just stacking up and I'm constantly trying to keep it from collapsing."
+        },
+        "turn_analysis_summary": "You offered brief validation but followed with a closed, confirmatory question that didn’t advance safety or targeted assessment—pivot now to risk screening and specific symptom probes."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "You added another brief validation, supporting rapport. However, time spent on rapport is now excessive relative to diagnostic needs, and you have not checked preferred name/pronouns or patient expectations. Balance empathy with forward progress into safety and structured assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 2,
+          "comment": "No open-ended question this turn. You previously elicited a useful narrative; now, avoid additional broad or redundant prompts and transition to targeted risk and symptom characterization to move the evaluation forward."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 3,
+          "comment": "This was a narrow, confirmatory probe about stress load and did not add new clinical detail. Given mood lability and past self-harm history, you should now prioritize safety (current SI/HI, self-harm urges, access to means), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, past treatments, trauma/interpersonal triggers, and meds/allergies. Time allocation is still insufficient on risk."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No diagnostic synthesis yet, which is acceptable only until essential domains are covered. After safety and core symptom characterization, summarize themes and discuss a preliminary differential (e.g., borderline personality disorder, bipolar spectrum, MDD with anxious distress, PTSD/trauma-related, substance/medical factors)."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "Empathic tone and nonjudgmental phrasing maintained. To strengthen professionalism in telehealth, confirm privacy/location and a backup contact plan. Balance continued empathy with focused clinical progression to avoid the patient feeling stalled."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 3,
+          "comment": "Your brief validation supports alliance, but MI remains limited. Reflect the patient’s core emotions (emptiness, fear of abandonment) and collaborate on a brief agenda; later, ask permission to discuss coping skills (e.g., DBT-informed strategies) and next steps."
+        }
+      },
+      "overall_summary": {
+        "total_score": 10,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "You are warm and validating and have elicited some context about recent stressors. However, by turn 9 you are spending too much time on rapport and general exploration without progressing to critical safety assessment or structured symptom probes, and you have not begun diagnostic synthesis or planning. Shift promptly to targeted risk and symptom assessment, then summarize and outline next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Another empathic validation was added, but missing preferred name/pronouns and expectations; time on rapport is now excessive, so score remains at Good."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No open-ended question this turn; prior satisfactory use stands, but no advancement to excellence."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "A closed, confirmatory probe did not add essential clinical data (especially safety); score remains unchanged though turns_spent increased."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis provided; still awaiting completion of key history domains."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathic and professional tone maintained; telehealth privacy/backup still not addressed; score unchanged."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Brief validation supports MI, but you did not deepen reflective listening or collaborative planning; score remains at Good."
+        }
+      ],
+      "recommendations": [
+        "Immediately assess safety: ask directly about current suicidal ideation, self-harm urges, homicidal ideation, and access to means; document protective factors and create a brief safety plan if needed.",
+        "Shift to structured symptom probes: characterize mood shifts (onset, frequency, duration, triggers), screen for bipolar features (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, and functional impact; review past treatments/meds/allergies.",
+        "Use a concise reflection-then-pivot: briefly reflect (“It sounds overwhelming and exhausting”) and set an agenda (“With your permission, I’d like to first make sure you’re safe, then talk about options like skills-based therapy such as DBT and supports we can start today”)."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 10,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you felt any thoughts of hurting others or yourself?",
+          "assistant_text": "I don't have any thoughts of hurting myself or others right now. In the past, I've had some self-harming behaviors, but I'm trying to stay away from that."
+        },
+        "turn_analysis_summary": "Good job prioritizing a direct safety screen; next, validate the disclosure and follow with specific risk details (plan, means, urges, protective factors) and brief safety planning."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "6",
+          "comment": "No additional rapport steps this turn. Earlier you spent substantial time on rapport; now the safety focus is appropriate. You still have not checked preferred name/pronouns or patient expectations for the visit. Keep empathy brief but present as you proceed."
+        },
+        "Open-Ended Inquiry": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "2",
+          "comment": "This was a closed safety question, which is appropriate. Earlier you used open-ended prompts effectively; at this stage, continue with targeted, structured questions rather than broad exploration."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "Important progress: you directly assessed SI/HI. However, the focused assessment remains incomplete—follow up on self-harm history and current urges, intent, plan, access to means, past attempts, protective factors, and safety planning. Also cover bipolar screening (elevated/irritable mood, decreased need for sleep), dissociation, impulsivity, substance use, sleep/appetite, functional impact, past treatments, trauma/interpersonal triggers, and meds/allergies. Time allocation is improving toward risk but still insufficient across core domains."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No diagnostic synthesis yet, which is acceptable until risk and core symptom domains are covered. Plan to summarize themes and discuss a preliminary differential once you complete the targeted history."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "10",
+          "comment": "Clear, direct, and appropriate safety question. Add brief validation/normalization around sensitive topics to reduce perceived invalidation (e.g., “Thank you for telling me; it’s important we talk about this”). In telehealth, still confirm privacy/location and an emergency backup plan."
+        },
+        "Motivation/Counseling": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "3",
+          "comment": "No motivational interviewing this turn. After the safety response, reflect and affirm strengths (e.g., efforts to avoid self-harm), elicit coping strategies that help, and collaborate on brief safety planning to enhance autonomy and engagement."
+        }
+      },
+      "overall_summary": {
+        "total_score": "10",
+        "maximum_score": "18",
+        "performance_level": "Emerging",
+        "summary_comment": "You appropriately shifted to a direct safety assessment, which is essential given the history. Earlier time spent on rapport was excessive relative to diagnostic needs. Now prioritize a comprehensive risk assessment and structured psychiatric review (bipolar screening, substance use, dissociation, functional impact, past treatments, and medical review), then synthesize a preliminary differential and outline next steps. Maintain brief empathic validation to avoid perceived invalidation."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional rapport-building this turn; earlier time on rapport was already high, and preferred name/pronouns and expectations remain unaddressed."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Closed safety question this turn (appropriate), so open-ended inquiry performance did not change."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You addressed SI/HI directly, improving risk coverage, but many key domains remain; still at a 'Good' level rather than 'Excellent.'"
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis yet; appropriate to wait until core risk and symptom domains are covered."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Clear, direct question; however, limited empathy and no telehealth privacy/backup confirmation keep this at 'Good.'"
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI this turn; overall remains at a basic supportive level."
+        }
+      ],
+      "recommendations": [
+        "After the negative SI/HI response, ask specific follow-ups: current urges to self-harm, intent/plan, access to means, past attempt details, protective factors, and collaboratively create a brief safety plan; in telehealth, confirm location, privacy, and an emergency contact.",
+        "Advance the structured assessment: screen for bipolar spectrum (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, prior treatments/response, trauma/interpersonal triggers, and review meds/allergies and relevant PMH/FH.",
+        "Use empathic reflections and agenda-setting to maintain alliance (e.g., summarize what you’ve heard, ask what James most wants from today, then seek permission to discuss preliminary impressions and options like DBT skills, coping strategies, and follow-up planning)."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 11,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Can you tell me more about that?",
+          "assistant_text": "I used to hurt myself during my late teens when things felt overwhelming and I didn't know how else to cope. It hasn't happened in years, but the memories and feelings sometimes resurface when I'm really stressed."
+        },
+        "turn_analysis_summary": "Your open-ended prompt appropriately invited elaboration on a sensitive safety topic, but add brief validation and follow with specific risk-assessment questions to advance care and avoid lingering in broad exploration."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "No additional rapport steps this turn, which is reasonable now. Cumulatively, you’ve spent substantial time on rapport earlier but still have not checked preferred name/pronouns, elicited expectations for the visit, or confirmed telehealth privacy/location. Keep empathy brief but present while moving forward."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 3,
+          "comment": "Your open-ended question effectively encouraged the patient to describe past self-harm and current stress triggers. This meets the standard for excellent use of open-ended inquiry. Given timing, now pivot to targeted risk questions to advance the assessment."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "This turn continued the risk history but remained broad. You still need specific probes: current self-harm urges, intent, plan, access to means; past attempts and methods; last occurrence; frequency; triggers; coping strategies; protective factors and supports. Also cover bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, past treatments, trauma, and meds/allergies. Time allocation remains weighted toward general exploration over detailed risk assessment."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No diagnostic synthesis yet. After completing risk and symptom domains, summarize and discuss a preliminary differential (e.g., borderline personality disorder with affective instability and rejection sensitivity; bipolar spectrum; MDD with anxious distress; PTSD/trauma-related; substance/medical contributors)."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 11,
+          "comment": "Clear and nonjudgmental phrasing. Add a brief validation before deeper inquiry on self-harm (e.g., “Thank you for sharing that; it’s important we talk about this”). Earlier typos and lack of telehealth privacy/location check slightly detract from professionalism. Maintain empathic tone while advancing the assessment."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 3,
+          "comment": "No MI work this turn. After risk follow-up, affirm strengths (e.g., sustained abstinence from self-harm), elicit what helps during stress spikes, and collaborate on a brief safety plan and coping strategies. Ask permission to discuss evidence-based options (e.g., DBT skills) to enhance engagement."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You use open-ended questions well and maintain a polite, nonjudgmental tone. To progress, pair empathy with a structured, specific risk assessment and broaden your focused history. Time has been spent heavily on rapport and broad exploration; shift toward detailed safety evaluation, core symptom characterization, and a preliminary differential and plan."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 2,
+          "new_score": 3,
+          "reason": "Your open-ended prompt effectively elicited additional detail about self-harm history, adding to prior open-ended use and meeting criteria for consistent, effective facilitation of the patient’s narrative."
+        }
+      ],
+      "recommendations": [
+        "When sensitive topics arise, first validate, then probe: e.g., “I appreciate you sharing that—can we go over a few specifics to keep you safe?” Follow with targeted questions on urges, intent, plan, means, past attempts, last occurrence, frequency, triggers, coping, supports, and protective factors.",
+        "Broaden the focused assessment systematically: screen for bipolar symptoms (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impairment, past treatments/response, trauma/interpersonal stressors, and confirm meds/allergies; then summarize key findings.",
+        "Close the loop with synthesis and planning: offer a brief summary and preliminary differential, ask permission to discuss coping strategies (e.g., DBT skills, crisis plan, hotline info), and clarify the patient’s goals; also confirm telehealth privacy/location and preferred name/pronouns to strengthen alliance."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 12,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "What have you done in the past to help cope with these emotions?",
+          "assistant_text": "In the past, I've tried to distract myself with work or hobbies when things get really intense. I've also tried talking to therapists about it, though it's been tricky sticking with it."
+        },
+        "turn_analysis_summary": "Nice targeted, open-ended question to elicit coping and prior treatment; now reflect what you heard, explore barriers to sticking with therapy, and pivot toward safety details and next-step planning."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "No additional rapport this turn, which is reasonable given earlier extensive rapport-building. You still have not checked preferred name/pronouns or the patient’s expectations. Keep brief empathic reflections as you proceed to avoid perceived invalidation."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "Your question was open-ended and appropriately targeted to coping history, adding useful detail without derailing focus. Given cumulative time spent, avoid broad re-opening and continue to deepen focused domains."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "Good progress by eliciting coping strategies and prior therapy attempts. The focused assessment still lacks key areas: detailed risk (current urges, plan, means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, trauma, and meds/allergies. Time allocation remains somewhat weighted toward general history rather than comprehensive risk and diagnostic probing."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis provided yet. After completing targeted history and risk, summarize themes and outline a preliminary differential (e.g., borderline personality disorder with affective instability and rejection sensitivity; bipolar spectrum; MDD with anxious distress; PTSD/trauma-related; substance/medical contributors)."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 12,
+          "comment": "Clear, neutral phrasing. Add a brief reflection/validation especially when the patient notes difficulty sticking with therapy to reduce perceived invalidation. Remember telehealth basics (confirm privacy/location and an emergency backup plan)."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "Eliciting what has helped is MI-consistent. To advance, reflect back what works/doesn’t, explore barriers to adherence (e.g., scheduling, fit, perceived invalidation), affirm efforts, and collaborate on concrete next steps (skills, therapy options like DBT, and a brief safety plan if needed)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You asked a targeted, open-ended coping question and have gathered some key history and initial safety information. However, time remains skewed toward rapport and general exploration, and you have not yet completed a thorough risk assessment, key diagnostic probes (mania, dissociation, substance use, sleep), or offered a preliminary synthesis. Add brief empathic reflections while moving decisively into risk clarification and treatment planning."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new rapport elements this turn; earlier time spent on rapport remains adequate, but preferred name/pronouns and expectations still not addressed."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "This was an open-ended but targeted question; you already met the standard for excellence, so the score remains at 3."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You advanced focused history (coping/prior therapy) but still have major gaps (detailed risk, bipolar screening, substance use, sleep, meds/allergies), so the level remains 'Good' rather than 'Excellent'."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis discussed yet; defer until key domains are covered."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Professional and clear phrasing maintained; brief validation and telehealth privacy/backup checks remain opportunities."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Eliciting coping aligns with MI, but you did not reflect feelings or collaborate on change strategies this turn; remains at 'Good'."
+        }
+      ],
+      "recommendations": [
+        "Reflect and affirm before probing further: e.g., “It sounds like distraction helps in the moment, and sticking with therapy has been hard—what made it tough to keep going?” then summarize and validate.",
+        "Complete safety and diagnostic probes now: current self-harm urges/intent/plan/means, protective factors and supports; screen for mania/hypomania, dissociation, substance use, sleep/appetite, and review meds/allergies.",
+        "Transition to synthesis and plan: summarize key themes, share a preliminary differential, and ask permission to discuss options (e.g., DBT skills, adherence strategies, crisis/safety planning), while checking the patient’s goals for treatment."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 13,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I can understand that and we can help proviude the right fit for a therapist if thathelps as well",
+          "assistant_text": "That could be helpful. Finding someone I can connect with and trust might make a difference."
+        },
+        "turn_analysis_summary": "Warm validation and offer to help match a therapist build alliance, but you’re lingering in rapport/MI instead of advancing risk assessment and diagnostic clarification."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "You added empathy and collaboration, which supports trust; however, cumulative time on rapport is now high relative to diagnostic needs. You still have not checked preferred name/pronouns or elicited expectations for the visit. Brief empathic reflections are helpful, but pivot to structured assessment to maintain momentum."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "No open-ended question this turn. Earlier you elicited a good narrative and coping history. Given time spent, avoid reopening broadly and move into targeted domains."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "No new focused probes this turn. You still need detailed risk assessment (current self-harm urges, intent, plan, access to means, past attempts, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, trauma history, past treatments, and meds/allergies. Time allocation remains skewed toward rapport/MI over comprehensive risk and diagnostic workup."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis offered yet. After completing risk and core symptom characterization, summarize themes and share a preliminary differential (e.g., borderline personality disorder with affective instability and rejection sensitivity; bipolar spectrum; MDD with anxious distress; PTSD/trauma-related; substance/medical contributors), inviting the patient’s perspective."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 13,
+          "comment": "Tone is empathic and collaborative. Repeated typos (e.g., “proviude,” “thathelps”) detract from professionalism. In telehealth, still need to confirm privacy/location and a backup/emergency plan. Keep validating sensitive topics to minimize perceived invalidation while advancing the agenda."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "Offering to help find a therapist is patient-centered and aligns with his need for trust/fit. To reach excellence, deepen MI: reflect his core emotions (emptiness, fear of abandonment), elicit preferences/barriers to therapy (style, scheduling, prior invalidation), and collaborate on immediate coping/skills and a brief safety plan."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You’ve built rapport and elicited a helpful narrative with supportive MI elements, and you initiated basic safety screening. However, time has skewed toward validation and general support at the expense of detailed risk assessment, comprehensive diagnostic probing, and any diagnostic synthesis. Tighten structure now: complete risk/bipolar screening, substance and sleep assessment, trauma and functional impact, then summarize and discuss a preliminary differential and concrete next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "This turn added empathy and collaboration, but you still have not elicited expectations or checked preferred name/pronouns; cumulative time on rapport is already high."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "No new open-ended question this turn; prior excellent use remains, but focus should now shift to targeted domains."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional focused probes were made; key risk and diagnostic areas remain incomplete."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis has been shared yet; complete targeted history before presenting a differential."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathic communication continued, but typos persist and telehealth privacy/backup plan remain unaddressed."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You offered to help match with a therapist, which is supportive MI; to reach excellence, add reflective listening, explore barriers/preferences, and co-create immediate coping/safety steps."
+        }
+      ],
+      "recommendations": [
+        "Pivot to structured risk assessment now: ask about current self-harm urges, intent/plan, access to means, past attempts, protective factors, and then create a brief safety plan if indicated.",
+        "Complete core diagnostic probes: bipolar spectrum (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impairment, trauma/interpersonal patterns, past treatments, and meds/allergies.",
+        "After gathering essentials, summarize and share a preliminary differential and plan (e.g., consider BPD features vs bipolar vs MDD/PTSD), check the patient’s understanding/expectations, confirm telehealth privacy and an emergency plan, and discuss therapy preferences (e.g., DBT, therapist style/gender, scheduling, insurance) to enhance fit and adherence."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 14,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Do you feel supported by friends and family? Who is your support system?",
+          "assistant_text": "To be honest, I feel like my support system is pretty limited. I've had some turbulent relationships with friends and family, so I often feel misunderstood or disconnected. It can be tough to rely on others when I don't feel fully supported."
+        },
+        "turn_analysis_summary": "Good, focused exploration of protective factors/supports; pair this with brief validation and continue to complete a structured risk and diagnostic screen."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "No additional rapport or agenda-setting this turn, which is reasonable given earlier extensive rapport. Consider adding a brief validation when asking about support (e.g., “It makes sense this is hard to talk about”) and still remember to check preferred name/pronouns and confirm telehealth privacy/backup plan. Cumulatively, time on rapport earlier was high relative to diagnostic needs."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "This turn primarily used focused questions. You already met the standard for excellent open-ended inquiry earlier. Maintain momentum with targeted probes rather than reopening broadly."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "Appropriate focused assessment of social supports/protective factors. Follow-up could clarify who specifically is supportive, frequency/quality of contact, emergency contacts, and barriers. You still need detailed risk assessment (current self-harm urges, intent, plan, access to means, protective factors), bipolar screening (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, trauma history, and a brief medical/meds/allergies review. Time allocation has improved but remains insufficient on risk specifics."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis shared yet. After completing risk and core symptom domains, summarize themes and introduce a preliminary differential (e.g., emotion dysregulation consistent with borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related processes; substance/medical contributors) using validating, non-stigmatizing language and inviting the patient’s perspective."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 14,
+          "comment": "Clear, neutral, and nonjudgmental phrasing. Add brief empathy around sensitive topics of support to reduce perceived invalidation. Earlier typos and the lack of a telehealth privacy/location/emergency check still detract slightly from professionalism."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "No MI this turn. Given limited supports, a brief affirmation and collaborative planning would help (e.g., “It’s understandable to feel disconnected; would it be okay if we explore ways to strengthen support and create a safety plan for tough moments?”)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths include a warm, validating tone, strong initial open-ended inquiry, and progression into focused history (safety, coping, supports). However, the assessment remains incomplete: you have not yet performed a detailed risk stratification (urges/intent/plan/means/protective factors), screened for bipolar spectrum symptoms, dissociation, substance use, sleep/appetite, trauma, functional impact, and meds/allergies; nor have you offered a preliminary synthesis. Earlier time was weighted toward rapport without advancing diagnostic reasoning. Brief empathic reflections paired with structured, comprehensive risk and diagnostic probing will help you transition toward formulation and treatment planning."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional rapport behaviors this turn; earlier time on rapport already high. Still missing preferred name/pronouns and telehealth privacy check."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "This turn was focused rather than open-ended; prior excellent performance stands."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Asked about support system (protective factors), which advances focused history, but overall data set remains incomplete across key domains."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis shared yet; defer until key domains and risk are fully assessed."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Clear and respectful wording, but still lacking brief validation in this sensitive area and telehealth privacy/emergency verification."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI this turn; earlier supportive statements keep the score stable."
+        }
+      ],
+      "recommendations": [
+        "Complete a structured risk assessment now: ask about current self-harm urges, intent, plan, access to means, past attempts/methods, timing/frequency, protective factors, and collaboratively create a brief safety plan (include crisis lines and emergency contacts).",
+        "Cover remaining diagnostic domains efficiently: bipolar screen (elevated/irritable mood, decreased need for sleep, increased goal-directed activity/impulsivity), dissociation, substance use (current/past), sleep/appetite, trauma history, functional impact, and a quick meds/allergies/medical review.",
+        "Provide a concise synthesis and next steps: reflect what you’ve heard, share a preliminary formulation (emotion dysregulation with rejection sensitivity vs bipolar spectrum, etc.), check the patient’s understanding/expectations, discuss evidence-based options (e.g., DBT), and confirm telehealth privacy, preferred name/pronouns, and a follow-up plan."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 15,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I am sorry you have felt this way. It can be challenging but I am here to help and be a listening ear",
+          "assistant_text": "Thank you for that. It helps to know there's support here, even when it feels like I'm on my own otherwise."
+        },
+        "turn_analysis_summary": "Your empathic validation landed well, but at this stage you should pivot from general support to specific risk assessment and targeted diagnostic questions to move the evaluation forward."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 8,
+          "comment": "You continued to validate and offer support, which strengthens rapport. However, cumulative time on rapport is now excessive relative to diagnostic needs, and you still have not checked preferred name/pronouns or the patient’s expectations for the visit. Brief empathy is helpful, but prioritize advancing the assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "No open-ended question this turn, which is appropriate given you already elicited a narrative earlier. Avoid reopening broadly; transition to targeted questions to maintain momentum."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "No new focused probes this turn. You still need detailed safety assessment (current self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impact, trauma history, past treatments, and meds/allergies. Time allocation remains weighted toward rapport over comprehensive risk/diagnostic workup."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis yet. After completing risk and core symptom domains, summarize and share a preliminary differential (e.g., emotion dysregulation consistent with borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related processes; substance/medical factors) using validating, non-stigmatizing language."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 15,
+          "comment": "Your tone is warm and validating, which this patient responds to. Professionalism would be strengthened by minimizing typos and confirming telehealth privacy/location and a backup plan. Consider a brief normalization when discussing sensitive topics to reduce perceived invalidation."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "Supportive affirmation aligns with MI principles, but depth is limited. To reach excellence, reflect specific emotions (emptiness, fear of abandonment), elicit goals and barriers, explore what has helped, and collaborate on immediate steps (coping strategies/DBT skills, brief safety planning)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You’ve built a solid empathic alliance and elicited a useful narrative, but you continue to spend disproportionate time on validation over targeted assessment. Prioritize detailed safety evaluation and key diagnostic domains (bipolar features, dissociation, impulsivity, substance use, sleep/appetite, trauma, meds/allergies), then provide a brief, non-stigmatizing synthesis and discuss next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Another validation improved rapport but cumulative time on rapport is now excessive; score remains at Good while turns_spent increased (7 → 8)."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "No new open-ended question this turn; prior excellent performance stands unchanged."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional targeted probes were asked; the focused assessment remains incomplete, so score remains unchanged."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis offered yet; still pending completion of key history and risk domains."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathic tone maintained; professionalism items (telehealth privacy, prior typos) remain unaddressed; score unchanged though turns_spent increased (14 → 15)."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Supportive MI-consistent statement added but without deeper goal exploration or safety planning; score unchanged while turns_spent increased (5 → 6)."
+        }
+      ],
+      "recommendations": [
+        "Use a bridge to pivot into risk: “Given what you’ve shared, I want to make sure you’re safe—can I ask specifically about any current urges to self-harm, intent or plan, access to means, and what helps you stay safe?” Then document protective factors and create a brief safety plan with crisis resources.",
+        "Complete targeted screening: ask about bipolar-spectrum features (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation episodes, substance use, sleep/appetite, functional impact, trauma history, past treatments, and a quick medical/medication/allergy review.",
+        "Summarize and share a tentative formulation in non-stigmatizing language (e.g., emotion dysregulation and rejection sensitivity vs bipolar spectrum), invite the patient’s perspective, and ask permission to discuss evidence-based options (DBT-informed skills, therapy fit, possible medication evaluation); also quickly confirm preferred name/pronouns and telehealth privacy/backup plan."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 16,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "What do you do for wrok?",
+          "assistant_text": "I'm a freelance graphic designer. The flexibility can be nice, but the uncertainty and isolation make things tough sometimes."
+        },
+        "turn_analysis_summary": "You gathered social context but repeated information he already shared and included a typo—acknowledge prior details and pivot to risk and symptom specifics to keep momentum."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 8,
+          "comment": "No additional rapport-building this turn. Cumulatively, you’ve spent substantial time on rapport earlier but still haven’t checked preferred name/pronouns, expectations for the visit, or telehealth privacy/backup plan. In this turn, acknowledging he already said he freelances would have conveyed listening and respect; then a brief empathic reflection could transition to assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "This was a closed, narrow question. You previously met the standard for open-ended inquiry; avoid reopening with redundant or narrow prompts and move into targeted domains to advance the evaluation."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 8,
+          "comment": "Asking about work is part of social history; however, it was redundant since he already disclosed freelancing earlier. Time is better spent now on crucial risk and diagnostic probes: current self-harm urges/intent/plan/means and protective factors; bipolar screening (periods of elevated/irritable mood, decreased need for sleep, impulsivity); dissociation; substance use; sleep/appetite; functional impairment; trauma history; meds/allergies."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis yet. Given cumulative time on history/rapport, you should soon summarize themes and share a preliminary differential (e.g., emotion dysregulation consistent with borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related processes; substance/medical contributors) using validating, non-stigmatizing language."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 16,
+          "comment": "Professional tone overall, but repeated typos (e.g., “wrok”) and re-asking known information can feel inattentive, especially to someone sensitive to invalidation. Acknowledge prior details, reflect briefly, and then proceed. Also, in telehealth, confirm privacy/location and an emergency backup plan."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "No MI this turn. Given his isolation and fear of invalidation, a brief reflection (e.g., “The isolation sounds really tough”) followed by permission to discuss coping strategies and safety planning would strengthen engagement and autonomy."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "You established rapport and elicited a useful narrative early on, but time allocation has skewed toward rapport and general history with limited progress on safety, diagnostic probing, and synthesis. This turn repeated known information and included a typo, which can feel invalidating. Pivot now to detailed risk assessment, targeted screening (bipolar, dissociation, substance), functional impact, and then summarize a preliminary differential and collaborate on next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new rapport actions; cumulative time on rapport already high and key rapport basics (preferred name/pronouns, expectations, telehealth privacy) remain unaddressed."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Current question was closed; prior excellent open-ended work stands but no advancement this turn."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "This turn added social detail but was redundant; key risk and diagnostic domains still insufficiently explored."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis or diagnostic reasoning provided yet."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Professional tone maintained but recurring typos and re-asking known information detract; overall still adequate."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI added this turn; prior supportive statements stand."
+        }
+      ],
+      "recommendations": [
+        "Acknowledge previously shared information before probing (e.g., “You mentioned you freelance as a graphic designer—how does the isolation affect your mood day-to-day?”) to demonstrate listening and avoid redundancy.",
+        "Immediately complete a focused risk and diagnostic screen: current self-harm urges/intent/plan/means and protective factors; bipolar symptoms (elevated/irritable mood, decreased need for sleep, impulsivity); dissociation; substance use; sleep/appetite; functional impact; trauma; meds/allergies, then create a brief safety plan if indicated.",
+        "Summarize and share a preliminary, non-stigmatizing differential and collaborative plan (e.g., discuss DBT skills/therapy fit, coping strategies, and follow-up), and in telehealth confirm privacy, location, and backup contacts."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 17,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you ever thought of changing your job to something more stable?",
+          "assistant_text": "Yeah, I've thought about it. The idea of having a more stable job is appealing, but it's hard to make that change because I'm used to the flexibility of freelancing, even if it comes with its own set of challenges."
+        },
+        "turn_analysis_summary": "You asked a closed, solution-focused question about changing jobs; consider first reflecting his ambivalence and linking work instability to mood/safety before proposing changes."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 8,
+          "comment": "No additional rapport-building here. Given earlier extensive rapport, it’s reasonable not to spend more time; however, you still have not checked preferred name/pronouns, elicited expectations, or confirmed telehealth privacy/backup plan. At this stage, brief empathy plus a pivot to priority risk and diagnostic areas is needed."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "This was a closed question. You previously met the standard for open-ended inquiry; now prioritize targeted, high-yield probes rather than additional closed or tangential questions."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "Asking about more stable work is focused social history, but it’s low-yield relative to urgent priorities and partially redundant with prior work content. You still need detailed safety assessment (self-harm urges, intent/plan, means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impairment, trauma history, past treatments, and meds/allergies. Time allocation remains skewed away from risk and diagnostic essentials."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis yet. After completing core risk and symptom domains, provide a validating summary and a preliminary differential (e.g., emotion dysregulation consistent with borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related; substance/medical contributors) and invite the patient’s perspective."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 17,
+          "comment": "Tone remained neutral, but the solution-focused yes/no question risks feeling prescriptive to someone sensitive to invalidation. Brief reflections (e.g., acknowledging his ambivalence about flexibility vs stability) would strengthen engagement. Continue to minimize typos and confirm telehealth privacy/location and an emergency backup plan."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 6,
+          "comment": "This was not MI-consistent; it suggested a change rather than eliciting his own motivation. Given he expressed ambivalence about work stability, reflect pros/cons and ask permission to explore options. Then collaboratively identify next steps that align with his values and current capacity."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You’ve established rapport and elicited a narrative, but the assessment remains light on safety and diagnostic essentials. This turn stayed in low-yield social problem-solving rather than advancing risk evaluation, bipolar screening, dissociation, substances, sleep, and functional impact. Shift from advice-giving to reflective listening and targeted risk probes, then synthesize a preliminary differential and discuss next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new rapport behaviors this turn; cumulative time on rapport remains high, and key checks (preferred name/pronouns, telehealth privacy/backup) are still missing."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Current question was closed; prior performance already met excellence and did not change."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You asked a focused social-history question (job stability), but it did not address priority risk or diagnostic domains; turns_spent increased to reflect the focused nature of the question."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis or differential shared yet; continue gathering high-yield risk and symptom data before summarizing."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Neutral tone maintained; however, solution-focused questioning without reflection risks perceived invalidation. Communication turns updated cumulatively."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI used in this turn; opportunity missed to reflect ambivalence and elicit change talk around work and stability."
+        }
+      ],
+      "recommendations": [
+        "Prioritize safety and diagnostic probes next: ask about current self-harm urges, intent/plan, access to means, protective factors; screen for bipolar symptoms (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impairment, trauma, and meds/allergies.",
+        "Use MI to address his ambivalence about work and treatment: reflect both sides (flexibility vs stability), ask permission to explore options, and collaboratively identify one small, patient-chosen next step.",
+        "Provide a brief synthesis and preliminary differential once key domains are covered, using validating language; then outline a collaborative plan (e.g., DBT-informed skills, therapy match, safety plan, follow-up), ensuring you confirm telehealth privacy/location and a backup contact before the visit ends."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 18,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "I completely understand that but at times it can be beneficial to have a rountine and have your feet on the ground. You can also find a job that is able to see accomdate your needs and give you flexibity with your freelancing",
+          "assistant_text": "That makes sense. Having some stability could really help. Balancing both might be a good way to have some security while still keeping some of the flexibility I'm used to. I'll give it some thought."
+        },
+        "turn_analysis_summary": "Your empathy is helpful, but the advice came off as prescriptive and diverted time from overdue risk assessment and diagnostic clarification; use MI to reflect his ambivalence and pivot to safety and core symptoms."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "You opened with empathy, which maintains rapport; however, cumulatively you've spent considerable time on rapport without checking preferred name/pronouns or the patient’s expectations. Given his sensitivity to invalidation, the phrase “but at times it can be beneficial” risks sounding corrective. Keep empathy brief and pivot to overdue assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "No open-ended question this turn, which is acceptable since you previously elicited a narrative. At this point, use targeted probes rather than advice about employment to advance clinical understanding."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "No new clinical probing occurred; instead you offered employment advice. The assessment still lacks detailed safety (current self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, substance use, sleep/appetite, functional impairment, trauma history, and meds/allergies. Time allocation remains skewed away from essential diagnostic/risk domains."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis yet. After completing core risk and symptom characterization, provide a validating summary and a preliminary differential (e.g., emotion dysregulation consistent with borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related; substance/medical contributors) and invite his perspective."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 18,
+          "comment": "Warm tone, but multiple typos (“rountine,” “accomdate,” “flexibity”) detract from professionalism. Advice framed with “but” can feel invalidating for this patient. In telehealth, you still have not confirmed privacy/location or a backup/emergency plan. Use reflective statements and ask permission before giving advice."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "You offered practical suggestions (balancing stability with flexibility), but the approach was directive rather than MI-consistent. Reflect his ambivalence about stability vs flexibility, elicit his goals/values, and ask permission before offering options. Counseling time is fair, but depth and collaboration can improve."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You built rapport and elicited an initial narrative, but the interview has stalled in counseling and general support without completing critical risk and diagnostic domains. This turn added empathic but prescriptive advice about employment rather than progressing safety assessment, bipolar screening, dissociation, substance use, and functional impact. Tighten telehealth professionalism (privacy/backup), reduce typos, use MI to reflect ambivalence, and move toward diagnostic synthesis and a collaborative plan (e.g., DBT-focused options and safety planning)."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathy maintained rapport, but key elements (preferred name/pronouns, expectations) remain unaddressed; time on rapport is already high."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "No new open-ended questions; earlier performance established excellence. Current turn focused on advice rather than inquiry."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional probing; a missed opportunity to advance overdue risk and diagnostic domains."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis provided; still awaiting completion of essential safety and symptom assessment."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Tone remained warm but typos and prescriptive phrasing persisted; telehealth privacy/backup plan still not addressed."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Advice offered without MI structure; reflect ambivalence and ask permission to increase collaboration."
+        }
+      ],
+      "recommendations": [
+        "Pivot now to targeted risk and diagnostic probes: current self-harm urges/intent/plan/means and protective factors, bipolar screening (elevated/irritable mood, decreased need for sleep, impulsive/risky behaviors), dissociation, substance use, sleep/appetite, functional impairment, trauma, and a brief meds/allergies review.",
+        "Use motivational interviewing: reflect his ambivalence about stability vs flexibility, affirm strengths, ask permission before offering options, and elicit his own reasons and readiness for change.",
+        "Summarize and share a preliminary differential (e.g., borderline personality traits vs bipolar spectrum; MDD with anxious distress; trauma-related), then collaboratively discuss next steps such as DBT-oriented therapy options, coping skills, and a brief safety plan; also confirm telehealth privacy/location and an emergency backup plan."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 19,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you been eating okay? at times stress can change things with our bodies",
+          "assistant_text": "My appetite hasn't really changed much. I guess it varies with how my mood is. On some days, I might not feel like eating much, and on others, it's normal. It just depends on the day."
+        },
+        "turn_analysis_summary": "Good targeted ROS question with brief normalization; now pivot to overdue high-yield risk and diagnostic domains (safety specifics, bipolar screen, dissociation, substance use) and prepare to synthesize."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "No additional rapport-building beyond a mild normalization embedded in a ROS question. Cumulatively, time on rapport earlier was high; preferred name/pronouns and expectations for the visit remain unchecked. Keep empathy brief and targeted as you advance the assessment."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "This was a closed, focused question, which is appropriate at this stage given you previously elicited an open narrative. Avoid reopening broadly and continue targeted probes."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 10,
+          "comment": "Asking about appetite adds to ROS and functional assessment. However, critical domains remain incomplete: detailed safety (current self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation, current substance use, sleep, functional impairment, trauma history, family psychiatric history, and meds/allergies. Time has been spent on lower-yield job-related content; prioritize high-yield risk and diagnostic probes now."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis yet. After completing the overdue risk and symptom domains, summarize themes and discuss a preliminary differential (e.g., borderline personality disorder with affective instability and rejection sensitivity; bipolar spectrum; MDD with anxious distress; PTSD/trauma-related; substance/medical contributors) using validating, non-stigmatizing language."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 19,
+          "comment": "Tone is neutral and the brief normalization is supportive. Written clarity remains slightly awkward; watch grammar/typos. Telehealth basics (confirm privacy/location and a backup/emergency plan) are still missing. Pair focused questions with brief reflective statements to reduce perceived invalidation."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "No MI or counseling this turn. Overall you’ve offered some support and options previously, but depth is limited. Reflect his emotions and ambivalence, elicit goals/values, and ask permission before offering strategies (e.g., coping skills/DBT, safety planning)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You maintained a supportive tone and asked a useful ROS question about appetite. However, the assessment remains incomplete in high-yield areas: detailed safety (current urges/plan/means/protective factors), bipolar screening, dissociation, substance use, sleep, trauma history, and meds/allergies. Cumulatively, time has skewed toward rapport and lower-yield social/work topics without progressing to diagnostic synthesis or treatment planning. Prioritize a concise but comprehensive risk and symptom screen, then provide a validating summary and preliminary differential with collaborative next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "This turn did not add substantive rapport elements beyond mild normalization; earlier rapport time was already substantial."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Closed, focused question used appropriately at this stage; no change in open-ended performance."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Added an appetite ROS probe, but key risk and diagnostic domains remain unaddressed, so overall level stays at 'Good' rather than 'Excellent'."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis or differential shared this turn; still pending completion of focused assessment."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Supportive normalization present, but ongoing issues with missing telehealth privacy check and minor grammar keep score unchanged."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI or counseling this turn; cumulative MI efforts remain limited but present from prior turns."
+        }
+      ],
+      "recommendations": [
+        "Prioritize high-yield risk screening next: ask directly about current self-harm urges, intent, plan, access to means, last occurrence, protective factors, and collaboratively begin a brief safety plan.",
+        "Complete core diagnostic probes: bipolar spectrum screen (periods of elevated/irritable mood, decreased need for sleep, impulsivity), dissociation frequency and impact, current substance use, sleep pattern/quality, functional impairment, trauma history, family history, and a brief meds/allergies review.",
+        "After targeted history, summarize and validate key themes, share a preliminary differential in non-stigmatizing language, and ask permission to discuss evidence-based options (e.g., DBT skills training, therapy fit), while also correcting professionalism gaps (check preferred name/pronouns; confirm telehealth privacy/location and emergency backup; minimize typos)."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 20,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Do you have any family histroy of mental health diagnosis",
+          "assistant_text": "Yes, my mother has a history of major depressive disorder, and my aunt was diagnosed with bipolar disorder. My father passed away by suicide when I was a child. There's no documented history of personality disorders, though there have been some relational difficulties in the family."
+        },
+        "turn_analysis_summary": "Good job addressing family psychiatric history—now use this high-yield information to deepen risk assessment (given parental suicide and bipolar FHx) and cover remaining core domains (bipolar screening, sleep, substances, meds/allergies, dissociation, and safety planning)."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "No additional rapport work this turn, which is reasonable. Cumulatively you spent substantial time earlier on rapport but have not checked preferred name/pronouns, expectations for the visit, or telehealth privacy/backup plan. Keep empathy brief while pivoting to overdue diagnostic and safety content."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 4,
+          "comment": "This was a closed focused question, appropriate at this stage. You previously met the standard for open-ended inquiry; maintain momentum by pairing targeted questions with brief reflective summaries to preserve engagement."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 11,
+          "comment": "Asking about family psychiatric history is high-yield and adds important risk context (bipolar FHx, parental suicide). However, the focused assessment remains incomplete: you still need detailed current risk (self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/expansive or irritable mood, decreased need for sleep, increased goal-directed activity, impulsivity), dissociation specifics, current substance use, sleep quality, functional impairment, trauma history, past treatments, and a basic meds/allergies review. Time allocation earlier favored jobs/rapport; this turn is on-target—keep going in this direction."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No synthesis shared yet. Given FHx of bipolar disorder and the patient’s rejection sensitivity, affective lability, emptiness, and unstable relationships, plan to summarize and present a preliminary differential (e.g., borderline personality disorder features, bipolar spectrum, MDD with anxious distress, trauma-related processes, substance/medical contributors) once core domains and safety are covered."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 20,
+          "comment": "Clear, appropriate clinical question. Recurrent typos (e.g., “histroy”) and missing telehealth privacy/location checks detract from professionalism. A brief empathic bridge when discussing sensitive family history (depression, suicide) would reduce perceived invalidation for this patient."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 7,
+          "comment": "No MI this turn. Overall you’ve made supportive statements, but depth is limited. Integrate reflections of core emotions (emptiness, fear of abandonment), elicit goals/values, and ask permission to discuss coping skills (e.g., DBT skills) and safety planning to strengthen collaboration."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths include establishing basic rapport, eliciting an initial narrative, and asking several focused questions—this turn appropriately added crucial family psychiatric history. However, the evaluation remains incomplete: detailed risk assessment, bipolar screening, dissociation, substance use, sleep, meds/allergies, and a diagnostic summary are still missing. Time allocation has leaned too heavily toward rapport and employment advice rather than high-yield diagnostic/safety domains."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You added important family psychiatric history (bipolar, suicide), but multiple core domains remain unassessed (detailed safety, bipolar symptom screening, dissociation, substances, sleep, meds/allergies), so the overall level remains 'Good' rather than 'Excellent'."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Appropriate question but ongoing typos and lack of telehealth privacy/location checks limit advancement to 'Excellent'."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis shared yet; plan to summarize and present a preliminary differential after completing key risk and symptom domains."
+        }
+      ],
+      "recommendations": [
+        "Immediately complete a structured risk assessment: ask about current self-harm urges, intent/plan, access to means (including firearms/meds), last/most severe episode, protective factors, emergency contacts, and collaboratively create a brief safety plan.",
+        "Target key diagnostic gaps next—especially given positive FHx for bipolar: screen for mania/hypomania (elevated/irritable mood, decreased need for sleep, increased goal-directed activity, risky behaviors), clarify dissociative episodes, current substance use, sleep quality, functional impairment, trauma history, and review medications/allergies.",
+        "Provide a concise, validating summary and share a preliminary differential and plan (e.g., discuss DBT-informed therapy, coping skills, and options for medication evaluation if bipolar features emerge), while improving telehealth professionalism (confirm privacy/location/back-up plan) and minimizing typos."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 21,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Have you had any personal mental health disgnosis?",
+          "assistant_text": "I haven't had a specific diagnosis before, but I did receive treatment for depression in the past. It was mentioned that my relationships seemed quite complex."
+        },
+        "turn_analysis_summary": "Good targeted question about prior diagnoses/treatment; watch typos and continue with higher-yield risk and bipolar screening to advance diagnostic clarity."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "9",
+          "comment": "No new rapport work this turn, which is reasonable given earlier extensive validation. However, preferred name/pronouns and telehealth privacy/backup plan were never confirmed. Time spent earlier on rapport was high relative to diagnostic needs; keep brief empathy while advancing overdue clinical domains."
+        },
+        "Open-Ended Inquiry": {
+          "score": "3",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "4",
+          "comment": "This turn used a closed, focused question, which is appropriate now since you previously elicited an open narrative. Overall, you have demonstrated effective open-ended inquiry earlier; avoid reopening broadly and continue with structured probes."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "12",
+          "comment": "Asking about prior diagnoses/treatment is on-target and builds clinical context. The focused assessment remains incomplete: you still need detailed current safety (self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, increased goal-directed activity, impulsivity), dissociation specifics, current substance use, sleep quality, functional impairment, trauma history, and meds/allergies. Overall time remains weighted toward general history over core risk/diagnostic probes."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No synthesis shared yet. Given affective lability, emptiness, rejection sensitivity, unstable relationships, and family history (bipolar, suicide), you should soon summarize themes and present a preliminary differential (e.g., borderline personality traits/disorder vs bipolar spectrum; MDD with anxious distress; trauma-related; substance/medical contributors) using validating, non-stigmatizing language."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "21",
+          "comment": "Clear and neutral tone, but repeated typos (e.g., 'disgnosis') detract from professionalism and can feel inattentive to a patient sensitive to invalidation. Continue pairing focused questions with brief reflections/normalization, and address telehealth basics (privacy/location and an emergency backup plan)."
+        },
+        "Motivation/Counseling": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "7",
+          "comment": "No MI/counseling this turn. Cumulatively you have provided supportive statements and offers of help, but depth is limited. Reflect the patient’s core emotions (emptiness, fear of abandonment), elicit goals/values, and ask permission to discuss coping skills (e.g., DBT skills) and safety planning."
+        }
+      },
+      "overall_summary": {
+        "total_score": "11",
+        "maximum_score": "18",
+        "performance_level": "Proficient",
+        "summary_comment": "You maintained a professional, supportive tone and asked a clinically relevant, focused question about prior diagnoses. However, time allocation remains skewed toward general history/rapport, with insufficient detail on current risk and bipolar screening, and no diagnostic synthesis yet. Address telehealth basics, reduce typos, and pivot to high-yield risk and diagnostic domains to move toward treatment planning."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional rapport work this turn; earlier time on rapport was already high, and key elements (preferred name/pronouns, privacy check) remain missing."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Closed question used appropriately at this stage; overall performance in open-ended inquiry remains excellent based on earlier turns."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "This turn added a relevant focused question (prior diagnosis), but key domains (detailed safety, bipolar, dissociation, substances, sleep, meds/allergies) remain unaddressed."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No synthesis or differential shared yet; plan to summarize and discuss preliminary diagnoses after completing risk and symptom characterization."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Professional tone maintained, but ongoing typos and missing telehealth privacy/backup plan prevent improvement."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No MI this turn; cumulative MI remains limited but present from earlier supportive statements."
+        }
+      ],
+      "recommendations": [
+        "Complete a detailed current safety assessment now: ask about self-harm urges, intent, plan, access to means, protective factors, past attempts/methods, and collaboratively create a brief safety plan with crisis resources.",
+        "Screen for bipolar spectrum and related domains: periods of elevated/irritable mood, decreased need for sleep, increased goal-directed activity, impulsivity/risky behaviors; also assess dissociation specifics, current substance use, sleep quality, functional impairment, trauma history, and review meds/allergies.",
+        "Summarize and share a preliminary differential using validating language and ask permission to discuss next steps (evidence-based options like DBT, therapy-fit preferences, coping skills practice); also confirm telehealth privacy/location and an emergency backup plan, and proofread to minimize typos."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 22,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "In the past was there anything that helped and didn't help with your depression?",
+          "assistant_text": "I remember that therapy helped me at times, especially when I could talk things out with someone I trusted. However, sticking to treatment was a challenge, especially if I felt dismissed or misunderstood."
+        },
+        "turn_analysis_summary": "Good, targeted question about what has helped/not helped; now reflect his response (trust/feeling dismissed) and pivot to overdue risk, bipolar screening, and structured diagnostic domains."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "9",
+          "comment": "No additional rapport-building this turn, which is reasonable given earlier extensive validation. You still have not checked preferred name/pronouns, elicited expectations for the visit, or confirmed telehealth privacy/backup plan. Maintain brief empathy while advancing overdue clinical domains."
+        },
+        "Open-Ended Inquiry": {
+          "score": "3",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "5",
+          "comment": "Your question invited a narrative about effective/ineffective strategies, which supports patient-centered exploration. Given cumulative time already spent on history, use a brief reflective summary and pivot to targeted risk and diagnostic probes to maintain momentum."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "13",
+          "comment": "Appropriate focus on previous treatments and what worked/didn't. However, the focused assessment remains incomplete: you still need detailed current safety (self-harm urges, intent/plan, access to means, protective factors), bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation specifics, current substance use, sleep quality, functional impairment, trauma history, and meds/allergies. Time allocation has leaned heavily toward general history/rapport; prioritize high-yield risk and diagnostic domains now."
+        },
+        "Differential Diagnosis Development": {
+          "score": "0",
+          "binary_score": "0",
+          "max_score": "3",
+          "turns_spent": "0",
+          "comment": "No synthesis yet. After completing risk and core symptom characterization, provide a concise summary and share a preliminary differential (e.g., borderline personality traits/disorder vs bipolar spectrum; MDD with anxious distress; trauma-related; substance/medical contributors), using validating, non-stigmatizing language and inviting the patient’s perspective."
+        },
+        "Communication Skills and Professionalism": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "22",
+          "comment": "Clear, nonjudgmental phrasing. Strengthen by reflecting his statement about trust and feeling dismissed to reduce perceived invalidation, and address telehealth basics (privacy/location and an emergency backup plan)."
+        },
+        "Motivation/Counseling": {
+          "score": "2",
+          "binary_score": "1",
+          "max_score": "3",
+          "turns_spent": "8",
+          "comment": "Eliciting what helped/not helped aligns with MI and supports collaborative planning. To reach excellence, add reflective listening (e.g., trust/fit matters; invalidation derails engagement), affirm strengths, explore barriers to adherence, and ask permission to discuss options (e.g., DBT skills, structured therapy, safety planning)."
+        }
+      },
+      "overall_summary": {
+        "total_score": "11",
+        "maximum_score": "18",
+        "performance_level": "Proficient",
+        "summary_comment": "You continue to use patient-centered questions and maintain a respectful tone. However, time remains weighted toward general history/rapport and employment topics, with insufficient coverage of critical risk and diagnostic domains, and no shared diagnostic synthesis or plan yet. Add reflections to validate his sensitivity to perceived invalidation, then move decisively into safety assessment, bipolar screening, dissociation, substance use, sleep, function, trauma, and meds/allergies, followed by a brief differential and collaborative next steps."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new rapport behaviors this turn; earlier rapport was extensive but key elements (preferred name/pronouns, expectations, telehealth privacy/backup) remain unaddressed."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "Question invited narrative about what helped/didn’t help; excellent use continues, but now needs to be paired with a pivot to targeted risk/diagnostic probes."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Focused question on past treatments added useful context, but large gaps remain (detailed safety, bipolar screen, dissociation, substance use, sleep/function, trauma, meds/allergies)."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis offered yet; still pending completion of core domains."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Clear and respectful; could be strengthened by reflecting the patient’s feelings and addressing telehealth privacy/backup plan."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "MI-consistent elicitation of what works, but lacks reflections/affirmations and collaborative planning needed for an excellent rating."
+        }
+      ],
+      "recommendations": [
+        "Reflect and validate before moving on: “It sounds therapy helps when you feel understood and trusted, and when you feel dismissed it’s hard to stay—did I get that right?”",
+        "Prioritize overdue risk and diagnostic probes next: current self-harm urges/intent/plan/means and protective factors; bipolar symptoms (elevated/irritable mood, decreased need for sleep, impulsivity); dissociation specifics; current substance use; sleep quality; functional impact; trauma history; meds/allergies.",
+        "After targeted history, give a brief, non-stigmatizing summary and preliminary differential, then ask permission to discuss options (e.g., DBT-informed therapy, coping skills, and a brief safety plan), and confirm telehealth privacy/location and an emergency backup plan."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 23,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "It sounds the therapist maybe wasnt a good fit and that can happen. It is important though to try to find someone that hears you and it is a safe space so you can feel motivated to keep going. No one should make you feel dismissed",
+          "assistant_text": "You're right. Finding the right therapist really matters. It's just hard to keep looking when things don't click, but I'm willing to give it another shot with some help finding someone who fits better."
+        },
+        "turn_analysis_summary": "Your validation about therapy fit and not feeling dismissed is empathic and builds trust, but at this point you should pivot from broad reassurance to a focused next step (e.g., risk/safety details or a specific, collaborative plan for therapist matching)."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 10,
+          "comment": "This turn adds empathic validation that supports rapport. However, cumulatively you have spent considerable time on rapport; preferred name/pronouns and expectations were never checked. Time allocation is now excessive on rapport relative to overdue diagnostic and safety tasks."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "No open-ended question this turn, which is acceptable given prior strong use. Given the overall visit, avoid further broad validation without pairing it with a targeted question to advance assessment."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 13,
+          "comment": "No focused probing this turn. The assessment still lacks key areas (current self-harm urges/intent/plan/means, protective factors, bipolar screening, dissociation specifics, current substance use, sleep quality, functional impairment, trauma, meds/allergies). Time is disproportionately on rapport/counseling rather than these essentials."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No diagnostic synthesis yet. At this stage a concise summary and preliminary differential (e.g., borderline personality traits/disorder vs bipolar spectrum, MDD with anxious distress, trauma-related factors) is overdue."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 23,
+          "comment": "Warm, validating tone that fits the patient’s sensitivity to invalidation. Minor typos/grammar (e.g., 'wasnt') and the missing telehealth privacy/location and emergency backup check reduce professionalism. Balance validation with forward movement."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 9,
+          "comment": "This is supportive and MI-consistent (reflecting therapy fit and invalidation). To reach excellence, deepen MI by explicitly reflecting feelings, eliciting preferences/barriers, asking permission before offering options, and collaboratively setting concrete next steps (e.g., therapist-matching criteria, safety plan)."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Proficient",
+        "summary_comment": "You consistently convey empathy and support, and you have elicited helpful history. However, the visit has become unbalanced: excessive time on rapport and general counseling with limited progress on detailed safety assessment, bipolar/dissociation/substance screening, and no diagnostic synthesis or concrete plan. Tighten structure, complete core risk/diagnostic domains, and then summarize and propose a collaborative plan."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "You added validation that builds rapport, but key introductory elements (preferred name/pronouns, patient expectations) remain unaddressed and time spent on rapport is already excessive."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "No open-ended question this turn; earlier excellent use stands, but no additional contribution here."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No new focused probes this turn; critical risk and diagnostic domains remain incomplete."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic synthesis offered; this remains overdue given the amount of history collected."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Empathic language sustained; ongoing typos and missing telehealth privacy/backup detract slightly, so score remains the same."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Supportive MI-consistent reflection without deepening into collaborative planning; maintains but does not elevate the score."
+        }
+      ],
+      "recommendations": [
+        "Pivot now to high-yield risk and diagnostic probes: ask about current self-harm urges/intent/plan/access to means, protective factors, dissociation episodes, bipolar screening (periods of elevated/irritable mood, decreased need for sleep, impulsivity), current substance use, sleep quality, functional impairment, trauma, and meds/allergies.",
+        "Translate validation into a concrete, collaborative plan: ask permission to discuss therapist-matching preferences (modality like DBT, therapist gender/style, availability/insurance), propose 2–3 vetted options, and outline next steps plus a brief written safety plan.",
+        "Address telehealth and structure: confirm privacy and location with an emergency backup contact, check preferred name/pronouns, then summarize the history and share a preliminary differential to align expectations and reduce perceived invalidation."
+      ]
+    }
+  },
+  {
+    "entry_index": 6,
+    "turn_index": 24,
+    "response_json": {
+      "conversation_context": {
+        "current_turn": {
+          "user_text": "Ok my plan right now is to give your resources for a new threrapist and i would like to follow up within the next 4-6 weeks after this appoitnment to see if therapy has helped. Please know you are welcomed to reach out and contact me earlier if you think this plan needs to be adjusted. Does this plan sound okay?",
+          "assistant_text": "That sounds like a good plan to me. I'm willing to give it a try, and I'll reach out if things need adjusting. Thanks for helping me get started on this."
+        },
+        "turn_analysis_summary": "Nice collaborative wrap-up and invitation for early contact, but you missed summarizing your assessment, offering a preliminary differential/psychoeducation, and creating a brief safety plan with closer follow-up."
+      },
+      "rubric_evaluation": {
+        "Introduction and Building Rapport": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 11,
+          "comment": "Collaborative close (“Does this plan sound okay?”) supports rapport. However, cumulatively you spent excessive time earlier on rapport without checking preferred name/pronouns or the patient’s expectations/understanding. This turn was appropriate for closure, but consider briefly assessing understanding of the plan and preferred name/pronouns. Time-wise, rapport consumed more of the visit than diagnostic explanation or safety planning."
+        },
+        "Open-Ended Inquiry": {
+          "score": 3,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 5,
+          "comment": "No open-ended question this turn, which is fine given you met this standard earlier. At closure, an open-ended check like “What questions or worries do you have about this plan?” could further assess understanding and concerns."
+        },
+        "Focused Inquiry and Probing Questions": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 13,
+          "comment": "No additional clinical probing this turn. Across the visit, you did not complete key domains (bipolar screening, dissociation specifics, current substance use, sleep, functional impairment, medications/allergies) and safety details (current self-harm urges, plan/means, protective factors). Time allocation favored rapport and general history over essential risk/diagnostic probing."
+        },
+        "Differential Diagnosis Development": {
+          "score": 0,
+          "binary_score": 0,
+          "max_score": 3,
+          "turns_spent": 0,
+          "comment": "No diagnostic synthesis was shared. Before closing, a concise, validating summary with a preliminary differential (e.g., borderline personality features vs bipolar spectrum, MDD with anxious distress, trauma-related processes) and rationale would help the patient feel understood and set expectations for treatment."
+        },
+        "Communication Skills and Professionalism": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 24,
+          "comment": "Collaborative tone and clear invitation for early contact are strengths. Multiple typos (e.g., “threrapist,” “appoitnment”) and missing telehealth basics (privacy/location, emergency backup plan) detract from professionalism. Also, provide explicit crisis/safety instructions at closure given history of self-harm and emotional volatility."
+        },
+        "Motivation/Counseling": {
+          "score": 2,
+          "binary_score": 1,
+          "max_score": 3,
+          "turns_spent": 10,
+          "comment": "This was collaborative and action-oriented (resources + follow-up), which supports engagement. To reach excellence, include reflective statements about his core emotions (emptiness, fear of abandonment), elicit barriers to following through with therapy, co-create a brief safety plan, and schedule a tighter follow-up (1–2 weeks) given risk factors."
+        }
+      },
+      "overall_summary": {
+        "total_score": 11,
+        "maximum_score": 18,
+        "performance_level": "Emerging",
+        "summary_comment": "Strengths include a warm, collaborative style and effective early open-ended inquiry. However, the visit overemphasized rapport and general history while underemphasizing safety assessment, diagnostic synthesis, and psychoeducation. You closed with a reasonable therapy plan, but missed a brief diagnostic summary, safety/crisis planning, telehealth privacy/emergency checks, and closer follow-up given risk."
+      },
+      "rubric_update_explanation": [
+        {
+          "section": "Introduction and Building Rapport",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Collaborative close was helpful, but key elements (preferred name/pronouns, expectations/understanding) remain unaddressed; cumulative time on rapport already high."
+        },
+        {
+          "section": "Open-Ended Inquiry",
+          "previous_score": 3,
+          "new_score": 3,
+          "reason": "No new open-ended question this turn; prior performance already met excellence."
+        },
+        {
+          "section": "Focused Inquiry and Probing Questions",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "No additional probing this turn; critical risk/diagnostic domains remained incomplete."
+        },
+        {
+          "section": "Differential Diagnosis Development",
+          "previous_score": 0,
+          "new_score": 0,
+          "reason": "No diagnostic summary or differential presented before closing."
+        },
+        {
+          "section": "Communication Skills and Professionalism",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Collaborative tone maintained, but typos persisted and telehealth privacy/emergency checks still missing."
+        },
+        {
+          "section": "Motivation/Counseling",
+          "previous_score": 2,
+          "new_score": 2,
+          "reason": "Plan-setting and invitation for early contact are good; still need reflective MI, barrier exploration, and safety planning for excellence."
+        }
+      ],
+      "recommendations": [
+        "Close the loop with a concise, validating summary and preliminary differential (e.g., emotion dysregulation consistent with BPD features vs bipolar spectrum, MDD with anxious distress), invite the patient’s perspective, and provide brief psychoeducation about why you’re recommending therapy (e.g., DBT skills).",
+        "Complete and document a brief safety plan (warning signs, coping strategies, reasons for living, contacts, crisis lines/ER instructions), confirm telehealth privacy/location and an emergency backup plan, and tighten follow-up to 1–2 weeks given risk factors.",
+        "At next visit, finish the focused assessment: bipolar screening (elevated/irritable mood, decreased need for sleep, impulsivity), dissociation specifics, current substance use, sleep quality, functional impairment, and a meds/allergies review; reduce typos and use reflective statements before advice to reduce perceived invalidation."
+      ]
+    }
+  }
+]
