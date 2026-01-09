@@ -1,521 +1,500 @@
 [
   {
-    "entry_index": 7,
+    "entry_index": 8,
     "prosody_evaluation": {
       "utterance_level_feedback": [
         {
           "conversation_turn": {
-            "user_text": "I would like to know a little bit more about how this has been kind of affecting your your personal life and your social life for example uh your life at home with your. Roommates or maybe other friendships, relationships with your family. Has it gotten in the way of that?",
-            "assistant_text": "Yeah, I've definitely pulled away from people—I don't go out as much, and I feel kind of isolated from my friends and roommates."
+            "user_text": "Have you been feeling down recently?",
+            "assistant_text": "I've been really frustrated and tired, but I wouldn't say I've felt truly down or deeply sad."
           },
           "what_worked_well": [
             {
-              "tone": "empathetic and curious",
-              "impact": "Signals care about the patient's whole life, encouraging disclosure about functional impact.",
-              "adjustment": "Open with one clear question: “How has this been affecting your relationships and life at home?”"
+              "tone": "calm and concerned",
+              "impact": "Direct, clear phrasing made it easy for the patient to answer.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "hesitant/awkward (fillers and repetition)",
-              "impact": "Rambling phrasing and fillers (“kind of,” “uh,” repetition) can reduce clarity and confidence.",
-              "adjustment": "Trim fillers and avoid repetition; pause before speaking to deliver one concise, complete sentence."
+              "tone": "slightly tense/hesitant",
+              "impact": "May feel a bit closed-ended and can limit richer responses.",
+              "adjustment": "Open it up and normalize: “How has your mood been lately? Many people with anxiety notice shifts.” Pause after asking."
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Yeah, that's a very difficult feeling. And you mentioned that this has also been going on for a year. To this kind of year long history of you feeling this sense of worry. Has it occurred previously in your life or is this the first time that this has happened?",
-            "assistant_text": "This is the first time it's been this bad or lasted this long. Before, I had stress, but nothing like this."
+            "user_text": "Next question, have you, no worries, i'll continue um have you experienced any trouble with concentration guilt or changes in. Appetite recently.",
+            "assistant_text": "Concentration's definitely been tough, but my appetite hasn't really changed much, and I don't feel guilty for no reason."
           },
           "what_worked_well": [
             {
-              "tone": "validating",
-              "impact": "Acknowledges the patient’s emotion, which fosters trust and openness.",
-              "adjustment": "Keep the validation, then ask a single, focused timeline question."
+              "tone": "measured and task-focused",
+              "impact": "Covered key depressive symptoms efficiently.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "tentative/wordy",
-              "impact": "Convoluted phrasing (“To this kind of year long history…”) risks confusion.",
-              "adjustment": "Simplify: “You’ve had this for about a year. Have you had similar episodes before?”"
+              "tone": "rushed and disfluent (fillers, restarts)",
+              "impact": "Filler words and multiple questions at once can feel chaotic and harder for the patient to follow.",
+              "adjustment": "Ask one item at a time without fillers: “Have you had trouble concentrating?” (pause) then “Any changes in appetite?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Hm okay okay. Got it um uh, I would like to ask you a few more questions about how you're doing right now um. And kind of less related to your previous symptoms. Would that be okay?",
-            "assistant_text": "Yeah, that's fine, go ahead and ask."
+            "user_text": "Find that next question. Have you ever experienced panic attacks like sudden episodes of intense fear or physical symptoms such as racing heart? Or shortness of breath.",
+            "assistant_text": "Not really, no—I get anxious a lot, but I don't have those sudden, intense fear episodes or those physical symptoms out of nowhere."
           },
           "what_worked_well": [
             {
-              "tone": "collaborative",
-              "impact": "Asking permission supports patient autonomy and rapport.",
-              "adjustment": "None"
+              "tone": "informative and clarifying",
+              "impact": "Concrete examples helped the patient understand what you meant by panic attacks.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "hesitant (multiple fillers)",
-              "impact": "Frequent fillers and fragmented sentences can undercut professionalism.",
-              "adjustment": "Use a crisp signpost: “I’d like to ask about how you’re doing right now—does that work?”"
+              "tone": "slightly awkward/loose",
+              "impact": "The fragment “Find that next question” and breaking the question mid-thought can reduce perceived professionalism.",
+              "adjustment": "Streamline: “Next, have you had panic attacks—sudden intense fear or symptoms like a racing heart or shortness of breath?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Could you describe your mood for me um lately like what, how have your spirits been?",
-            "assistant_text": "Honestly, I've just felt pretty on edge and worried most of the time, not really relaxed or happy lately."
-          },
-          "what_worked_well": [
-            {
-              "tone": "open-ended and empathetic",
-              "impact": "Invites the patient to describe their mood in their own words, eliciting richer data.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "slightly disorganized",
-              "impact": "The mid-sentence restart (“like what, how…”) can distract.",
-              "adjustment": "Ask cleanly: “How has your mood been lately?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Would you say you've been troubled by sadness?",
-            "assistant_text": "Not really sad, just more anxious and restless than anything else."
-          },
-          "what_worked_well": [
-            {
-              "tone": "direct and focused",
-              "impact": "Efficiently screens for depressive affect and clarifies the anxiety focus.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "closed-ended",
-              "impact": "May limit nuance about mood variation.",
-              "adjustment": "Consider an open probe first: “How often do you feel sad, if at all?” then narrow as needed."
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Okay yeah yeah, I understand um and aside from this kind of general worry that you've been experiencing. Do you ever experience periods of feeling panicked?",
-            "assistant_text": "No, I don't really get panic attacks—it's more just this constant anxiety, not big rushes of panic."
-          },
-          "what_worked_well": [
-            {
-              "tone": "validating and purposeful",
-              "impact": "Normalizes the concern and efficiently screens for panic symptoms.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "informal/hesitant",
-              "impact": "Fillers and a sentence fragment can reduce clarity.",
-              "adjustment": "Combine into a single sentence: “Aside from the general worry, do you ever have sudden episodes of intense panic?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "And then another question that I have to ask, which is a little sensitive, but it's really important we ask it to everyone. Have any thoughts of harming yourself? For others or ending your own life crossed your mind.",
-            "assistant_text": "No, I haven't had any thoughts like that."
-          },
-          "what_worked_well": [
-            {
-              "tone": "normalized and calm",
-              "impact": "Reduces stigma around safety screening, increasing likelihood of honest answers.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "unclear phrasing",
-              "impact": "Broken syntax (“For others”) risks misunderstanding of a critical safety question.",
-              "adjustment": "Use a clear, direct script: “Have you had thoughts of harming yourself or others, or thoughts of suicide?” If yes, follow with specific risk assessment."
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Okay, got it. And has, so you mentioned that you've been having trouble with your sleep. I'm wondering if your appetite has. Changed at all.",
-            "assistant_text": "My appetite is about the same—it's just the sleep that's really thrown off."
-          },
-          "what_worked_well": [
-            {
-              "tone": "structured follow-up",
-              "impact": "Transitions to another vegetative symptom efficiently.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "hesitant/fragmented",
-              "impact": "Sentence breaks (“has.” “Changed”) can confuse the question.",
-              "adjustment": "Ask smoothly: “You mentioned sleep issues—has your appetite changed at all?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Oh sorry continue please.",
-            "assistant_text": "Yeah, I just usually have trouble falling asleep, then I wake up feeling tired all day."
-          },
-          "what_worked_well": [
-            {
-              "tone": "courteous",
-              "impact": "Quick apology repairs an interruption and encourages the patient to finish.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "reactive",
-              "impact": "Frequent interruptions can break the patient’s flow.",
-              "adjustment": "Allow a brief pause before speaking; use nonverbal cues and wait-time to avoid interrupting."
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Um, and do you have any history of sleep problems that you know of like has anyone ever told you that you have sleep apnea or anything like that?",
-            "assistant_text": "No, nobody's ever said anything like that to me before, and I haven't had sleep issues until this anxiety started."
-          },
-          "what_worked_well": [
-            {
-              "tone": "inquisitive and thorough",
-              "impact": "Appropriately screens for sleep disorders that can mimic or worsen anxiety.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "slightly informal",
-              "impact": "Fillers and a long, bundled question can be harder to follow.",
-              "adjustment": "Shorten and split if needed: “Any history of sleep problems? Has anyone mentioned sleep apnea?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "And how has your energy levels and your concentration been since you've, you know, been more worried and getting less sleep?",
-            "assistant_text": "My energy has definitely dropped, and it's way harder to focus at work or when I'm doing things around the house."
-          },
-          "what_worked_well": [
-            {
-              "tone": "functional and empathetic",
-              "impact": "Connects symptoms to daily function, eliciting actionable detail.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "casual/grammatical error",
-              "impact": "“How has your energy levels” and “you know” reduce polish.",
-              "adjustment": "Use correct and concise phrasing: “How have your energy and concentration been since the sleep got worse?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Okay, got it um i'd like to ask you some more questions that are specifically related to anxiety symptoms. Is that all right with you?",
-            "assistant_text": "Yeah, that's fine, go ahead and ask whatever you need to."
-          },
-          "what_worked_well": [
-            {
-              "tone": "signposting and collaborative",
-              "impact": "Previews the next topic and seeks consent, maintaining partnership.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "hesitant",
-              "impact": "Fillers slightly dilute the professional tone.",
-              "adjustment": "Deliver the signpost cleanly: “I’d like to ask some anxiety-specific questions—does that work?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Great um have you ever experienced repetitive, unwanted thoughts or felt the need to repeat certain behaviors unnecessarily?",
-            "assistant_text": "No, I haven't really had those kinds of thoughts or felt like I had to do things over and over."
-          },
-          "what_worked_well": [
-            {
-              "tone": "clear screening",
-              "impact": "Efficiently checks for obsessive-compulsive symptoms.",
-              "adjustment": "None"
-            }
-          ],
-          "what_needs_improvement": [
-            {
-              "tone": "potentially judgmental wording",
-              "impact": "“Unnecessarily” can feel minimizing.",
-              "adjustment": "Use neutral phrasing: “…repeat certain behaviors in a way that feels hard to control or to reduce anxiety?”"
-            }
-          ]
-        },
-        {
-          "conversation_turn": {
-            "user_text": "Okay um do you have any specific fears which you consider irrational?",
-            "assistant_text": "No, not really—it's more just general worry about everything instead of one specific fear."
+            "user_text": "Another question. Do you find yourself excessively worrying about specific situations objects or social interactions?",
+            "assistant_text": "Yes, I worry about lots of things—work, money, friendships—sometimes even little things that most people probably wouldn't think twice about."
           },
           "what_worked_well": [
             {
               "tone": "focused",
-              "impact": "Targets specific phobias versus generalized worry.",
-              "adjustment": "None"
+              "impact": "Targets generalized anxiety with relevant domains, which encouraged a detailed answer.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "potentially stigmatizing",
-              "impact": "Labeling fears “irrational” may discourage disclosure.",
-              "adjustment": "Rephrase: “Any specific fears or phobias that feel out of proportion to the situation?”"
+              "tone": "slightly formal and repetitive",
+              "impact": "“Another question” and the word “excessively” can sound checklist-like and subtly judgmental.",
+              "adjustment": "Use neutral, patient-centered phrasing: “Do you find yourself worrying a lot about certain situations, objects, or social interactions?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "And are you troubled by an inability to relax, would you say that goes along with the worry you describe?",
-            "assistant_text": "Definitely, I find it almost impossible to just unwind or feel calm these days."
+            "user_text": "I appreciate you sharing that. Just a couple more questions. Do you ever experience unwanted thoughts or feel compelled certain actions repeatedly?",
+            "assistant_text": "No, I don't have unwanted thoughts or feel like I need to do certain things over and over."
           },
           "what_worked_well": [
             {
-              "tone": "connecting symptoms",
-              "impact": "Links restlessness with worry, clarifying the clinical picture.",
-              "adjustment": "None"
+              "tone": "appreciative and reassuring",
+              "impact": "Validation and brief signposting help maintain rapport near the end of a series of questions.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "run-on",
-              "impact": "Comma splice can reduce clarity.",
-              "adjustment": "Split into two: “Do you find it hard to relax? Does that seem to go along with the worry?”"
+              "tone": "slightly awkward",
+              "impact": "Grammar hiccup (“feel compelled certain actions”) can distract and reduce clarity.",
+              "adjustment": "Say: “Do you have unwanted thoughts or feel compelled to do certain actions repeatedly?” Speak slowly to maintain clarity."
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Understanding and do you have any history that you're aware of of trauma? So like for example, physical or sexual abuse?",
-            "assistant_text": "No, I don't have any history like that."
+            "user_text": "Helpful to know uh one last question, have you ever experienced any hallucinations like hearing or seeing things that others don't? Or any beliefs that others might find unusual.",
+            "assistant_text": "No, I've never had anything like that—just the constant worrying, but not seeing or hearing things that aren't there."
           },
           "what_worked_well": [
             {
-              "tone": "calm and matter-of-fact",
-              "impact": "Approaches a sensitive topic in a normalized way, which can reduce discomfort.",
-              "adjustment": "Preface with a brief content warning and option to defer to enhance safety."
+              "tone": "clear and structured",
+              "impact": "Signposting (“one last question”) and examples improve comprehension of sensitive topics.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "awkward phrasing",
-              "impact": "“history that you're aware of of” and abrupt examples may feel jarring.",
-              "adjustment": "Refine: “I’m going to ask a routine, sensitive question—okay? Have you experienced any trauma, such as physical or sexual abuse?”"
+              "tone": "slightly hesitant with mild levity",
+              "impact": "Filler (“uh”) and “unusual” can feel minimizing or stigmatizing.",
+              "adjustment": "Use neutral phrasing: “...beliefs that felt very different from those around you.” Avoid fillers and keep a steady, neutral tone."
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Got it. Thank you for answering those questions. I know sometimes they can be sensitive and a little difficult for sure.",
-            "assistant_text": "Yeah, I get it. Thanks for being understanding about it."
+            "user_text": "Thank you for clarifying that as well. And just to wrap up, have you had any thoughts of feelings that you'd be better off?",
+            "assistant_text": "No, I haven't felt that way—I just mostly want to feel less overwhelmed and anxious."
           },
           "what_worked_well": [
             {
-              "tone": "appreciative and validating",
-              "impact": "Acknowledges the patient’s effort, reinforcing trust and safety.",
-              "adjustment": "None"
+              "tone": "appreciative and gentle",
+              "impact": "Softens entry into a sensitive safety question.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "slightly informal",
-              "impact": "“for sure” may sound casual.",
-              "adjustment": "Conclude professionally: “…they can be sensitive, and I appreciate your openness.”"
+              "tone": "overly indirect",
+              "impact": "Euphemistic wording can create ambiguity on suicide/self-harm screening.",
+              "adjustment": "Be direct and nonjudgmental: “Have you had thoughts about wanting to die or harming yourself?” Pause and allow space."
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Yeah, of course. And kind of while we're on the topic of mental health, I know you mentioned that you hadn't experienced, you know, persistent worry like this. Before the past year. Do you have any other history of any emotional or psychiatric illnesses that you're aware of or any substance? Issues.",
-            "assistant_text": "No, nothing like that. I don't have any history of other mental health issues or substance problems."
+            "user_text": "Glad to hear that and appreciate your openness throughout this interview.",
+            "assistant_text": "Thanks for saying that—answering all these questions is a bit nerve-wracking, but I do want help, so I get why you ask."
           },
           "what_worked_well": [
             {
-              "tone": "organized and comprehensive",
-              "impact": "Broadens history to capture psychiatric and substance use context.",
-              "adjustment": "None"
+              "tone": "warm and affirming",
+              "impact": "Reinforces trust and validates the patient’s effort in sharing.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "rambling/fragmented",
-              "impact": "Multiple fillers and sentence breaks can obscure the question.",
-              "adjustment": "Streamline: “Besides the past year, any prior mental health diagnoses or concerns? Any alcohol or substance use issues?”"
+              "tone": "slightly relieved",
+              "impact": "“Glad to hear that” after a safety question might feel dismissive of ongoing risk.",
+              "adjustment": "Acknowledge difficulty and continued support: “Thank you for sharing—if this changes, please tell me right away. I’m here to help.”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Got it.",
-            "assistant_text": "Alright, let me know if you need anything else from me."
+            "user_text": "Is there anything else you'd like to share with me?",
+            "assistant_text": "Not really, I think we covered all the big stuff—I just want to figure out how to manage this anxiety better."
           },
           "what_worked_well": [
             {
-              "tone": "acknowledging",
-              "impact": "Confirms you heard the response and keeps the flow moving.",
-              "adjustment": "Consider a brief reflective summary to show understanding."
+              "tone": "open and inviting",
+              "impact": "Gives the patient space to introduce unaddressed concerns.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "minimalist",
-              "impact": "Missed opportunity to summarize or transition clearly.",
-              "adjustment": "Add a bridging statement: “Thanks—that helps clarify your history.”"
+              "tone": "neutral",
+              "impact": "May miss an opportunity to reflect and summarize before the closing prompt.",
+              "adjustment": "Briefly summarize key points before asking: “We discussed anxiety, mood, panic, and supports—did we miss anything important to you?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "I think that sums it up mostly. Is there anything else that you wanted to share about what you've been experiencing or any questions that you have?",
-            "assistant_text": "Yeah, I guess I just want to know—how do you know for sure this is just anxiety and not something physical?"
+            "user_text": "I'd like to ask you a few questions about your social situation and daily life first who do you live with right now? Do you have any roommates or live alone?",
+            "assistant_text": "I live in an apartment with a few roommates, so I'm not alone, but lately I've been kind of keeping to myself."
           },
           "what_worked_well": [
             {
-              "tone": "inclusive and inviting",
-              "impact": "Open-ended wrap-up encourages final concerns and questions (the “door-handle” moment).",
-              "adjustment": "None"
+              "tone": "structured and clear",
+              "impact": "Good signposting helps the patient understand the shift to social history.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "slightly tentative",
-              "impact": "“mostly” weakens the confidence of your summary.",
-              "adjustment": "State confidently: “That covers my questions. What else would you like to share, or what questions do you have?”"
+              "tone": "slightly rushed",
+              "impact": "Two questions in one breath can overwhelm and reduce clarity.",
+              "adjustment": "Ask one at a time with a brief pause: “Who do you live with?” (pause) then “Do you have roommates or live alone?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Well, we certainly can rule out certain things that can contribute to symptoms that are, that can manifest like anxiety that are. Different from you know just a psychiatric like illness of a generalized anxiety for example um so we can certainly. Run some tests for common things that would rule it out but I would say that the the duration that you've been experiencing your symptoms. As well as the way you characterize them does sound quite like a generalized anxiety picture that we commonly see.",
-            "assistant_text": "Okay, I get that, but what kind of tests do people usually do to check for other causes?"
+            "user_text": "How about your friendships?",
+            "assistant_text": "I've got a good circle of friends, but I've been pretty withdrawn from them lately because of all this anxiety."
           },
           "what_worked_well": [
             {
-              "tone": "informative and reassuring",
-              "impact": "Explains differential and normalizes the presentation, which can reduce worry.",
-              "adjustment": "Chunk the explanation and check understanding periodically."
+              "tone": "concise and curious",
+              "impact": "Invites a focused update on social connectedness.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "jargon-heavy and disfluent",
-              "impact": "Long, fragmented sentences and jargon (“psychiatric like illness”) reduce clarity.",
-              "adjustment": "Use plain language and structure: “There are medical issues that can look like anxiety. We can do a few simple tests to rule those out. Based on your story and duration, this most closely fits generalized anxiety.”"
+              "tone": "abrupt",
+              "impact": "May feel abrupt without context, risking a transactional feel.",
+              "adjustment": "Bridge briefly: “Thanks. And how are your friendships going—how connected have you felt lately?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Well, for example, you mentioned the the sleep disturbances so so we could do a sleep study. It does sound though more like you're having. That's keeping you up at night rather than problems with getting actual restful sleep. But we could do a sleep study, for example. We could also do some blood work to look for, you know, rule out things that could be causing lower energy like we could make. Make sure that you're not anemic or hypothyroid, for example.",
-            "assistant_text": "That makes sense. If the blood work and all that come back normal, I guess that would make it clearer this is anxiety, right?"
+            "user_text": "To issue.",
+            "assistant_text": "Did you mean you want to talk more about my friendships or something else specific?"
           },
           "what_worked_well": [
             {
-              "tone": "practical and concrete",
-              "impact": "Offers clear examples of tests (sleep study, labs), addressing the patient’s question directly.",
-              "adjustment": "None"
+              "tone": "unclear",
+              "impact": "No clear benefit.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "hesitant/fragmented",
-              "impact": "Repetitions (“the the,” “so so”) and a missing word reduce clarity.",
-              "adjustment": "Tighten and complete thoughts: “Based on your symptoms, worry seems to be keeping you up. We can consider a sleep study if needed, and do blood tests for anemia and thyroid.” Then ask, “How does that plan sound?”"
+              "tone": "confused/disfluent",
+              "impact": "Breaks the flow and forces the patient to repair the conversation.",
+              "adjustment": "If you misspeak, promptly correct: “Sorry—let me rephrase. I meant to ask…”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Yeah, and the other way that we diagnose it is we use, you know, diagnostic criteria to help us, help us paint a picture. So whenever. We're you know seeing someone for for an issue that's potentially psychological or psychiatric in nature we really look at everything there. Experiencing a very holistic picture and we kind of compare that against all of our criteria to kind of ascertain what is the. Likely diagnosis and if it's not that, what else could it be? But what you are describing sounds quite a lot like generalized anxiety. With the constant worry about minor and large life events, which is now starting to interfere with your with your day to day and your social life as well.",
-            "assistant_text": "Okay, got it. I just appreciate hearing a real explanation, so thank you—helps me feel a little more confident in what's going on."
+            "user_text": "Yes, i'd love to hear a bit more about your support network. Are there people you feel you can rely on when you feel stressed and also. Have any financial concerns or issues with health insurance that have been undermined?",
+            "assistant_text": "I have friends and even my roommates who would help if I asked, and my mom checks in a lot too. Money can be tight sometimes, but my insurance covers basic stuff."
           },
           "what_worked_well": [
             {
-              "tone": "educational and reassuring",
-              "impact": "Explains the diagnostic approach and connects criteria to the patient’s story, boosting confidence.",
-              "adjustment": "End with a brief check-back: “Does that explanation make sense?”"
+              "tone": "collaborative and supportive",
+              "impact": "Shows interest in practical supports, encouraging disclosure about resources and barriers.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "wordy with fillers",
-              "impact": "Frequent “you know,” restarts, and long sentences can lose the listener.",
-              "adjustment": "Use plain language and short sentences; avoid filler phrases; summarize in 2–3 sentences, then pause for questions."
+              "tone": "awkward/overpacked",
+              "impact": "Stacked questions and awkward phrasing (“undermined”) reduce clarity.",
+              "adjustment": "Split into short, plain-language questions: “Who do you lean on when stressed?” (pause) “Any financial or insurance issues affecting care?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Yeah, i'm glad to hear that um did you have any other questions for me before I leave the room and go speak with my preceptor who's overseeing me today?",
-            "assistant_text": "No, I think you've answered my main questions. I'll wait to hear what the next steps are from you and your team."
+            "user_text": "Definitely helps complete the picture if there's anything else you'd like to add.",
+            "assistant_text": "No, that's pretty much everything—I just want a plan I can trust and actually stick with this time."
           },
           "what_worked_well": [
             {
-              "tone": "transparent and collaborative",
-              "impact": "Sets expectations about next steps and invites final questions, reducing uncertainty.",
-              "adjustment": "None"
+              "tone": "summarizing and inclusive",
+              "impact": "Signals you’re integrating information and invites final concerns.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
-              "tone": "slightly informal",
-              "impact": "Fillers (“um”) slightly detract from closure.",
-              "adjustment": "Deliver the closing cleanly and confidently without fillers."
+              "tone": "slightly awkward",
+              "impact": "Run-on phrasing can feel imprecise.",
+              "adjustment": "Make two sentences: “That definitely helps complete the picture. Is there anything else you’d like to add?”"
             }
           ]
         },
         {
           "conversation_turn": {
-            "user_text": "Okay great we'll be back shortly. All right.",
-            "assistant_text": "Sounds good, thanks for letting me know."
+            "user_text": "Сбер, ты сломина.",
+            "assistant_text": "Sorry, I don't understand what that means. Could you repeat it in English?"
           },
           "what_worked_well": [
             {
-              "tone": "reassuring and efficient",
-              "impact": "Provides a clear time expectation and polite sign-off.",
-              "adjustment": "None"
+              "tone": "unclear",
+              "impact": "No clear benefit; created confusion.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "confusing/inappropriate code-switching",
+              "impact": "Using an unrelated language without need breaks rapport and undermines professionalism.",
+              "adjustment": "Use clear, consistent language the patient understands. If misspoken, apologize and restate in plain English."
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Thanks again, no problem at all. Is there anything that you feel like. Is negatively impacting your life beyond the anxiety.",
+            "assistant_text": "No, honestly, it's really just the anxiety that's thrown everything off for me lately."
+          },
+          "what_worked_well": [
+            {
+              "tone": "appreciative and exploratory",
+              "impact": "Gratitude plus a broad question invites additional concerns.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "disjointed",
+              "impact": "Sentence break in the middle disrupts clarity.",
+              "adjustment": "Smoothly combine: “Is there anything else negatively impacting your life beyond the anxiety?”"
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Do you drink alcohol, use nicotine, or any recreational or prescription drugs not prescribed to you?",
+            "assistant_text": "I drink socially on weekends, but I don't smoke or use any other substances."
+          },
+          "what_worked_well": [
+            {
+              "tone": "neutral and comprehensive",
+              "impact": "Covers key substance categories clearly.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "slightly interrogative",
+              "impact": "May feel judgmental if not prefaced, affecting disclosure.",
+              "adjustment": "Normalize first: “I ask all patients these questions…” and maintain an even, non-pressured pace."
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Is there anything else that you might use like marijuana?",
+            "assistant_text": "No, I don't use marijuana or anything like that."
+          },
+          "what_worked_well": [
+            {
+              "tone": "follow-up and thorough",
+              "impact": "Double-checks for other substances.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "leading",
+              "impact": "Suggesting a specific substance can bias responses.",
+              "adjustment": "Ask openly: “Any other substances you use, even occasionally?” If examples are needed, offer a neutral list."
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Well, thank you for sharing all this with me. I am going to uh talk to my preceptor and see what we can do to help you with your anxie. Anxiety right now I think i'd recommend starting therapy and we can talk about whether a medication might be a good choice for you.",
+            "assistant_text": "Got it, thanks for breaking it down for me—I just want to make sure whatever we do is really safe and actually works."
+          },
+          "what_worked_well": [
+            {
+              "tone": "collaborative and forward-looking",
+              "impact": "Frames a plan and sets expectations about discussing therapy and medication options.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "hesitant with fillers",
+              "impact": "Fillers and stumbles reduce confidence and clarity.",
+              "adjustment": "Deliver a concise, confident summary: “I’ll speak with my preceptor. I recommend starting therapy; we can also discuss medication options if you’re interested.”"
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "That makes sense. It's reasonable to think about that.",
+            "assistant_text": "Yeah, I just don't want to jump into anything without being sure it's right for me."
+          },
+          "what_worked_well": [
+            {
+              "tone": "validating",
+              "impact": "Acknowledges the patient’s concerns, reinforcing trust.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "generic",
+              "impact": "Non-specific validation can feel perfunctory.",
+              "adjustment": "Reflect the specific concern: “It’s completely reasonable to be cautious about side effects and starting too quickly.”"
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Can you tell me more about what you're concerned about?",
+            "assistant_text": "I'm mainly worried about starting any new meds too fast or getting side effects I can't handle."
+          },
+          "what_worked_well": [
+            {
+              "tone": "curious and calm",
+              "impact": "Open-ended exploration elicited concrete concerns to address.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "neutral",
+              "impact": "Missed chance to preface with reassurance to reduce anxiety.",
+              "adjustment": "Add a brief reassurance: “So I can support you best, could you share more about your concerns?”"
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Concern, we can definitely take a cautious approach. We can start with therapy like cpt and lifestyle changes first and then. Medication only if absolutely necessary and with careful monitor. If that sounds good, we can proceed that way.",
+            "assistant_text": "That does sound better to me—I appreciate taking things step by step and not rushing into anything."
+          },
+          "what_worked_well": [
+            {
+              "tone": "collaborative and reassuring",
+              "impact": "Stepwise plan aligns with patient preferences, increasing buy-in.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "choppy/jargon-heavy",
+              "impact": "Grammar slips and “cpt” jargon reduce clarity and accessibility.",
+              "adjustment": "Use plain language: “We can start with therapy, like cognitive behavioral therapy (CBT), and lifestyle changes, and only add medication if needed, with careful monitoring.”"
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "Take it one step at a time and make sure you feel comfortable the process. If you ever have any questions or need adjustments, just let me know.",
+            "assistant_text": "Thanks, I will—having that option to check in and make changes if I need to makes me feel a lot more at ease."
+          },
+          "what_worked_well": [
+            {
+              "tone": "reassuring and accessible",
+              "impact": "Invites ongoing communication and empowers the patient to seek adjustments.",
+              "adjustment": ""
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "slightly awkward",
+              "impact": "Minor grammar error (“comfortable the process”) can distract.",
+              "adjustment": "Say: “...comfortable with the process.” Optionally add a concrete follow-up time to reinforce support."
+            }
+          ]
+        },
+        {
+          "conversation_turn": {
+            "user_text": "I'm gonna talk to my preceptor now and i'll get right back to you. All right, so just sit tight. Thank you.",
+            "assistant_text": "Sure thing, I'll wait here—thanks for keeping me in the loop."
+          },
+          "what_worked_well": [
+            {
+              "tone": "transparent and courteous",
+              "impact": "Clear signposting reduces uncertainty about next steps.",
+              "adjustment": ""
             }
           ],
           "what_needs_improvement": [
             {
               "tone": "casual",
-              "impact": "Missing brief summary of next steps may leave minor ambiguity.",
-              "adjustment": "Add one line: “I’ll discuss your case with my preceptor and return to outline the plan.”"
+              "impact": "“Sit tight” can sound colloquial or dismissive.",
+              "adjustment": "Use professional phrasing and set expectations: “I’ll be back in about 5–10 minutes. Is there anything you need before I step out?”"
             }
           ]
         }
       ],
-      "overall_prosody_summary": "Your delivery consistently conveys empathy, interest, and calmness, which fosters rapport. You regularly seek permission and normalize sensitive topics, supporting psychological safety. However, frequent fillers (um, you know), fragmented sentences, occasional grammatical slips, and rambling reduce clarity and can project hesitancy. A few word choices (“irrational,” unclear SI phrasing) risk sounding judgmental or confusing. When explaining diagnostics, your tone is reassuring but the length and jargon dilute comprehensibility. Overall, the prosody suggests caring intent with intermittent awkwardness that is easily improved by tightening language, pausing, and using plain speech.",
+      "overall_prosody_summary": "Your delivery consistently conveyed sincerity and effort to be supportive, with moments of warmth and calm that helped the patient open up. However, frequent fillers, restarts, and occasional awkward phrasing created a rushed or hesitant feel. At times, mild amusement or relief crept in during sensitive topics, which can unintentionally minimize the seriousness (e.g., psychosis screening and safety questions). Repetition of transitional phrases (“Another question…”) and stacked questions contributed to a checklist tone. When you slowed down, validated, and asked open questions, your tone felt collaborative and reassuring.",
       "global_recommendations": [
-        "Use concise, single-question prompts; avoid multi-part or fragmented sentences.",
-        "Reduce fillers (“um,” “you know,” “kind of”); pause briefly before speaking to organize your thought, then deliver it cleanly.",
-        "Prefer neutral, nonjudgmental wording (e.g., “out of proportion” instead of “irrational”; “hard to control” instead of “unnecessarily”).",
-        "For safety questions, use a clear, standardized script and complete syntax: “Any thoughts of harming yourself or others, or thoughts of suicide?”",
-        "When educating, use plain language, chunk and check (ask-tell-ask), and summarize in 2–3 sentences before inviting questions.",
-        "Signal transitions with brief signposts and seek permission (“I’d like to shift to your sleep—okay?”).",
-        "Avoid interrupting; allow a beat of silence and use reflective listening to show you’re tracking.",
-        "Close the visit with a concise summary and explicit next steps to reinforce understanding and confidence.",
-        "Mind grammar and word choice to maintain professionalism (“How have your energy and concentration been?”).",
-        "Maintain your strengths: empathetic validation, curiosity about functioning, and collaborative tone—these build trust."
+        "Slow your pace and reduce fillers (um/uh). Breathe, pause, and ask one concise question at a time.",
+        "Use neutral, nonjudgmental language (avoid words like “excessive,” “unusual,” or relief-laden phrases after safety screens).",
+        "Improve clarity: correct grammar slips, avoid mid-sentence restarts, and steer clear of code-switching/language shifts unless agreed upon.",
+        "Replace repetitive transitions (“Another question…”) with brief signposting and summaries to keep a conversational, not checklist, flow.",
+        "Be direct and plain on safety questions about self-harm/suicide; avoid euphemisms.",
+        "Normalize sensitive topics before asking (e.g., substance use), maintaining an even, non-pressured tone.",
+        "Minimize jargon; use plain language and expand acronyms (e.g., CBT instead of “cpt”).",
+        "Reflect back specific concerns (e.g., side effects, speed of starting meds) to show you’ve heard the patient’s priorities.",
+        "Close the loop: check understanding and preferences, provide time frames for follow-up, and ask if the patient needs anything before stepping out."
       ]
     }
   }
