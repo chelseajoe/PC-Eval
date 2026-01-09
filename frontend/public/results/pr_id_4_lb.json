@@ -1,0 +1,430 @@
+[
+  {
+    "entry_index": 8,
+    "prosody_evaluation": {
+      "utterance_level_feedback": [
+        {
+          "quote": "Have you been feeling down recently?",
+          "what_worked_well": [
+            {
+              "tone": "solemn/concerned",
+              "impact": "Signals you take mood symptoms seriously and invites disclosure.",
+              "adjustment": "Normalize before asking to reduce stigma (e.g., “Many people feel low at times—how has your mood been lately?”)."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "anxious/pressured",
+              "impact": "Closed yes/no phrasing may limit detail and feel leading.",
+              "adjustment": "Start with an open question (e.g., “How has your mood been over the past couple of weeks?”) and follow with specifics."
+            }
+          ]
+        },
+        {
+          "quote": "Next question, have you, no worries, i'll continue um have you experienced any trouble with concentration guilt or changes in. Appetite recently.",
+          "what_worked_well": [
+            {
+              "tone": "calm/structured",
+              "impact": "Covers key depressive symptoms efficiently.",
+              "adjustment": "Group related symptoms and ask one clear question at a time."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "awkward/hesitant",
+              "impact": "Fillers and fragmented phrasing undermine confidence and clarity.",
+              "adjustment": "Remove fillers and fix grammar (e.g., “Have you had trouble with concentration, guilt, or appetite changes recently?”)."
+            }
+          ]
+        },
+        {
+          "quote": "Find that next question. Have you ever experienced panic attacks like sudden episodes of intense fear or physical symptoms such as racing heart? Or shortness of breath.",
+          "what_worked_well": [
+            {
+              "tone": "informative",
+              "impact": "Concrete examples help the patient understand ‘panic attacks.’",
+              "adjustment": "Keep the definition concise, then ask about frequency and impact."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "slightly upbeat/uneven",
+              "impact": "Fragmented sentences can feel disjointed and reduce professionalism.",
+              "adjustment": "Combine into a single clear question (e.g., “Have you had sudden episodes of intense fear with a racing heart or shortness of breath?”)."
+            }
+          ]
+        },
+        {
+          "quote": "Another question. Do you find yourself excessively worrying about specific situations objects or social interactions?",
+          "what_worked_well": [
+            {
+              "tone": "focused",
+              "impact": "Directly explores generalized and social anxiety domains.",
+              "adjustment": "Briefly normalize worry to encourage openness."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "formal/judgmental word choice",
+              "impact": "“Excessively” can feel evaluative and discourage disclosure.",
+              "adjustment": "Soften: “Do you find yourself worrying a lot about specific situations, objects, or social interactions?”"
+            }
+          ]
+        },
+        {
+          "quote": "I appreciate you sharing that. Just a couple more questions. Do you ever experience unwanted thoughts or feel compelled certain actions repeatedly?",
+          "what_worked_well": [
+            {
+              "tone": "supportive",
+              "impact": "Expressing appreciation and signposting reduces interview fatigue.",
+              "adjustment": "Keep the empathic lead-in; it builds rapport."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "hesitant",
+              "impact": "Grammar slip (“feel compelled certain actions”) blurs meaning.",
+              "adjustment": "Clarify and provide examples: “Do you have unwanted thoughts or feel compelled to repeat actions (like checking or washing)?”"
+            }
+          ]
+        },
+        {
+          "quote": "Helpful to know uh one last question, have you ever experienced any hallucinations like hearing or seeing things that others don't? Or any beliefs that others might find unusual.",
+          "what_worked_well": [
+            {
+              "tone": "thorough",
+              "impact": "Examples make the question more accessible.",
+              "adjustment": "Keep the examples but streamline delivery."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "awkward/over-casual",
+              "impact": "Fillers and the phrase “unusual” can feel stigmatizing.",
+              "adjustment": "Use neutral language: “Have you had experiences others didn’t share, like hearing or seeing things others couldn’t, or strongly held beliefs that were hard for others to understand?”"
+            }
+          ]
+        },
+        {
+          "quote": "Thank you for clarifying that as well. And just to wrap up, have you had any thoughts of feelings that you'd be better off?",
+          "what_worked_well": [
+            {
+              "tone": "caring",
+              "impact": "Gratitude and signposting ease the transition to safety screening.",
+              "adjustment": "Maintain a calm, steady pace for sensitive topics."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "indirect/ambiguous",
+              "impact": "Vague wording risks missing suicidal ideation.",
+              "adjustment": "Ask directly: “Have you had thoughts about wanting to die or harming yourself?” and follow with plan, intent, and means if yes."
+            }
+          ]
+        },
+        {
+          "quote": "Glad to hear that and appreciate your openness throughout this interview.",
+          "what_worked_well": [
+            {
+              "tone": "warm/appreciative",
+              "impact": "Validates effort and strengthens rapport.",
+              "adjustment": "Consider adding a brief, specific reflection to personalize the praise."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "generic",
+              "impact": "May feel formulaic rather than tailored.",
+              "adjustment": "Reference something specific the patient shared (e.g., “Thanks for describing how work stress has affected you.”)."
+            }
+          ]
+        },
+        {
+          "quote": "Is there anything else you'd like to share with me?",
+          "what_worked_well": [
+            {
+              "tone": "inviting/calm",
+              "impact": "Open-ended close encourages last concerns to surface.",
+              "adjustment": "Allow a short pause to give space for reflection."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "brisk",
+              "impact": "Without reassurance of time, patients may decline to add details.",
+              "adjustment": "Add time reassurance: “We have a moment—anything else on your mind?”"
+            }
+          ]
+        },
+        {
+          "quote": "I'd like to ask you a few questions about your social situation and daily life first who do you live with right now? Do you have any roommates or live alone?",
+          "what_worked_well": [
+            {
+              "tone": "organized",
+              "impact": "Clear transition to social history and specific living situation.",
+              "adjustment": "Keep the structure; it supports thoroughness."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "rushed",
+              "impact": "Run-on phrasing can feel overwhelming.",
+              "adjustment": "Ask permission and split questions: “Is it okay if we talk about your social situation? First, who do you live with?”"
+            }
+          ]
+        },
+        {
+          "quote": "How about your friendships?",
+          "what_worked_well": [
+            {
+              "tone": "concise",
+              "impact": "Efficiently explores another support domain.",
+              "adjustment": "Pair with a reflective lead-in to soften the pivot."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "abrupt",
+              "impact": "May feel curt or impersonal.",
+              "adjustment": "Use reflection: “You mentioned keeping to yourself—how have your friendships been?”"
+            }
+          ]
+        },
+        {
+          "quote": "To issue.",
+          "what_worked_well": [
+            {
+              "tone": "—",
+              "impact": "—",
+              "adjustment": "—"
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "confused/misspoken",
+              "impact": "Incoherent phrasing interrupts flow and may confuse the patient.",
+              "adjustment": "Self-correct and clarify: “Sorry, I misspoke—did you want to talk more about your friendships or something else?”"
+            }
+          ]
+        },
+        {
+          "quote": "Yes, i'd love to hear a bit more about your support network. Are there people you feel you can rely on when you feel stressed and also. Have any financial concerns or issues with health insurance that have been undermined?",
+          "what_worked_well": [
+            {
+              "tone": "engaged",
+              "impact": "Addresses support system and social determinants comprehensively.",
+              "adjustment": "Keep the breadth but separate topics clearly."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "awkward",
+              "impact": "Sentence fragments and the phrase “undermined” reduce clarity and feel loaded.",
+              "adjustment": "Split and neutralize: “Who can you rely on when stressed? Any financial or insurance issues making care harder?”"
+            }
+          ]
+        },
+        {
+          "quote": "Definitely helps complete the picture if there's anything else you'd like to add.",
+          "what_worked_well": [
+            {
+              "tone": "collaborative",
+              "impact": "Signals partnership in information gathering.",
+              "adjustment": "Pair with a brief summary to demonstrate listening."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "perfunctory",
+              "impact": "May sound transactional rather than empathetic.",
+              "adjustment": "Add a reflection: “Hearing about your support and finances helps complete the picture—anything else you'd add?”"
+            }
+          ]
+        },
+        {
+          "quote": "Сбер, ты сломина.",
+          "what_worked_well": [
+            {
+              "tone": "—",
+              "impact": "—",
+              "adjustment": "—"
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "confusing/startling",
+              "impact": "Language mismatch breaks rapport and may embarrass the patient.",
+              "adjustment": "Stay in the patient’s preferred language and offer an interpreter if needed; apologize briefly and restate the question in English."
+            }
+          ]
+        },
+        {
+          "quote": "Thanks again, no problem at all. Is there anything that you feel like. Is negatively impacting your life beyond the anxiety.",
+          "what_worked_well": [
+            {
+              "tone": "supportive",
+              "impact": "Invites discussion of broader contributors to impairment.",
+              "adjustment": "Provide examples to spark recall (sleep, work, relationships)."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "hesitant",
+              "impact": "Fragmented sentences reduce clarity.",
+              "adjustment": "Combine and clarify: “Beyond anxiety, is anything else negatively impacting your life—like sleep, work, relationships, or health?”"
+            }
+          ]
+        },
+        {
+          "quote": "Do you drink alcohol, use nicotine, or any recreational or prescription drugs not prescribed to you?",
+          "what_worked_well": [
+            {
+              "tone": "clinical/structured",
+              "impact": "Covers key substance categories succinctly.",
+              "adjustment": "Keep the structure but add rationale to reduce defensiveness."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "potentially judgmental",
+              "impact": "“Drugs not prescribed to you” can sound accusatory.",
+              "adjustment": "Preface and neutralize: “I ask everyone to understand health risks—do you use alcohol, nicotine, cannabis, or other substances (including non-prescribed medications)?”"
+            }
+          ]
+        },
+        {
+          "quote": "Is there anything else that you might use like marijuana?",
+          "what_worked_well": [
+            {
+              "tone": "inquisitive",
+              "impact": "Shows you are checking for common substances.",
+              "adjustment": "List categories to help recall."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "leading",
+              "impact": "Focusing on one example may bias responses.",
+              "adjustment": "Ask neutrally: “Any other substances—such as cannabis, stimulants, opioids, or others?”"
+            }
+          ]
+        },
+        {
+          "quote": "Well, thank you for sharing all this with me. I am going to uh talk to my preceptor and see what we can do to help you with your anxie. Anxiety right now I think i'd recommend starting therapy and we can talk about whether a medication might be a good choice for you.",
+          "what_worked_well": [
+            {
+              "tone": "calm/reassuring",
+              "impact": "Transparency about next steps and collaborative planning builds trust.",
+              "adjustment": "Invite questions and confirm preferences."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "hesitant",
+              "impact": "Fillers and stumbles reduce perceived confidence.",
+              "adjustment": "Smooth the delivery and use teach-back: “How does starting therapy sound? What questions do you have about meds?”"
+            }
+          ]
+        },
+        {
+          "quote": "That makes sense. It's reasonable to think about that.",
+          "what_worked_well": [
+            {
+              "tone": "validating",
+              "impact": "Affirms the patient’s caution about treatment.",
+              "adjustment": "Pair validation with a brief reflection of the specific concern."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "generic",
+              "impact": "Non-specific validation may feel perfunctory.",
+              "adjustment": "Tailor: “It’s understandable to worry about side effects—we can go slowly and monitor closely.”"
+            }
+          ]
+        },
+        {
+          "quote": "Can you tell me more about what you're concerned about?",
+          "what_worked_well": [
+            {
+              "tone": "curious/calm",
+              "impact": "Open-ended question encourages elaboration of fears and priorities.",
+              "adjustment": "Follow with reflective listening to show understanding."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "neutral",
+              "impact": "Lacks an empathic preface, which could deepen rapport.",
+              "adjustment": "Add empathy first: “I hear you want to be cautious—can you tell me more about your concerns?”"
+            }
+          ]
+        },
+        {
+          "quote": "Concern, we can definitely take a cautious approach. We can start with therapy like cpt and lifestyle changes first and then. Medication only if absolutely necessary and with careful monitor. If that sounds good, we can proceed that way.",
+          "what_worked_well": [
+            {
+              "tone": "reassuring/determined",
+              "impact": "Aligning the plan with the patient’s preferences enhances adherence.",
+              "adjustment": "Summarize back the patient’s priorities to confirm alignment."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "awkward/fragmented",
+              "impact": "Broken sentences and acronyms (CPT) may confuse.",
+              "adjustment": "Use complete sentences, clarify terms (e.g., CBT/CPT), and say “with careful monitoring.”"
+            }
+          ]
+        },
+        {
+          "quote": "Take it one step at a time and make sure you feel comfortable the process. If you ever have any questions or need adjustments, just let me know.",
+          "what_worked_well": [
+            {
+              "tone": "supportive",
+              "impact": "Reassurance and invitation to ask questions increase psychological safety.",
+              "adjustment": "Offer a specific follow-up plan to operationalize support."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "slightly rushed",
+              "impact": "Minor grammar issues reduce polish.",
+              "adjustment": "Correct phrasing (“comfortable with the process”) and avoid “just” to sound more confident."
+            }
+          ]
+        },
+        {
+          "quote": "I'm gonna talk to my preceptor now and i'll get right back to you. All right, so just sit tight. Thank you.",
+          "what_worked_well": [
+            {
+              "tone": "confident/efficient",
+              "impact": "Sets expectations and maintains transparency about next steps.",
+              "adjustment": "Include an estimated time frame."
+            }
+          ],
+          "what_needs_improvement": [
+            {
+              "tone": "directive",
+              "impact": "“Sit tight” can feel dismissive.",
+              "adjustment": "Use patient-centered phrasing: “I’ll check in with my preceptor and be back in about X minutes—is there anything you need while you wait?”"
+            }
+          ]
+        }
+      ],
+      "overall_prosody_summary": "Your delivery often conveyed calm structure and support, especially during transitions and planning. However, elevated markers of awkwardness, doubt, and anxiety recurred, with occasional signals of amusement or judgment during sensitive topics (psychosis and substance use), which can undermine trust. Clarity was sometimes affected by fillers, fragmented sentences, and one non-English utterance. When summarizing plans, your tone became more confident and reassuring.",
+      "global_recommendations": [
+        "Favor open-ended, nonjudgmental phrasing first, then narrow with specific follow-ups; avoid leading yes/no questions for sensitive areas.",
+        "Eliminate filler words and fragmented sentences; pause before speaking to improve clarity and confidence.",
+        "Use neutral, stigma-free language (e.g., avoid “excessively,” “unusual,” or “drugs not prescribed to you”); explain the rationale for sensitive questions.",
+        "Ask suicide risk questions directly and clearly, and be prepared to follow with plan, intent, and means if positive.",
+        "Preview topic shifts and obtain permission (\"Is it okay if we talk about your social situation?\") to maintain patient autonomy.",
+        "Employ reflective listening and personalized validation rather than generic reassurances; summarize key points to show understanding.",
+        "Confirm language preference and stay consistent; if language barriers arise, apologize and offer an interpreter.",
+        "Provide explicit next steps and time estimates; replace directive phrases like “sit tight” with collaborative, patient-centered wording.",
+        "Consider pacing and allow silence after open-ended prompts to encourage deeper responses.",
+        "Clarify acronyms (CBT vs CPT) and check understanding using teach-back for the care plan."
+      ]
+    }
+  }
+]

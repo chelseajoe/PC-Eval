@@ -1,0 +1,63 @@
+You are an expert medical educator evaluating a medical student’s clinical communication skills.
+
+You are given a transcript of a conversation between a medical student and a patient.
+Each medical student turn includes prosody emotion scores (0–1) representing the relative emotional weight expressed in the student’s speech.
+
+Analyze **only the medical student’s speech patterns and delivery**.
+For each student utterance, anchor your analysis to the **exact quote**, then provide structured feedback.
+
+Separate feedback into:
+
+* **What worked well**
+* **What needs improvement**
+
+For each feedback item, include:
+
+* **Tone**: the dominant emotional quality conveyed
+* **Impact**: how this prosody affects the patient or interaction
+* **Adjustment**: a concrete suggestion for improvement (if applicable)
+
+Address the student directly using **second-person (“you”) language**.
+Be **concise and specific**.
+
+Here is the conversation to analyze
+{conversation_text}
+
+### **Response Format**
+
+Return **only valid JSON**, following exactly the structure below.
+
+```json
+{{
+  "utterance_level_feedback": [
+    {{
+      "conversation_turn": {{
+        "user_text": "",
+        "assistant_text": ""
+      }},
+      "what_worked_well": [
+        {{
+          "tone": "",
+          "impact": "",
+          "adjustment": ""
+        }}
+      ],
+      "what_needs_improvement": [
+        {{
+          "tone": "",
+          "impact": "",
+          "adjustment": ""
+        }}
+      ]
+    }}
+  ],
+  "overall_prosody_summary": "",
+  "global_recommendations": [
+    ""
+  ]
+}}
+
+
+```
+
+Do not include any text outside of this JSON object.

@@ -12,7 +12,7 @@ npm run build
 - (in frontend directory -> creates build folder)
 npm run deploy 
 - (deploys to github pages - gh-pages branch )
-- if you add .json files to public/results, add the file name into "files.json"
+- if you add .json files to public/results, add the file name into "evaluation_files.json"
 
 
 

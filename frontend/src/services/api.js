@@ -46,11 +46,26 @@ const RESULTS_BASE = '/PC-Eval/results';
 const OPTIONS_FILE = '/PC-Eval/options.json';
 
 // -----------------------------
-// Fetch list of result filenames
+// Fetch list of result filenames from turn by turn evaluations 
 // -----------------------------
 export async function fetchResultFiles() {
   try {
-    const res = await fetch(`${RESULTS_BASE}/files.json`);
+    const res = await fetch(`${RESULTS_BASE}/evaluation_files.json`);
+    const data = await res.json();
+    console.log("Fetched result file list:", data);
+    return Array.isArray(data) ? data : [];
+  } catch (err) {
+    console.error("Error fetching result file list:", err);
+    return [];
+  }
+}
+
+// -----------------------------
+// Fetch list of result filenames from prosody evaluations
+// -----------------------------
+export async function fetchProsodyFiles() {
+  try {
+    const res = await fetch(`${RESULTS_BASE}/prosody_files.json`);
     const data = await res.json();
     console.log("Fetched result file list:", data);
     return Array.isArray(data) ? data : [];
