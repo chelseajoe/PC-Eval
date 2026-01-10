@@ -49,6 +49,7 @@ def run_prosody_evaluation(
         clinical_case_text = extract_clinical_case_text(clinical_entry)
         rubric_text = rubric_entry.get("rubric", "")
 
+        # print(f"[DEBUG] Conversation Text:\n{conversation_text}\n")
         # --- Build single prompt ---
         prompt = template.format(
             conversation_text=conversation_text,
